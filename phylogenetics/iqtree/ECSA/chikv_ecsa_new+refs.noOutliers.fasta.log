@@ -1,0 +1,310 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Linux 64-bit built Mar 30 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    DESKTOP-P52DB35 (AVX2, FMA3, 63 GB RAM)
+Command: iqtree -nt 4 -s chikv_ecsa_new+refs.noOutliers.fasta -m TEST -alrt 1000
+Seed:    301764 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jun  2 21:32:10 2022
+Kernel:  AVX+FMA - 4 threads (12 CPU cores detected)
+
+Reading alignment file chikv_ecsa_new+refs.noOutliers.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 148 sequences with 11172 columns, 3314 distinct patterns
+162 parsimony-informative, 248 singleton sites, 10762 constant sites
+                                                  Gap/Ambiguity  Composition  p-value
+   1  010|Brazil|RJ|Duque-de-Caxias|2017-07-26           11.00%    passed     95.22%
+   2  053|Brazil|RJ|Duque-de-Caxias|2018-03-01            2.01%    passed     98.28%
+   3  057|Brazil|RJ|Duque-de-Caxias|2018-03-08            1.37%    passed     98.77%
+   4  066|Brazil|RJ|Duque-de-Caxias|2018-03-15            4.46%    passed     99.67%
+   5  079|Brazil|RJ|Duque-de-Caxias|2018-03-22            2.37%    passed     99.53%
+   6  083|Brazil|RJ|Duque-de-Caxias|2018-03-27            3.30%    passed     99.16%
+   7  089|Brazil|RJ|Duque-de-Caxias|2018-03-29            5.16%    passed     91.69%
+   8  092|Brazil|RJ|Duque-de-Caxias|2018-03-29            1.80%    passed     99.21%
+   9  097|Brazil|RJ|Duque-de-Caxias|2018-04-02            2.82%    passed     99.86%
+  10  099|Brazil|RJ|Duque-de-Caxias|2018-04-02           14.79%    passed     99.55%
+  11  101|Brazil|RJ|Duque-de-Caxias|2018-04-02            4.02%    passed     99.75%
+  12  114|Brazil|RJ|Duque-de-Caxias|2018-04-05            5.71%    passed     99.06%
+  13  116|Brazil|RJ|Duque-de-Caxias|2018-04-05            5.96%    passed     99.79%
+  14  117|Brazil|RJ|Duque-de-Caxias|2018-04-05            6.90%    passed     96.93%
+  15  120|Brazil|RJ|Duque-de-Caxias|2018-04-16            3.57%    passed     99.21%
+  16  126|Brazil|RJ|Duque-de-Caxias|2018-04-17           11.17%    passed     93.66%
+  17  128|Brazil|RJ|Duque-de-Caxias|2018-04-19           13.32%    passed     99.51%
+  18  130|Brazil|RJ|Duque-de-Caxias|2018-04-19            3.89%    passed     98.49%
+  19  134|Brazil|RJ|Duque-de-Caxias|2018-04-19            4.08%    passed     97.11%
+  20  143|Brazil|RJ|Duque-de-Caxias|2018-04-30            6.53%    passed     91.75%
+  21  149|Brazil|RJ|Duque-de-Caxias|2018-04-30           12.20%    passed     90.04%
+  22  152|Brazil|RJ|Duque-de-Caxias|2018-05-03            9.61%    passed     96.11%
+  23  155|Brazil|RJ|Duque-de-Caxias|2018-05-03           11.77%    passed     99.69%
+  24  157|Brazil|RJ|Duque-de-Caxias|2018-05-07            8.96%    passed     95.44%
+  25  159|Brazil|RJ|Duque-de-Caxias|2018-05-07            7.49%    passed     92.81%
+  26  161|Brazil|RJ|Duque-de-Caxias|2018-05-07            8.25%    passed     98.93%
+  27  165|Brazil|RJ|Duque-de-Caxias|2018-05-09            2.35%    passed     98.03%
+  28  166|Brazil|RJ|Duque-de-Caxias|2018-05-09           11.31%    passed     87.60%
+  29  170|Brazil|RJ|Duque-de-Caxias|2018-05-14            5.76%    passed     94.36%
+  30  174|Brazil|RJ|Duque-de-Caxias|2018-05-17            3.05%    passed     91.59%
+  31  181|Brazil|RJ|Duque-de-Caxias|2018-05-23            1.65%    passed     99.28%
+  32  OM128440|Brazil|RJ|2018-03-20                       6.24%    passed     99.50%
+  33  OM128439|Brazil|RJ|2016-04-06                       1.05%    passed     99.06%
+  34  OM128438|Brazil|RJ|2016-04-29                      12.16%    passed     94.26%
+  35  OM128437|Brazil|RJ|2018-06-07                       0.00%    passed     98.73%
+  36  OM128436|Brazil|RJ|2018-06-05                       0.00%    passed     98.67%
+  37  OM128435|Brazil|RJ|2018-03-19                      14.55%    passed     81.90%
+  38  OM128434|Brazil|RJ|2018-06-07                       0.11%    passed     98.67%
+  39  OM128433|Brazil|RJ|2018-06-06                       0.13%    passed     99.16%
+  40  OM128432|Brazil|RJ|2018-03-26                       5.64%    passed     97.59%
+  41  OM128431|Brazil|RJ|2018-06-06                       0.00%    passed     98.64%
+  42  MT526904|Brazil|PA|2017-01-26                       0.00%    passed     98.54%
+  43  MT526903|Brazil|PA|2017-01-26                       0.00%    passed     98.48%
+  44  MT526902|Brazil|PA|2017-01-25                       0.00%    passed     98.54%
+  45  MT526901|Brazil|PA|2017-01-25                       0.00%    passed     98.45%
+  46  MT526900|Brazil|PA|2017-01-24                       0.00%    passed     98.03%
+  47  MT877211|Brazil|CE|2017-06-03                       6.66%    passed     99.09%
+  48  MT877210|Brazil|CE|2017-04-14                      55.84%    passed     87.04%
+  49  MT877209|Brazil|CE|2017-04-16                      31.71%    passed     79.44%
+  50  MT877208|Brazil|CE|2017-03-22                      20.88%    passed     88.16%
+  51  MT877207|Brazil|CE|2017-03-19                      29.62%    passed     88.65%
+  52  MT877206|Brazil|CE|2017-03-30                      22.10%    passed     93.71%
+  53  MT349960|Brazil|MT|Sinop|2018-02-07                 0.02%    passed     98.38%
+  54  MK518395|Brazil|MA|2017-03-16                       0.00%    passed     97.94%
+  55  MH000706|Brazil|PE|Recife|2016-02-18                0.00%    passed     98.54%
+  56  MH000705|Brazil|PE|Recife|2016-02-25                0.00%    passed     98.66%
+  57  MH000704|Brazil|PE|2016-02-19                       0.00%    passed     98.54%
+  58  MH000703|Brazil|PE|Recife|2016-02-15                0.00%    passed     98.61%
+  59  MH000702|Brazil|PE|Caruaru|2016-02-15               0.00%    passed     98.64%
+  60  MH000700|Brazil|PE|Recife|2016-02-04                0.00%    passed     98.61%
+  61  MK752956|Brazil|BA|Ipecaeta|2017-08-30             28.32%    passed     70.58%
+  62  MK752954|Brazil|BA|Itamaraju|2017-06-22            36.76%    passed     90.35%
+  63  MK752951|Brazil|BA|Itamaraju|2017-07-27            32.08%    passed     71.25%
+  64  MH823668|Brazil|MT|Cuiaba|2017-01-05                0.00%    passed     98.00%
+  65  MH823667|Brazil|MT|Cuiaba|2017-03-01                0.00%    passed     98.29%
+  66  MH823666|Brazil|MT|Cuiaba|2017-03-01                0.00%    passed     98.24%
+  67  MH823665|Brazil|MT|Cuiaba|2017-03-16                0.00%    passed     98.37%
+  68  MH823664|Brazil|MT|Cuiaba|2017-03-16                0.00%    passed     98.11%
+  69  MH823663|Brazil|MT|Cuiaba|2017-01-05                0.01%    passed     98.14%
+  70  MK121908|Brazil|RR|Boa_Vista|2017-03-05            23.57%    passed     91.55%
+  71  MK121907|Brazil|RR|Boa_Vista|2017-02-27             2.29%    passed     99.31%
+  72  MK121906|Brazil|RR|Boa_Vista|2017-02-27             3.94%    passed     99.41%
+  73  MK121905|Brazil|RR|Boa_Vista|2017-03-02            28.23%    passed     90.47%
+  74  MK121904|Brazil|RR|Boa_Vista|2017-03-02             4.41%    passed     99.91%
+  75  MK121903|Brazil|RR|Boa_Vista|2017-03-15             6.96%    passed     98.38%
+  76  MK121902|Brazil|RR|Boa_Vista|2017-03-17            10.12%    passed     97.05%
+  77  MK121901|Brazil|RR|Boa_Vista|2017-03-17            16.86%    passed     96.38%
+  78  MK121900|Brazil|RR|Iracema|2017-03-17              11.50%    passed     94.96%
+  79  MK121899|Brazil|RR|Boa_Vista|2017-03-17            13.17%    passed     93.10%
+  80  MK121898|Brazil|RR|Boa_Vista|2017-02-22            11.48%    passed     94.58%
+  81  MK121897|Brazil|RR|Bonfim|2017-02-20               44.99%    passed     26.19%
+  82  MK121896|Brazil|RR|Boa_Vista|2017-03-03             9.86%    passed     97.71%
+  83  MK121895|Brazil|AM|Manaus|2017-03-20                9.86%    passed     95.54%
+  84  MK121894|Brazil|AM|Manaus|2016-01-31               15.74%    passed     92.49%
+  85  MK121893|Brazil|AM|Manaus|2015-07-15                9.86%    passed     96.67%
+  86  MK121892|Brazil|AM|Manaus|2015-07-15               18.84%    passed     91.73%
+  87  KY124329|Brazil|RJ|2016-03-16                       0.01%    passed     99.10%
+  88  KY124328|Brazil|RJ|2016-03-16                       0.00%    passed     97.60%
+  89  KY704955|Brazil|PB|Joao-Pessoa|2016-06-17           0.00%    passed     97.25%
+  90  KY704954|Brazil|PB|Joao-Pessoa|2016-06-20           0.00%    passed     98.07%
+  91  KY704953|Brazil|AL|Maceio|2016-04-09               21.46%    passed     62.33%
+  92  KY704952|Brazil|AL|Maceio|2016-04-07                2.20%    passed     98.89%
+  93  KY704949|Brazil|AL|Maceio|2016-04-07               37.10%    passed     56.78%
+  94  KY704947|Brazil|AL|Maceio|2016-04-15               12.27%    passed     70.93%
+  95  KY704944|Brazil|AL|Maceio|2016-04-19               35.97%    passed     43.90%
+  96  KY704943|Brazil|AL|Maceio|2016-04-19               16.94%    passed     67.28%
+  97  KY704942|Brazil|AL|Maceio|2016-04-16                0.22%    passed     98.73%
+  98  KY704939|Brazil|AL|Maceio|2016-04-17                0.51%    passed     97.52%
+  99  KY704938|Brazil|AL|Maceio|2016-04-19               29.41%    passed     46.62%
+ 100  KY704935|Brazil|AL|Maceio|2016-04-01               22.72%    passed     28.08%
+ 101  KY704933|Brazil|AL|Maceio|2016-03-30               17.11%    passed     75.79%
+ 102  KY055011|Brazil|SE|Aracaju|2016-02-20               0.00%    passed     98.42%
+ 103  KU940226|Brazil|BA|2015-08-01                      31.22%    passed     82.89%
+ 104  KU940225|Brazil|BA|2015-07-15                       0.00%    passed     98.06%
+ 105  KX228391|Brazil|PE|2016-03-03                       0.00%    passed     98.61%
+ 106  KP164570|Brazil|BA|Feira-de-Santana|2014-09-03      0.02%    passed     97.94%
+ 107  KP164569|Brazil|BA|Feira-de-Santana|2014-08-28      0.00%    passed     97.61%
+ 108  KP164568|Brazil|BA|Feira-de-Santana|2014-08-26      0.00%    passed     97.80%
+ 109  MN783353|Brazil|BA|Feira_de_Santana|2016-10-13      0.00%    passed     96.73%
+ 110  MN783352|Brazil|BA|Feira_de_Santana|2016-04-01      0.00%    passed     97.43%
+ 111  MK993757|Brazil|RN|Natal|2016-01-13                 0.00%    passed     98.21%
+ 112  MK993756|Brazil|RN|Natal|2016-01-14                 0.00%    passed     98.21%
+ 113  MK993755|Brazil|RN|Natal|2016-01-14                 0.00%    passed     97.84%
+ 114  MK156064|Brazil|BA|2018-09-26                      19.96%    passed     89.02%
+ 115  MK156063|Brazil|BA|2018-09-26                       9.25%    passed     98.83%
+ 116  MK156062|Brazil|BA|2018-09-26                      11.57%    passed     95.51%
+ 117  MK156061|Brazil|BA|2018-09-26                      14.75%    passed     81.68%
+ 118  MK156060|Brazil|BA|2018-09-26                      18.72%    passed     99.25%
+ 119  MK156059|Brazil|BA|2018-09-21                      26.15%    passed     74.92%
+ 120  MK156058|Brazil|BA|2018-09-21                      14.88%    passed     92.01%
+ 121  MK156056|Brazil|BA|2018-09-21                      43.67%    passed     81.20%
+ 122  MK156055|Brazil|BA|2018-09-21                      24.37%    passed     90.81%
+ 123  MK156054|Brazil|BA|2018-09-21                      16.83%    passed     96.52%
+ 124  MK156053|Brazil|BA|2018-09-21                      30.42%    passed     53.61%
+ 125  MK244656|Brazil|RJ|Niteroi|2018-04-06              36.73%    passed     95.18%
+ 126  MK244655|Brazil|RJ|Niteroi|2018-03-06              29.49%    passed     89.69%
+ 127  MK244654|Brazil|RJ|Niteroi|2018-03-06              43.01%    passed     93.63%
+ 128  MK244653|Brazil|RJ|Niteroi|2018-03-06              33.88%    passed     84.02%
+ 129  MK244652|Brazil|RJ|Niteroi|2018-04-05              24.83%    passed     89.30%
+ 130  MK244651|Brazil|RJ|Niteroi|2018-04-05              26.17%    passed     90.37%
+ 131  MK244650|Brazil|RJ|Niteroi|2018-04-03              28.01%    passed     72.29%
+ 132  MK244649|Brazil|RJ|Niteroi|2018-04-03              47.24%    passed     88.21%
+ 133  MK244648|Brazil|RJ|Niteroi|2018-04-04              32.70%    passed     79.13%
+ 134  MK244647|Brazil|RJ|Niteroi|2018-03-27              15.90%    passed     91.58%
+ 135  MK244646|Brazil|RJ|Niteroi|2018-03-28              30.43%    passed     67.00%
+ 136  MK244645|Brazil|RJ|Niteroi|2018-03-28              26.92%    passed     73.28%
+ 137  MK244644|Brazil|RJ|Niteroi|2018-03-26              22.38%    passed     90.74%
+ 138  MK244643|Brazil|RJ|Niteroi|2018-03-28              47.26%    passed     85.15%
+ 139  MK244642|Brazil|RJ|Sao-Joao-de-Meriti|2018-02-18   19.77%    passed     88.24%
+ 140  MK244641|Brazil|RJ|Niteroi|2017-03-09              25.78%    passed     53.04%
+ 141  MK244640|Brazil|RJ|Sao-Goncalo|2017-03-07          16.21%    passed     84.39%
+ 142  MK244638|Brazil|RJ|Mesquita|2016-04-05             18.81%    passed     74.35%
+ 143  MK244637|Brazil|RJ|2016-05-10                      25.14%    passed     97.22%
+ 144  MK244636|Brazil|RJ|2016-05-02                      13.16%    passed     89.81%
+ 145  MK244635|Brazil|RJ|2016-02-19                      30.48%    passed     85.27%
+ 146  MK244634|Brazil|RJ|2016-04-27                      21.67%    passed     96.20%
+ 147  MK244633|Brazil|RJ|2016-05-06                      21.14%    passed     95.37%
+ 148  MK244632|Brazil|RJ|2016-04-05                      34.08%    passed     66.68%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                              12.64%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: KX228391|Brazil|PE|2016-03-03 is identical to MH000700|Brazil|PE|Recife|2016-02-04 but kept for subsequent analysis
+NOTE: MK993756|Brazil|RN|Natal|2016-01-14 is identical to MK993757|Brazil|RN|Natal|2016-01-13 but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.011 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -20267.893
+Optimal log-likelihood: -20267.731
+Rate parameters:  A-C: 2.65462  A-G: 10.10477  A-T: 2.37330  C-G: 1.44918  C-T: 31.12345  G-T: 1.00000
+Base frequencies:  A: 0.291  C: 0.250  G: 0.258  T: 0.201
+Proportion of invariable sites: 0.486
+Gamma shape alpha: 0.020
+Parameters optimization took 1 rounds (0.228 sec)
+Time for fast ML tree search: 3.377 seconds
+
+NOTE: ModelFinder requires 63 MB RAM!
+ModelFinder will test up to 88 DNA models (sample size: 11172) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         20456.771    301 41515.542    41532.267    43719.213
+  2  GTR+F+I       20262.858    302 41129.715    41146.553    43340.708
+  3  GTR+F+G4      20310.641    302 41225.281    41242.119    43436.273
+  4  GTR+F+I+G4    20267.092    303 41140.184    41157.135    43358.497
+  6  SYM+I         20353.430    299 41304.860    41321.361    43493.888
+ 10  TVM+F+I       20305.667    301 41213.333    41230.059    43417.004
+ 14  TVMe+I        20380.353    298 41356.705    41373.095    43538.413
+ 18  TIM3+F+I      20268.285    300 41136.569    41153.182    43332.919
+ 22  TIM3e+I       20359.915    297 41313.830    41330.109    43488.217
+ 26  TIM2+F+I      20263.459    300 41126.918    41143.531    43323.268
+ 30  TIM2e+I       20354.932    297 41303.864    41320.142    43478.250
+ 34  TIM+F+I       20268.692    300 41137.383    41153.996    43333.733
+ 38  TIMe+I        20361.134    297 41316.268    41332.546    43490.654
+ 42  TPM3u+F+I     20310.899    299 41219.798    41236.299    43408.827
+ 46  TPM3+F+I      20310.899    299 41219.798    41236.299    43408.827
+ 50  TPM2u+F+I     20306.310    299 41210.619    41227.120    43399.648
+ 54  TPM2+F+I      20306.310    299 41210.619    41227.120    43399.648
+ 58  K3Pu+F+I      20311.273    299 41220.546    41237.047    43409.575
+ 62  K3P+I         20387.967    296 41367.934    41384.101    43534.999
+ 66  TN+F+I        20268.686    299 41135.372    41151.873    43324.401
+ 70  TNe+I         20361.185    296 41314.369    41330.537    43481.434
+ 74  HKY+F+I       20311.282    298 41218.565    41234.954    43400.272
+ 78  K2P+I         20387.997    295 41365.994    41382.051    43525.738
+ 82  F81+F+I       20597.933    297 41789.867    41806.145    43964.253
+ 86  JC+I          20668.113    294 41924.225    41940.173    44076.648
+Akaike Information Criterion:           TIM2+F+I
+Corrected Akaike Information Criterion: TIM2+F+I
+Bayesian Information Criterion:         TIM2+F+I
+Best-fit model: TIM2+F+I chosen according to BIC
+
+All model information printed to chikv_ecsa_new+refs.noOutliers.fasta.model.gz
+CPU time for ModelFinder: 32.062 seconds (0h:0m:32s)
+Wall-clock time for ModelFinder: 8.319 seconds (0h:0m:8s)
+
+NOTE: 15 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -20263.459
+Optimal log-likelihood: -20263.458
+Rate parameters:  A-C: 2.04863  A-G: 8.53389  A-T: 2.04863  C-G: 1.00000  C-T: 24.53624  G-T: 1.00000
+Base frequencies:  A: 0.291  C: 0.250  G: 0.258  T: 0.201
+Proportion of invariable sites: 0.902
+Parameters optimization took 1 rounds (0.073 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.031045 sec (of wall-clock time) 0.125000 sec(of CPU time)
+Computing RapidNJ tree took 0.035203 sec (of wall-clock time) 0.093750 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -20347.136
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.226 second
+Computing log-likelihood of 98 initial trees ... 1.679 seconds
+Current best score: -20255.913
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -20251.263
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -20249.062
+Iteration 10 / LogL: -20257.393 / Time: 0h:0m:5s
+Iteration 20 / LogL: -20260.068 / Time: 0h:0m:9s
+Finish initializing candidate tree set (20)
+Current best tree score: -20249.062 / CPU time: 8.858
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -20248.981
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -20247.506
+Iteration 30 / LogL: -20249.241 / Time: 0h:0m:12s (0h:0m:44s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -20247.260
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -20246.772
+Iteration 40 / LogL: -20258.132 / Time: 0h:0m:16s (0h:0m:41s left)
+Iteration 50 / LogL: -20246.907 / Time: 0h:0m:20s (0h:0m:36s left)
+BETTER TREE FOUND at iteration 54: -20246.772
+Iteration 60 / LogL: -20257.933 / Time: 0h:0m:24s (0h:0m:38s left)
+Iteration 70 / LogL: -20247.038 / Time: 0h:0m:28s (0h:0m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 73: -20246.670
+Iteration 80 / LogL: -20246.908 / Time: 0h:0m:31s (0h:0m:37s left)
+Iteration 90 / LogL: -20262.554 / Time: 0h:0m:35s (0h:0m:33s left)
+Iteration 100 / LogL: -20266.377 / Time: 0h:0m:39s (0h:0m:29s left)
+Iteration 110 / LogL: -20262.815 / Time: 0h:0m:43s (0h:0m:25s left)
+Iteration 120 / LogL: -20246.823 / Time: 0h:0m:47s (0h:0m:21s left)
+Iteration 130 / LogL: -20283.271 / Time: 0h:0m:51s (0h:0m:17s left)
+Iteration 140 / LogL: -20261.049 / Time: 0h:0m:54s (0h:0m:13s left)
+Iteration 150 / LogL: -20249.234 / Time: 0h:0m:58s (0h:0m:9s left)
+Iteration 160 / LogL: -20250.301 / Time: 0h:1m:1s (0h:0m:5s left)
+Iteration 170 / LogL: -20249.714 / Time: 0h:1m:5s (0h:0m:1s left)
+TREE SEARCH COMPLETED AFTER 174 ITERATIONS / Time: 0h:1m:6s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -20246.670
+Optimal log-likelihood: -20246.670
+Rate parameters:  A-C: 2.00010  A-G: 8.74910  A-T: 2.00010  C-G: 1.00000  C-T: 24.43082  G-T: 1.00000
+Base frequencies:  A: 0.291  C: 0.250  G: 0.258  T: 0.201
+Proportion of invariable sites: 0.900
+Parameters optimization took 1 rounds (0.086 sec)
+BEST SCORE FOUND : -20246.670
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+6.457 sec.
+Total tree length: 0.053
+
+Total number of iterations: 174
+CPU time used for tree search: 256.062 sec (0h:4m:16s)
+Wall-clock time used for tree search: 66.133 sec (0h:1m:6s)
+Total CPU time used: 283.375 sec (0h:4m:43s)
+Total wall-clock time used: 73.044 sec (0h:1m:13s)
+
+Analysis results written to: 
+  IQ-TREE report:                chikv_ecsa_new+refs.noOutliers.fasta.iqtree
+  Maximum-likelihood tree:       chikv_ecsa_new+refs.noOutliers.fasta.treefile
+  Likelihood distances:          chikv_ecsa_new+refs.noOutliers.fasta.mldist
+  Screen log file:               chikv_ecsa_new+refs.noOutliers.fasta.log
+
+Date and Time: Thu Jun  2 21:33:31 2022

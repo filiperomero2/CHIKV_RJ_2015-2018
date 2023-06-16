@@ -1,0 +1,6 @@
+Date range	4,0849
+Slope (rate)	5,1947E-4
+X-Intercept (TMRCA)	2014,5068
+Correlation Coefficient	0,8492
+R squared	0,7212
+Residual Mean Squared	1,0783E-7

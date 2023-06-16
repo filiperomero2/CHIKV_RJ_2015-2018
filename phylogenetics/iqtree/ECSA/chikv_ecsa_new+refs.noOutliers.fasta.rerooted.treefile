@@ -1,0 +1,250 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=148;
+	taxlabels
+	'010|Brazil|RJ|Duque-de-Caxias|2017-07-26'
+	'053|Brazil|RJ|Duque-de-Caxias|2018-03-01'
+	'057|Brazil|RJ|Duque-de-Caxias|2018-03-08'
+	'066|Brazil|RJ|Duque-de-Caxias|2018-03-15'
+	'079|Brazil|RJ|Duque-de-Caxias|2018-03-22'
+	'083|Brazil|RJ|Duque-de-Caxias|2018-03-27'
+	'089|Brazil|RJ|Duque-de-Caxias|2018-03-29'
+	'092|Brazil|RJ|Duque-de-Caxias|2018-03-29'
+	'097|Brazil|RJ|Duque-de-Caxias|2018-04-02'
+	'099|Brazil|RJ|Duque-de-Caxias|2018-04-02'
+	'101|Brazil|RJ|Duque-de-Caxias|2018-04-02'
+	'114|Brazil|RJ|Duque-de-Caxias|2018-04-05'
+	'116|Brazil|RJ|Duque-de-Caxias|2018-04-05'
+	'117|Brazil|RJ|Duque-de-Caxias|2018-04-05'
+	'120|Brazil|RJ|Duque-de-Caxias|2018-04-16'
+	'126|Brazil|RJ|Duque-de-Caxias|2018-04-17'
+	'128|Brazil|RJ|Duque-de-Caxias|2018-04-19'
+	'130|Brazil|RJ|Duque-de-Caxias|2018-04-19'
+	'134|Brazil|RJ|Duque-de-Caxias|2018-04-19'
+	'143|Brazil|RJ|Duque-de-Caxias|2018-04-30'
+	'149|Brazil|RJ|Duque-de-Caxias|2018-04-30'
+	'152|Brazil|RJ|Duque-de-Caxias|2018-05-03'
+	'155|Brazil|RJ|Duque-de-Caxias|2018-05-03'
+	'157|Brazil|RJ|Duque-de-Caxias|2018-05-07'
+	'159|Brazil|RJ|Duque-de-Caxias|2018-05-07'
+	'161|Brazil|RJ|Duque-de-Caxias|2018-05-07'
+	'165|Brazil|RJ|Duque-de-Caxias|2018-05-09'
+	'166|Brazil|RJ|Duque-de-Caxias|2018-05-09'
+	'170|Brazil|RJ|Duque-de-Caxias|2018-05-14'
+	'174|Brazil|RJ|Duque-de-Caxias|2018-05-17'
+	'181|Brazil|RJ|Duque-de-Caxias|2018-05-23'
+	'KP164568|Brazil|BA|Feira-de-Santana|2014-08-26'
+	'KP164569|Brazil|BA|Feira-de-Santana|2014-08-28'
+	'KP164570|Brazil|BA|Feira-de-Santana|2014-09-03'
+	'KU940225|Brazil|BA|2015-07-15'
+	'KU940226|Brazil|BA|2015-08-01'
+	'KX228391|Brazil|PE|2016-03-03'
+	'KY055011|Brazil|SE|Aracaju|2016-02-20'
+	'KY124328|Brazil|RJ|2016-03-16'
+	'KY124329|Brazil|RJ|2016-03-16'
+	'KY704933|Brazil|AL|Maceio|2016-03-30'
+	'KY704935|Brazil|AL|Maceio|2016-04-01'
+	'KY704938|Brazil|AL|Maceio|2016-04-19'
+	'KY704939|Brazil|AL|Maceio|2016-04-17'
+	'KY704942|Brazil|AL|Maceio|2016-04-16'
+	'KY704943|Brazil|AL|Maceio|2016-04-19'
+	'KY704944|Brazil|AL|Maceio|2016-04-19'
+	'KY704947|Brazil|AL|Maceio|2016-04-15'
+	'KY704949|Brazil|AL|Maceio|2016-04-07'
+	'KY704952|Brazil|AL|Maceio|2016-04-07'
+	'KY704953|Brazil|AL|Maceio|2016-04-09'
+	'KY704954|Brazil|PB|Joao-Pessoa|2016-06-20'
+	'KY704955|Brazil|PB|Joao-Pessoa|2016-06-17'
+	'MH000700|Brazil|PE|Recife|2016-02-04'
+	'MH000702|Brazil|PE|Caruaru|2016-02-15'
+	'MH000703|Brazil|PE|Recife|2016-02-15'
+	'MH000704|Brazil|PE|2016-02-19'
+	'MH000705|Brazil|PE|Recife|2016-02-25'
+	'MH000706|Brazil|PE|Recife|2016-02-18'
+	'MH823663|Brazil|MT|Cuiaba|2017-01-05'
+	'MH823664|Brazil|MT|Cuiaba|2017-03-16'
+	'MH823665|Brazil|MT|Cuiaba|2017-03-16'
+	'MH823666|Brazil|MT|Cuiaba|2017-03-01'
+	'MH823667|Brazil|MT|Cuiaba|2017-03-01'
+	'MH823668|Brazil|MT|Cuiaba|2017-01-05'
+	'MK121892|Brazil|AM|Manaus|2015-07-15'
+	'MK121893|Brazil|AM|Manaus|2015-07-15'
+	'MK121894|Brazil|AM|Manaus|2016-01-31'
+	'MK121895|Brazil|AM|Manaus|2017-03-20'
+	'MK121896|Brazil|RR|Boa_Vista|2017-03-03'
+	'MK121897|Brazil|RR|Bonfim|2017-02-20'
+	'MK121898|Brazil|RR|Boa_Vista|2017-02-22'
+	'MK121899|Brazil|RR|Boa_Vista|2017-03-17'
+	'MK121900|Brazil|RR|Iracema|2017-03-17'
+	'MK121901|Brazil|RR|Boa_Vista|2017-03-17'
+	'MK121902|Brazil|RR|Boa_Vista|2017-03-17'
+	'MK121903|Brazil|RR|Boa_Vista|2017-03-15'
+	'MK121904|Brazil|RR|Boa_Vista|2017-03-02'
+	'MK121905|Brazil|RR|Boa_Vista|2017-03-02'
+	'MK121906|Brazil|RR|Boa_Vista|2017-02-27'
+	'MK121907|Brazil|RR|Boa_Vista|2017-02-27'
+	'MK121908|Brazil|RR|Boa_Vista|2017-03-05'
+	'MK156053|Brazil|BA|2018-09-21'
+	'MK156054|Brazil|BA|2018-09-21'
+	'MK156055|Brazil|BA|2018-09-21'
+	'MK156056|Brazil|BA|2018-09-21'
+	'MK156058|Brazil|BA|2018-09-21'
+	'MK156059|Brazil|BA|2018-09-21'
+	'MK156060|Brazil|BA|2018-09-26'
+	'MK156061|Brazil|BA|2018-09-26'
+	'MK156062|Brazil|BA|2018-09-26'
+	'MK156063|Brazil|BA|2018-09-26'
+	'MK156064|Brazil|BA|2018-09-26'
+	'MK244632|Brazil|RJ|2016-04-05'
+	'MK244633|Brazil|RJ|2016-05-06'
+	'MK244634|Brazil|RJ|2016-04-27'
+	'MK244635|Brazil|RJ|2016-02-19'
+	'MK244636|Brazil|RJ|2016-05-02'
+	'MK244637|Brazil|RJ|2016-05-10'
+	'MK244638|Brazil|RJ|Mesquita|2016-04-05'
+	'MK244640|Brazil|RJ|Sao-Goncalo|2017-03-07'
+	'MK244641|Brazil|RJ|Niteroi|2017-03-09'
+	'MK244642|Brazil|RJ|Sao-Joao-de-Meriti|2018-02-18'
+	'MK244643|Brazil|RJ|Niteroi|2018-03-28'
+	'MK244644|Brazil|RJ|Niteroi|2018-03-26'
+	'MK244645|Brazil|RJ|Niteroi|2018-03-28'
+	'MK244646|Brazil|RJ|Niteroi|2018-03-28'
+	'MK244647|Brazil|RJ|Niteroi|2018-03-27'
+	'MK244648|Brazil|RJ|Niteroi|2018-04-04'
+	'MK244649|Brazil|RJ|Niteroi|2018-04-03'
+	'MK244650|Brazil|RJ|Niteroi|2018-04-03'
+	'MK244651|Brazil|RJ|Niteroi|2018-04-05'
+	'MK244652|Brazil|RJ|Niteroi|2018-04-05'
+	'MK244653|Brazil|RJ|Niteroi|2018-03-06'
+	'MK244654|Brazil|RJ|Niteroi|2018-03-06'
+	'MK244655|Brazil|RJ|Niteroi|2018-03-06'
+	'MK244656|Brazil|RJ|Niteroi|2018-04-06'
+	'MK518395|Brazil|MA|2017-03-16'
+	'MK752951|Brazil|BA|Itamaraju|2017-07-27'
+	'MK752954|Brazil|BA|Itamaraju|2017-06-22'
+	'MK752956|Brazil|BA|Ipecaeta|2017-08-30'
+	'MK993755|Brazil|RN|Natal|2016-01-14'
+	'MK993756|Brazil|RN|Natal|2016-01-14'
+	'MK993757|Brazil|RN|Natal|2016-01-13'
+	'MN783352|Brazil|BA|Feira_de_Santana|2016-04-01'
+	'MN783353|Brazil|BA|Feira_de_Santana|2016-10-13'
+	'MT349960|Brazil|MT|Sinop|2018-02-07'
+	'MT526900|Brazil|PA|2017-01-24'
+	'MT526901|Brazil|PA|2017-01-25'
+	'MT526902|Brazil|PA|2017-01-25'
+	'MT526903|Brazil|PA|2017-01-26'
+	'MT526904|Brazil|PA|2017-01-26'
+	'MT877206|Brazil|CE|2017-03-30'
+	'MT877207|Brazil|CE|2017-03-19'
+	'MT877208|Brazil|CE|2017-03-22'
+	'MT877209|Brazil|CE|2017-04-16'
+	'MT877210|Brazil|CE|2017-04-14'
+	'MT877211|Brazil|CE|2017-06-03'
+	'OM128431|Brazil|RJ|2018-06-06'
+	'OM128432|Brazil|RJ|2018-03-26'
+	'OM128433|Brazil|RJ|2018-06-06'
+	'OM128434|Brazil|RJ|2018-06-07'
+	'OM128435|Brazil|RJ|2018-03-19'
+	'OM128436|Brazil|RJ|2018-06-05'
+	'OM128437|Brazil|RJ|2018-06-07'
+	'OM128438|Brazil|RJ|2016-04-29'
+	'OM128439|Brazil|RJ|2016-04-06'
+	'OM128440|Brazil|RJ|2018-03-20'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((((((((((((((((((((((('MK244653|Brazil|RJ|Niteroi|2018-03-06':1.35E-4,'MK244651|Brazil|RJ|Niteroi|2018-04-05':3.03E-4)[&label=78.6]:1.51E-4,'MK244648|Brazil|RJ|Niteroi|2018-04-04':5.4E-4)[&label=75.5]:1.5E-4,('MK244647|Brazil|RJ|Niteroi|2018-03-27':2.13E-4,'MK244646|Brazil|RJ|Niteroi|2018-03-28':2.0E-6)[&label=41.7]:2.09E-4)[&label=90.7]:3.1E-4,'MK244654|Brazil|RJ|Niteroi|2018-03-06':1.59E-4)[&label=0]:2.0E-6,('116|Brazil|RJ|Duque-de-Caxias|2018-04-05':1.9E-4,'134|Brazil|RJ|Duque-de-Caxias|2018-04-19':3.71E-4)[&label=78.6]:1.39E-4)[&label=84.2]:1.34E-4,((((('MK244645|Brazil|RJ|Niteroi|2018-03-28':3.0E-6,'MK244643|Brazil|RJ|Niteroi|2018-03-28':2.0E-6)[&label=87.7]:2.43E-4,'MK244650|Brazil|RJ|Niteroi|2018-04-03':1.0E-6)[&label=0]:3.0E-6,'OM128431|Brazil|RJ|2018-06-06':1.33E-4)[&label=80.2]:1.34E-4,('OM128440|Brazil|RJ|2018-03-20':2.0E-6,'OM128435|Brazil|RJ|2018-03-19':5.23E-4)[&label=98.6]:5.46E-4)[&label=0]:7.1E-5,'MK244655|Brazil|RJ|Niteroi|2018-03-06':1.27E-4)[&label=0]:1.7E-5)[&label=80.6]:8.8E-5,(((((('066|Brazil|RJ|Duque-de-Caxias|2018-03-15':1.0E-6,'174|Brazil|RJ|Duque-de-Caxias|2018-05-17':2.31E-4)[&label=90.7]:2.27E-4,'097|Brazil|RJ|Duque-de-Caxias|2018-04-02':4.61E-4)[&label=0]:2.0E-6,('117|Brazil|RJ|Duque-de-Caxias|2018-04-05':1.94E-4,'128|Brazil|RJ|Duque-de-Caxias|2018-04-19':3.15E-4)[&label=88]:1.91E-4)[&label=0]:3.0E-6,'MK244652|Brazil|RJ|Niteroi|2018-04-05':4.77E-4)[&label=0]:2.0E-6,'MK244656|Brazil|RJ|Niteroi|2018-04-06':1.46E-4)[&label=0]:8.3E-5,('MK244649|Brazil|RJ|Niteroi|2018-04-03':5.43E-4,'MK244644|Brazil|RJ|Niteroi|2018-03-26':2.28E-4)[&label=75.9]:1.15E-4)[&label=88.5]:1.81E-4)[&label=80]:8.9E-5,((('OM128436|Brazil|RJ|2018-06-05':2.68E-4,'OM128433|Brazil|RJ|2018-06-06':8.9E-5)[&label=0]:1.0E-6,'OM128437|Brazil|RJ|2018-06-07':8.9E-5)[&label=75.1]:8.9E-5,'OM128434|Brazil|RJ|2018-06-07':1.78E-4)[&label=99.1]:5.36E-4)[&label=0]:3.0E-6,((((('143|Brazil|RJ|Duque-de-Caxias|2018-04-30':3.48E-4,'159|Brazil|RJ|Duque-de-Caxias|2018-05-07':1.95E-4)[&label=77.5]:1.12E-4,'155|Brazil|RJ|Duque-de-Caxias|2018-05-03':4.09E-4)[&label=75.3]:1.12E-4,('101|Brazil|RJ|Duque-de-Caxias|2018-04-02':5.59E-4,'OM128432|Brazil|RJ|2018-03-26':1.88E-4)[&label=74.2]:8.9E-5)[&label=91.7]:3.57E-4,'MK244641|Brazil|RJ|Niteroi|2017-03-09':3.0E-6)[&label=0]:2.0E-6,((('149|Brazil|RJ|Duque-de-Caxias|2018-04-30':6.14E-4,'166|Brazil|RJ|Duque-de-Caxias|2018-05-09':2.03E-4)[&label=72.5]:9.6E-5,'010|Brazil|RJ|Duque-de-Caxias|2017-07-26':9.9E-5)[&label=75.4]:9.4E-5,'157|Brazil|RJ|Duque-de-Caxias|2018-05-07':3.93E-4)[&label=87.4]:1.87E-4)[&label=78.1]:8.9E-5)[&label=92.5]:1.79E-4,(((((((((('MK156062|Brazil|BA|2018-09-26':2.0E-6,'MK156061|Brazil|BA|2018-09-26':1.05E-4)[&label=84.2]:1.01E-4,'MK156063|Brazil|BA|2018-09-26':3.0E-6)[&label=90.9]:2.33E-4,'MK156053|Brazil|BA|2018-09-21':2.6E-4)[&label=0]:3.0E-6,'MK156064|Brazil|BA|2018-09-26':1.0E-6)[&label=0]:3.0E-6,'MK156054|Brazil|BA|2018-09-21':1.0E-6)[&label=0]:3.0E-6,'MK156056|Brazil|BA|2018-09-21':1.64E-4)[&label=0]:1.7E-4,'MK156055|Brazil|BA|2018-09-21':1.0E-6)[&label=84.1]:1.73E-4,'MK156058|Brazil|BA|2018-09-21':2.09E-4)[&label=0]:3.0E-6,('MK156060|Brazil|BA|2018-09-26':1.7E-4,'MK156059|Brazil|BA|2018-09-21':1.0E-6)[&label=46.8]:1.54E-4)[&label=97.9]:4.72E-4,'057|Brazil|RJ|Duque-de-Caxias|2018-03-08':1.81E-4)[&label=0]:3.0E-6)[&label=0]:2.0E-6,((('099|Brazil|RJ|Duque-de-Caxias|2018-04-02':5.34E-4,'120|Brazil|RJ|Duque-de-Caxias|2018-04-16':2.0E-6)[&label=93.1]:1.83E-4,'083|Brazil|RJ|Duque-de-Caxias|2018-03-27':1.84E-4)[&label=0]:1.0E-6,'130|Brazil|RJ|Duque-de-Caxias|2018-04-19':3.72E-4)[&label=84.8]:9.0E-5)[&label=94]:4.08E-4,'MK244640|Brazil|RJ|Sao-Goncalo|2017-03-07':3.24E-4)[&label=46.5]:2.04E-4,(((('MK244638|Brazil|RJ|Mesquita|2016-04-05':1.0E-6,'MK244632|Brazil|RJ|2016-04-05':2.76E-4)[&label=78]:1.09E-4,'MK244633|Brazil|RJ|2016-05-06':3.41E-4)[&label=88.5]:2.1E-4,('MK244637|Brazil|RJ|2016-05-10':6.0E-4,'MK244634|Brazil|RJ|2016-04-27':3.07E-4)[&label=76.9]:1.45E-4)[&label=0]:1.0E-6,'MK244636|Brazil|RJ|2016-05-02':2.06E-4)[&label=0]:2.0E-6)[&label=96.7]:9.5E-5,'MK244635|Brazil|RJ|2016-02-19':2.53E-4)[&label=0]:5.0E-6,'KY124328|Brazil|RJ|2016-03-16':2.68E-4)[&label=0]:1.0E-6,((((((('089|Brazil|RJ|Duque-de-Caxias|2018-03-29':9.6E-5,'092|Brazil|RJ|Duque-de-Caxias|2018-03-29':1.22E-4)[&label=87.8]:2.41E-4,'161|Brazil|RJ|Duque-de-Caxias|2018-05-07':4.88E-4)[&label=83.7]:1.7E-4,('152|Brazil|RJ|Duque-de-Caxias|2018-05-03':2.87E-4,'165|Brazil|RJ|Duque-de-Caxias|2018-05-09':2.32E-4)[&label=85.8]:3.27E-4)[&label=0]:2.0E-6,'181|Brazil|RJ|Duque-de-Caxias|2018-05-23':1.92E-4)[&label=74.9]:1.8E-4,'053|Brazil|RJ|Duque-de-Caxias|2018-03-01':1.01E-4)[&label=99.2]:6.21E-4,'126|Brazil|RJ|Duque-de-Caxias|2018-04-17':0.001443)[&label=0]:1.0E-6,('OM128439|Brazil|RJ|2016-04-06':4.5E-4,'OM128438|Brazil|RJ|2016-04-29':6.01E-4)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'KY124329|Brazil|RJ|2016-03-16':6.27E-4)[&label=88.4]:1.78E-4,'KY055011|Brazil|SE|Aracaju|2016-02-20':4.47E-4)[&label=92]:2.69E-4,(((((((((((('KY704947|Brazil|AL|Maceio|2016-04-15':2.03E-4,'KY704935|Brazil|AL|Maceio|2016-04-01':1.15E-4)[&label=0]:2.0E-6,'KY704933|Brazil|AL|Maceio|2016-03-30':1.07E-4)[&label=83.6]:9.2E-5,('KY704943|Brazil|AL|Maceio|2016-04-19':4.36E-4,'KY704938|Brazil|AL|Maceio|2016-04-19':3.81E-4)[&label=0]:1.0E-6)[&label=92.5]:1.83E-4,('KY704953|Brazil|AL|Maceio|2016-04-09':3.44E-4,'KY704939|Brazil|AL|Maceio|2016-04-17':8.8E-5)[&label=0]:2.0E-6)[&label=0]:1.0E-6,('KY704952|Brazil|AL|Maceio|2016-04-07':3.69E-4,'KY704949|Brazil|AL|Maceio|2016-04-07':2.91E-4)[&label=76.5]:1.79E-4)[&label=0]:1.0E-6,'KY704944|Brazil|AL|Maceio|2016-04-19':1.0E-6)[&label=76.4]:1.11E-4,'KY704942|Brazil|AL|Maceio|2016-04-16':5.38E-4)[&label=92.7]:3.36E-4,'MT526900|Brazil|PA|2017-01-24':3.58E-4)[&label=0]:1.0E-6,(((('MT526904|Brazil|PA|2017-01-26':1.0E-6,'MT526901|Brazil|PA|2017-01-25':8.9E-5)[&label=77.2]:8.8E-5,'MT526902|Brazil|PA|2017-01-25':9.0E-5)[&label=23.6]:8.9E-5,'MT526903|Brazil|PA|2017-01-26':1.0E-6)[&label=96.5]:3.56E-4,('MK518395|Brazil|MA|2017-03-16':4.46E-4,'MK121895|Brazil|AM|Manaus|2017-03-20':5.91E-4)[&label=0]:2.0E-6)[&label=97.5]:3.57E-4)[&label=0]:2.0E-6,((('MH823668|Brazil|MT|Cuiaba|2017-01-05':2.67E-4,'MH823665|Brazil|MT|Cuiaba|2017-03-16':2.67E-4)[&label=0]:1.0E-6,('MH823667|Brazil|MT|Cuiaba|2017-03-01':1.0E-6,'MH823663|Brazil|MT|Cuiaba|2017-01-05':1.0E-6)[&label=0]:1.0E-6)[&label=92.8]:2.69E-4,('MH823666|Brazil|MT|Cuiaba|2017-03-01':1.0E-6,'MH823664|Brazil|MT|Cuiaba|2017-03-16':8.9E-5)[&label=85.7]:1.78E-4)[&label=98.1]:5.38E-4)[&label=82.4]:8.9E-5,(('MT349960|Brazil|MT|Sinop|2018-02-07':0.001258,'KU940226|Brazil|BA|2015-08-01':1.0E-6)[&label=0]:1.0E-6,'KU940225|Brazil|BA|2015-07-15':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'MK752956|Brazil|BA|Ipecaeta|2017-08-30':6.21E-4)[&label=84.4]:1.78E-4)[&label=76.1]:9.0E-5,(((((((((('MK121904|Brazil|RR|Boa_Vista|2017-03-02':1.0E-6,'MK121898|Brazil|RR|Boa_Vista|2017-02-22':1.0E-6)[&label=0]:2.0E-6,'MK121908|Brazil|RR|Boa_Vista|2017-03-05':3.52E-4)[&label=0]:9.0E-5,'MK121905|Brazil|RR|Boa_Vista|2017-03-02':1.0E-6)[&label=0]:9.0E-5,'MK121897|Brazil|RR|Bonfim|2017-02-20':1.67E-4)[&label=0]:2.0E-6,('MK121903|Brazil|RR|Boa_Vista|2017-03-15':3.82E-4,'MK121899|Brazil|RR|Boa_Vista|2017-03-17':1.0E-6)[&label=0]:2.0E-6)[&label=0]:3.0E-6,('MK121907|Brazil|RR|Boa_Vista|2017-02-27':3.0E-6,'MK121906|Brazil|RR|Boa_Vista|2017-02-27':9.2E-5)[&label=96.3]:3.63E-4)[&label=88.6]:1.82E-4,((('MK121902|Brazil|RR|Boa_Vista|2017-03-17':3.95E-4,'MK121900|Brazil|RR|Iracema|2017-03-17':3.01E-4)[&label=0]:1.0E-6,'MK121896|Brazil|RR|Boa_Vista|2017-03-03':4.92E-4)[&label=84.2]:9.8E-5,'MK121901|Brazil|RR|Boa_Vista|2017-03-17':1.0E-6)[&label=78.5]:9.8E-5)[&label=97.4]:4.55E-4,(((((('079|Brazil|RJ|Duque-de-Caxias|2018-03-22':9.2E-5,'114|Brazil|RJ|Duque-de-Caxias|2018-04-05':9.5E-5)[&label=86.9]:1.82E-4,'170|Brazil|RJ|Duque-de-Caxias|2018-05-14':1.89E-4)[&label=87.1]:2.12E-4,'MK244642|Brazil|RJ|Sao-Joao-de-Meriti|2018-02-18':1.1E-4)[&label=95.2]:4.24E-4,'KY704954|Brazil|PB|Joao-Pessoa|2016-06-20':3.58E-4)[&label=0]:8.7E-5,(('MT877210|Brazil|CE|2017-04-14':2.1E-4,'MT877207|Brazil|CE|2017-03-19':5.13E-4)[&label=0]:2.0E-6,'MT877206|Brazil|CE|2017-03-30':2.78E-4)[&label=94.1]:4.05E-4)[&label=0]:1.0E-6,'KY704955|Brazil|PB|Joao-Pessoa|2016-06-17':3.57E-4)[&label=0]:2.0E-6)[&label=88.2]:1.78E-4,'MN783352|Brazil|BA|Feira_de_Santana|2016-04-01':5.38E-4)[&label=73.8]:8.9E-5,(((((('MH000703|Brazil|PE|Recife|2016-02-15':8.9E-5,'MH000702|Brazil|PE|Caruaru|2016-02-15':3.58E-4)[&label=78.9]:8.9E-5,'MH000705|Brazil|PE|Recife|2016-02-25':8.9E-5)[&label=0]:1.0E-6,('MH000700|Brazil|PE|Recife|2016-02-04':1.0E-6,'KX228391|Brazil|PE|2016-03-03':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'MH000706|Brazil|PE|Recife|2016-02-18':8.9E-5)[&label=0]:8.9E-5,'MH000704|Brazil|PE|2016-02-19':1.0E-6)[&label=93]:2.68E-4,'MK121894|Brazil|AM|Manaus|2016-01-31':2.11E-4)[&label=95.4]:3.6E-4)[&label=81]:9.0E-5)[&label=0]:2.0E-6,(((((((('MK993757|Brazil|RN|Natal|2016-01-13':1.0E-6,'MK993756|Brazil|RN|Natal|2016-01-14':1.0E-6)[&label=0]:1.0E-6,'MK993755|Brazil|RN|Natal|2016-01-14':4.46E-4)[&label=96]:3.58E-4,'MK121893|Brazil|AM|Manaus|2015-07-15':2.97E-4)[&label=84.2]:1.76E-4,('MK752954|Brazil|BA|Itamaraju|2017-06-22':3.72E-4,'MK121892|Brazil|AM|Manaus|2015-07-15':3.0E-6)[&label=59.7]:2.31E-4)[&label=0]:2.0E-6,'MN783353|Brazil|BA|Feira_de_Santana|2016-10-13':5.36E-4)[&label=0]:1.0E-6,(('MT877211|Brazil|CE|2017-06-03':1.0E-6,'MT877209|Brazil|CE|2017-04-16':1.32E-4)[&label=91.4]:4.06E-4,'MT877208|Brazil|CE|2017-03-22':2.28E-4)[&label=87.6]:2.71E-4)[&label=0]:1.0E-6,'MK752951|Brazil|BA|Itamaraju|2017-07-27':6.62E-4)[&label=85.7]:2.67E-4,'KP164569|Brazil|BA|Feira-de-Santana|2014-08-28':9.0E-5)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'KP164570|Brazil|BA|Feira-de-Santana|2014-09-03':1.0E-6):1.0E-6,'KP164568|Brazil|BA|Feira-de-Santana|2014-08-26':1.0E-6);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

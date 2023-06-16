@@ -1,0 +1,2160 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Linux 64-bit built Dec 21 2021 built Dec 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    wpia-dide306 (AVX512, FMA3, 125 GB RAM)
+Command: iqtree -nt 10 -s aln.chikv_rj+references.fasta -m GTR+F+I+G4 -alrt 1000
+Seed:    6092 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May 31 11:51:41 2022
+Kernel:  AVX+FMA - 10 threads (36 CPU cores detected)
+
+Reading alignment file aln.chikv_rj+references.fasta ... Fasta format detected
+Reading fasta file: done in 0.246873 secs using 96.71% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.192124 secs using 203.5% CPU
+Alignment has 1297 sequences with 11826 columns, 10141 distinct patterns
+3795 parsimony-informative, 1405 singleton sites, 6626 constant sites
+WARNING: Some sequence names are changed as follows:
+HM045820|Cote_d'Ivoire|Dec-1993 -> HM045820|Cote_d_Ivoire|Dec-1993
+HM045818|Cote_d'Ivoire|Sep-1981 -> HM045818|Cote_d_Ivoire|Sep-1981
+MT933051|Brazil_Southeast-RJ_state_(Rio_de_Janeiro|2019-05-28 -> MT933051|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-05-28
+MT933050|Brazil_Southeast-RJ_state_(Rio_de_Janeiro|2019-08-14 -> MT933050|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-08-14
+MT933049|Brazil_Southeast-RJ_state_(Duque_de_Caxias|2019-07-07 -> MT933049|Brazil_Southeast-RJ_state__Duque_de_Caxias|2019-07-07
+MT933048|Brazil_Southeast-RJ_state_(Rio_de_Janeiro|2019-07-31 -> MT933048|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-07-31
+MT933047|Brazil_Southeast-RJ_state_(Rio_de_Janeiro|2019-07-02 -> MT933047|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-07-02
+MT933046|Brazil_Southeast-RJ_state_(Rio_de_Janeiro|2019-07-01 -> MT933046|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-07-01
+MT933045|Brazil_Southeast-RJ_state_(Rio_de_Janeiro|2019-06-19 -> MT933045|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-06-19
+MT933044|Brazil_Southeast-RJ_state_(Rio_de_Janeiro|2019-06-13 -> MT933044|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-06-13
+MT933043|Brazil_Southeast-RJ_state_(Rio_de_Janeiro|2019-06-07 -> MT933043|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-06-07
+MT933042|Brazil_Southeast-RJ_state_(Rio_de_Janeiro|2019-05-11 -> MT933042|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-05-11
+MT933041|Brazil_Southeast-RJ_state_(Rio_de_Janeiro|2019-05-08 -> MT933041|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-05-08
+MT933040|Brazil_Southeast-RJ_state_(Duque_de_Caxias|2019-05-06 -> MT933040|Brazil_Southeast-RJ_state__Duque_de_Caxias|2019-05-06
+MT933039|Brazil_Southeast-RJ_state_(Rio_de_Janeiro|2019-05-06 -> MT933039|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-05-06
+MT933038|Brazil_Southeast-RJ_state_(Rio_de_Janeiro|2019-04-22 -> MT933038|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-04-22
+MT933037|Brazil_Southeast-RJ_state_(Rio_de_Janeiro|2019-04-18 -> MT933037|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-04-18
+MT933036|Brazil_Southeast-RJ_state_(Rio_de_Janeiro|2019-04-17 -> MT933036|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-04-17
+MT933035|Brazil_Southeast-RJ_state_(Rio_de_Janeiro|2019-04-17 -> MT933035|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-04-17
+MT933034|Brazil_Southeast-RJ_state_(Duque_de_Caxias|2019-03-15 -> MT933034|Brazil_Southeast-RJ_state__Duque_de_Caxias|2019-03-15
+MT933033|Brazil_Southeast-RJ_state_(Rio_de_Janeiro|2019-03-08 -> MT933033|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-03-08
+MT933032|Brazil_Southeast-RJ_state_(Rio_de_Janeiro|2019-02-05 -> MT933032|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-02-05
+MT933031|Brazil_Southeast-RJ_state_(Duque_de_Caxias|2019-02-18 -> MT933031|Brazil_Southeast-RJ_state__Duque_de_Caxias|2019-02-18
+MT933030|Brazil_Southeast-RJ_state_(Duque_de_Caxias|2019-01-28 -> MT933030|Brazil_Southeast-RJ_state__Duque_de_Caxias|2019-01-28
+MT933029|Brazil_Southeast-RJ_state_(Duque_de_Caxias|2019-01-21 -> MT933029|Brazil_Southeast-RJ_state__Duque_de_Caxias|2019-01-21
+
+                                                                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0228377 secs using 1046% CPU
+   1  NC_004162.2_Chikungunya_virus                                     0.00%    passed     72.15%
+   2  010|Brazil|SE|RJ|Duque-de-Caxias|2017-07-26                      14.27%    passed     97.23%
+   3  053|Brazil|SE|RJ|Duque-de-Caxias|2018-03-01                       2.88%    passed     96.53%
+   4  057|Brazil|SE|RJ|Belford-Roxo|2018-03-08                          2.12%    passed     94.96%
+   5  066|Brazil|SE|RJ|Duque-de-Caxias|2018-03-15                       5.77%    passed     92.99%
+   6  071|Brazil|SE|RJ|Duque-de-Caxias|2018-03-19                      29.58%    passed     96.81%
+   7  079|Brazil|SE|RJ|Belford-Roxo|2018-03-22                          4.96%    passed     98.52%
+   8  083|Brazil|SE|RJ|Belford-Roxo|2018-03-27                          3.92%    passed     81.55%
+   9  089|Brazil|SE|RJ|Duque-de-Caxias|2018-03-29                       5.72%    passed     90.50%
+  10  092|Brazil|SE|RJ|Duque-de-Caxias|2018-03-29                       2.44%    passed     88.81%
+  11  097|Brazil|SE|RJ|Duque-de-Caxias|2018-04-02                       3.37%    passed     87.57%
+  12  099|Brazil|SE|RJ|Belford-Roxo|2018-04-02                         15.25%    passed     87.01%
+  13  101|Brazil|SE|RJ|Duque-de-Caxias|2018-04-02                       4.90%    passed     90.60%
+  14  107|Brazil|SE|RJ|Duque-de-Caxias|2018-04-04                      15.92%    passed     85.79%
+  15  110|Brazil|SE|RJ|Duque-de-Caxias|2018-04-05                      21.79%    passed     74.32%
+  16  114|Brazil|SE|RJ|Sao-Joao-de-Meiriti|2018-04-05                   7.09%    passed     94.94%
+  17  116|Brazil|SE|RJ|Belford-Roxo|2018-04-05                          6.92%    passed     86.22%
+  18  117|Brazil|SE|RJ|Duque-de-Caxias|2018-04-05                       9.94%    passed     92.46%
+  19  120|Brazil|SE|RJ|Belford-Roxo|2018-04-16                          5.38%    passed     99.44%
+  20  126|Brazil|SE|RJ|Duque-de-Caxias|2018-04-17                      12.70%    passed     85.41%
+  21  128|Brazil|SE|RJ|Duque-de-Caxias|2018-04-19                      15.86%    passed     99.12%
+  22  130|Brazil|SE|RJ|Duque-de-Caxias|2018-04-19                       5.12%    passed     99.40%
+  23  134|Brazil|SE|RJ|Duque-de-Caxias|2018-04-19                       5.13%    passed     98.22%
+  24  143|Brazil|SE|RJ|Duque-de-Caxias|2018-04-30                       8.68%    passed     97.32%
+  25  149|Brazil|SE|RJ|Belford-Roxo|2018-04-30                         15.00%    passed     95.78%
+  26  152|Brazil|SE|RJ|Duque-de-Caxias|2018-05-03                      13.05%    passed     88.30%
+  27  155|Brazil|SE|RJ|Duque-de-Caxias|2018-05-03                      14.99%    passed     99.38%
+  28  157|Brazil|SE|RJ|Belford-Roxo|2018-05-07                         10.87%    passed     98.34%
+  29  159|Brazil|SE|RJ|Duque-de-Caxias|2018-05-7                        9.55%    passed     95.09%
+  30  161|Brazil|SE|RJ|Duque-de-Caxias|2018-05-07                      10.65%    passed     98.63%
+  31  165|Brazil|SE|RJ|Duque-de-Caxias|2018-05-09                       3.48%    passed     95.41%
+  32  166|Brazil|SE|RJ|Duque-de-Caxias|2018-05-09                      13.88%    passed     95.96%
+  33  170|Brazil|SE|RJ|Duque-de-Caxias|2018-05-14                       8.24%    passed     99.61%
+  34  174|Brazil|SE|RJ|Duque-de-Caxias|2018-05-17                       4.68%    passed     96.63%
+  35  181|Brazil|SE|RJ|Duque-de-Caxias|2018-05-23                       2.30%    passed     90.08%
+  36  KF283987|Comoros_Grande_Island|2005                               1.08%    passed     81.00%
+  37  MT526807|Kenya_Kilifi|26-Jan-2016                                 1.85%    passed     96.58%
+  38  MT526806|Kenya_Kilifi|03-Apr-2017                                 2.90%    passed     95.00%
+  39  MT526805|Kenya_Kilifi|19-Jul-2017                                 1.11%    passed     95.57%
+  40  MT526804|Kenya_Kilifi|05-Dec-2017                                 1.18%    passed     88.83%
+  41  MT526803|Kenya_Kilifi|23-May-2014                                 4.20%    passed     91.28%
+  42  MT526802|Kenya_Kilifi|20-Aug-2014                                 1.06%    passed     96.13%
+  43  MT526801|Kenya_Kilifi|02-Sep-2015                                 4.07%    passed     97.72%
+  44  MT526800|Kenya_Kilifi|13-Dec-2017                                 0.90%    passed     95.46%
+  45  MT526799|Kenya_Kilifi|03-Jan-2018                                 1.95%    passed     98.20%
+  46  MT526798|Kenya_Kilifi|12-Jan-2018                                 1.76%    passed     89.12%
+  47  MT526797|Kenya_Kilifi|15-May-2018                                16.19%    passed     52.74%
+  48  MT526796|Kenya_Mombasa|15-Jan-2018                                9.31%    passed     78.34%
+  49  MK370033|India|2016                                               0.12%    passed     80.36%
+  50  MK370032|India|2016                                               0.19%    passed     89.78%
+  51  MK370031|India|2015                                               0.21%    passed     81.30%
+  52  MK370030|India|2015                                               0.11%    passed     78.80%
+  53  MK286899|India|2017                                               0.66%    passed     94.13%
+  54  MK286898|India|2018                                               0.97%    passed     77.12%
+  55  MK286897|India|2018                                               1.22%    passed     88.90%
+  56  MK286895|India|2014                                               0.64%    passed     90.65%
+  57  MK286894|India|2017                                               4.98%    passed     76.49%
+  58  MK286893|India|2017                                               4.98%    passed     75.55%
+  59  MK028840|Thailand|1962                                            2.19%    passed     82.86%
+  60  MK028838|Sri_Lanka|2006                                           0.36%    passed     86.36%
+  61  MK028836|Comoros|2005                                             0.86%    passed     85.61%
+  62  MH229986|Mauritius|2006                                           0.54%    passed     89.68%
+  63  KP702297|Comoros_Grande_Island|2005                               5.54%    passed     70.82%
+  64  FJ445511|Singapore|Jan-2008                                       0.90%    passed     83.43%
+  65  FJ445510|Singapore|Jan-2008                                       0.25%    passed     81.56%
+  66  FJ445502|Singapore|Aug-2008                                       0.92%    passed     87.45%
+  67  FJ445484|Singapore|May-2008                                       0.33%    passed     86.01%
+  68  FJ445463|Singapore|Jul-2008                                       0.82%    passed     87.18%
+  69  FJ445445|Singapore|Aug-2008                                       0.90%    passed     88.29%
+  70  FJ445443|Singapore|Aug-2008                                       0.95%    passed     88.78%
+  71  FJ445433|Singapore|Aug-2008                                       0.82%    passed     87.34%
+  72  FJ445432|Singapore|Jul-2008                                       0.88%    passed     86.51%
+  73  FJ445431|Singapore|Jul-2008                                       0.88%    passed     88.44%
+  74  FJ445430|Singapore|Jul-2008                                       0.88%    passed     88.60%
+  75  FJ445428|Sri_Lanka|May-2007                                       0.92%    passed     85.84%
+  76  FJ445427|Sri_Lanka|Jul-2007                                       0.92%    passed     83.73%
+  77  FJ445426|Sri_Lanka|Apr-2008                                       0.92%    passed     89.31%
+  78  KF283986|Comoros_Grande_Island|2005                               2.61%    passed     90.77%
+  79  HQ846359|China|Oct-2010                                           0.85%    passed     90.43%
+  80  HQ846358|China|Oct-2010                                           0.81%    passed     89.78%
+  81  HQ846357|China|Oct-2010                                           0.92%    passed     93.87%
+  82  HQ846356|China|Oct-2010                                           0.68%    passed     90.33%
+  83  FN295483|Malaysia_Perak|Mar-2006                                  2.00%    passed     64.15%
+  84  FN295485|Malaysia_Johor|2008                                      0.68%    passed     82.11%
+  85  FN295487|Malaysia_Johor|2008                                      0.13%    passed     87.87%
+  86  FN295484|Malaysia_Perak|Mar-2006                                  2.00%    passed     63.61%
+  87  JF274082|India_Gujarat|27-Sep-2006                                0.24%    passed     79.81%
+  88  MW248364|China|08-Oct-2019                                        0.40%    passed     97.50%
+  89  MW248363|China|10-Oct-2019                                        0.12%    passed     88.90%
+  90  OM128440|Brazil|20-Mar-2018                                       8.46%    passed     91.36%
+  91  OM128439|Brazil|06-Apr-2016                                       3.54%    passed     97.33%
+  92  OM128438|Brazil|29-Apr-2016                                      14.07%    passed     96.93%
+  93  OM128437|Brazil|07-Jun-2018                                       2.44%    passed     97.64%
+  94  OM128436|Brazil|05-Jun-2018                                       2.40%    passed     98.01%
+  95  OM128435|Brazil|19-Mar-2018                                      16.29%    passed     79.75%
+  96  OM128434|Brazil|07-Jun-2018                                       2.66%    passed     97.84%
+  97  OM128433|Brazil|06-Jun-2018                                       2.71%    passed     97.56%
+  98  OM128432|Brazil|26-Mar-2018                                       7.92%    passed     95.96%
+  99  OM128431|Brazil|06-Jun-2018                                       2.47%    passed     98.18%
+ 100  OL898715|Brazil_Sao_Paulo_Santos|06-May-2021                      1.53%    passed     96.09%
+ 101  OL898714|Brazil_Sao_Paulo_Santos|20-Nov-2020                      0.55%    passed     85.62%
+ 102  OL898713|Brazil_Sao_Paulo_Sao_Paulo|29-Apr-2021                   1.58%    passed     97.12%
+ 103  OL898712|Brazil_Sao_Paulo_Santos|18-Feb-2021                      1.10%    passed     91.80%
+ 104  OL898711|Brazil_Sao_Paulo_Cubatao|08-Feb-2021                     0.84%    passed     88.88%
+ 105  OL898710|Brazil_Sao_Paulo_Santos|02-Feb-2021                      0.63%    passed     92.08%
+ 106  OL898709|Brazil_Sao_Paulo_Santos|12-May-2021                      1.05%    passed     94.46%
+ 107  OL898708|Brazil_Sao_Paulo_Guaruja|05-May-2021                     1.53%    passed     96.25%
+ 108  OL898707|Brazil_Sao_Paulo_Guaruja|07-Jan-2021                     1.47%    passed     95.76%
+ 109  OL898706|Brazil_Sao_Paulo_Santos|09-Feb-2021                      0.29%    passed     86.36%
+ 110  OL898705|Brazil_Sao_Paulo_Sao_Vicente|13-Feb-2021                 0.55%    passed     88.70%
+ 111  OL898704|Brazil_Sao_Paulo_Santos|28-Jan-2021                      0.87%    passed     88.81%
+ 112  OL898703|Brazil_Sao_Paulo_Guaruja|06-Apr-2021                     1.48%    passed     96.11%
+ 113  OL898702|Brazil_Sao_Paulo_Santos|27-Apr-2021                      0.50%    passed     88.32%
+ 114  OL898701|Brazil_Sao_Paulo_Guaruja|05-May-2021                     0.82%    passed     90.05%
+ 115  OL898700|Brazil_Sao_Paulo_Santos|28-Jan-2021                      1.47%    passed     95.62%
+ 116  OL898699|Brazil_Sao_Paulo_Santos|09-Feb-2021                      1.50%    passed     96.81%
+ 117  OL898698|Brazil_Sao_Paulo_Sao_Vicente|25-Feb-2021                 1.53%    passed     95.99%
+ 118  OL898697|Brazil_Sao_Paulo_Sao_Vicente|09-Feb-2021                 0.26%    passed     89.92%
+ 119  OL898696|Brazil_Sao_Paulo_Guaruja|28-Jan-2021                     1.13%    passed     89.58%
+ 120  OL898695|Brazil_Sao_Paulo_Santos|04-Apr-2021                      0.63%    passed     89.44%
+ 121  OL898694|Brazil_Sao_Paulo_Peruibe|11-May-2021                     0.74%    passed     89.47%
+ 122  OL898693|Brazil_Sao_Paulo_Guaruja|13-Feb-2021                     1.47%    passed     96.25%
+ 123  OL898692|Brazil_Sao_Paulo_Guaruja|09-Mar-2021                     1.77%    passed     97.75%
+ 124  OL898691|Brazil_Sao_Paulo_Sao_Vicente|21-Feb-2021                 1.53%    passed     96.92%
+ 125  OL898690|Brazil_Sao_Paulo_Sao_Vicente|16-Jan-2021                 1.42%    passed     95.83%
+ 126  OL898689|Brazil_Sao_Paulo_Santos|15-Jan-2021                      0.63%    passed     88.31%
+ 127  OL898688|Brazil_Sao_Paulo_Guaruja|23-Mar-2021                     0.96%    passed     87.52%
+ 128  OL898687|Brazil_Sao_Paulo_Guaruja|16-Apr-2021                     0.99%    passed     87.90%
+ 129  OL898686|Brazil_Sao_Paulo_Guaruja|25-Mar-2021                     1.52%    passed     95.78%
+ 130  OL898685|Brazil_Sao_Paulo_Guaruja|22-Feb-2021                     0.63%    passed     89.13%
+ 131  OL898684|Brazil_Sao_Paulo_Sao_Vicente|14-Feb-2021                 0.62%    passed     86.67%
+ 132  OL898683|Brazil_Sao_Paulo_Santos|31-Jan-2021                      0.32%    passed     90.30%
+ 133  OL898682|Brazil_Sao_Paulo_Guaruja|07-Jan-2021                     1.14%    passed     88.43%
+ 134  OL898681|Brazil_Sao_Paulo_Sao_Vicente|20-Feb-2021                 1.08%    passed     92.43%
+ 135  OL898680|Brazil_Sao_Paulo_Itanhaem|22-Mar-2021                    1.12%    passed     90.43%
+ 136  OL898679|Brazil_Sao_Paulo_Peruibe|13-Apr-2021                     1.47%    passed     95.52%
+ 137  OL898678|Brazil_Sao_Paulo_Guaruja|05-Mar-2021                     1.74%    passed     97.54%
+ 138  OL898677|Brazil_Sao_Paulo_Guaruja|13-Feb-2021                     0.37%    passed     86.41%
+ 139  OL898676|Brazil_Sao_Paulo_Santos|02-Feb-2021                      1.54%    passed     95.60%
+ 140  OL898675|Brazil_Sao_Paulo_Santos|26-Dec-2020                      0.90%    passed     88.36%
+ 141  OL898674|Brazil_Sao_Paulo_Sao_Vicente|23-Jan-2021                 1.56%    passed     94.36%
+ 142  OL898673|Brazil_Sao_Paulo_Bertioga|15-Mar-2021                    1.91%    passed     97.90%
+ 143  OL898672|Brazil_Sao_Paulo_Sao_Vicente|25-Feb-2021                 1.19%    passed     94.18%
+ 144  OL898671|Brazil_Sao_Paulo_Guaruja|16-Feb-2021                     1.53%    passed     92.77%
+ 145  OL898670|Brazil_Sao_Paulo_Santos|02-Feb-2021                      0.30%    passed     90.78%
+ 146  OL898669|Brazil_Sao_Paulo_Guaruja|17-Dec-2020                     0.94%    passed     88.24%
+ 147  OL898668|Brazil_Sao_Paulo_Sao_Paulo|06-Jan-2021                   1.53%    passed     96.83%
+ 148  OL898667|Brazil_Sao_Paulo_Santos|01-Feb-2021                      1.94%    passed     97.37%
+ 149  OL898666|Brazil_Sao_Paulo_Sao_Vicente|25-Feb-2021                 1.53%    passed     96.05%
+ 150  OL898665|Brazil_Sao_Paulo_Sao_Vicente|22-Feb-2021                 0.37%    passed     93.24%
+ 151  OL898664|Brazil_Sao_Paulo_Santos|31-Jan-2021                      1.52%    passed     93.00%
+ 152  OL898663|Brazil_Sao_Paulo_Santos|05-Sep-2020                      0.31%    passed     93.10%
+ 153  LC664166|Thailand|2020-09-25                                      4.98%    passed     73.73%
+ 154  LC664165|Thailand|2020-09-13                                      4.98%    passed     77.45%
+ 155  LC664164|Thailand|2020-09-08                                      4.98%    passed     73.40%
+ 156  LC664163|Thailand|2020-08-28                                      4.98%    passed     75.12%
+ 157  LC664162|Thailand|2020-08-26                                      4.98%    passed     77.11%
+ 158  LC664161|Thailand|2020-08-20                                      4.98%    passed     81.34%
+ 159  LC664160|Thailand|2020-08-19                                      4.98%    passed     74.72%
+ 160  LC664159|Thailand|2020-08-04                                      4.98%    passed     69.47%
+ 161  LC664158|Thailand|2020-07-21                                      4.98%    passed     71.64%
+ 162  LC664157|Thailand|2020-06-29                                      4.98%    passed     82.28%
+ 163  LC664156|Maldives|2019-08-02                                      4.98%    passed     74.47%
+ 164  LC664155|Maldives|2019-06-18                                      4.98%    passed     78.09%
+ 165  LC664154|Maldives|2019-05                                         4.98%    passed     74.39%
+ 166  LC664153|Maldives|2019-05                                         4.98%    passed     75.36%
+ 167  LC664152|Maldives|2019-05-19                                      4.98%    passed     76.26%
+ 168  LC664151|Maldives|2019-04-14                                      4.98%    passed     76.31%
+ 169  LC664150|Maldives|2019-04-10                                      4.98%    passed     73.53%
+ 170  LC664149|Maldives|2019-04                                         4.98%    passed     77.17%
+ 171  LC664148|Maldives|2019-04-04                                      4.98%    passed     75.36%
+ 172  LC664147|Maldives|2019-04-07                                      4.98%    passed     71.60%
+ 173  LC664146|Maldives|2019-04-03                                      4.98%    passed     75.25%
+ 174  LC664145|Maldives|2019-04-01                                      4.98%    passed     75.36%
+ 175  LC664144|Maldives|2019-04-24                                      4.98%    passed     76.31%
+ 176  LC664143|Maldives|2019-03-30                                      4.98%    passed     73.80%
+ 177  LC664142|Maldives|2019-03-31                                      4.98%    passed     77.05%
+ 178  LC664141|Maldives|2019-03-30                                      4.98%    passed     75.67%
+ 179  MZ443816|Thailand|Aug-2018                                        0.46%    passed     83.20%
+ 180  MZ443815|Thailand|Aug-2018                                        0.46%    passed     83.77%
+ 181  MZ443814|Thailand|Aug-2018                                        0.46%    passed     85.36%
+ 182  MZ443813|Thailand|Aug-2018                                        0.46%    passed     84.51%
+ 183  MW291576|China|04-Oct-2019                                        0.13%    passed     87.95%
+ 184  MN954552|India_Karnataka_State|2019                               5.10%    passed     93.33%
+ 185  MH636708|Singapore|Jan-2010                                       0.96%    passed     88.54%
+ 186  MW161460|Sudan|Oct-2018                                          18.16%    passed     88.22%
+ 187  MW161459|Sudan|Oct-2018                                          10.92%    passed     90.58%
+ 188  MW161458|Sudan|Oct-2018                                           7.79%    passed     76.87%
+ 189  MW161457|Sudan|Oct-2018                                           7.16%    passed     82.67%
+ 190  MW161456|Sudan|Oct-2018                                           8.58%    passed     89.46%
+ 191  MW161455|Sudan|Oct-2018                                           8.45%    passed     91.95%
+ 192  MW161454|Sudan|Oct-2018                                           9.71%    passed     81.48%
+ 193  MW161453|Sudan|Oct-2018                                           9.63%    passed     78.55%
+ 194  MW161452|Sudan|Oct-2018                                           9.88%    passed     81.46%
+ 195  MW161451|Sudan|Oct-2018                                           9.53%    passed     71.34%
+ 196  MW161450|Sudan|Oct-2018                                           8.66%    passed     73.47%
+ 197  MW161449|Sudan|Oct-2018                                           8.61%    passed     83.69%
+ 198  MW161448|Sudan|Oct-2018                                           7.98%    passed     72.07%
+ 199  MW161447|Sudan|Oct-2018                                           8.62%    passed     86.88%
+ 200  MW161446|Sudan|Oct-2018                                          11.72%    passed     91.80%
+ 201  MW161445|Sudan|Oct-2018                                          30.63%    passed     87.98%
+ 202  MW161444|Sudan|Oct-2018                                          16.53%    passed     78.53%
+ 203  MW161443|Sudan|Oct-2018                                          11.30%    passed     84.55%
+ 204  MW161442|Sudan|Oct-2018                                           8.44%    passed     85.42%
+ 205  MW161441|Sudan|Oct-2018                                          10.82%    passed     99.40%
+ 206  MW161440|Sudan|Oct-2018                                          13.94%    passed     94.79%
+ 207  MW161439|Sudan|Oct-2018                                          17.73%    passed     90.51%
+ 208  MW161438|Sudan|Oct-2018                                          10.77%    passed     86.93%
+ 209  MW161437|Sudan|Oct-2018                                           7.12%    passed     82.50%
+ 210  MW161436|Sudan|Oct-2018                                           8.02%    passed     83.26%
+ 211  MW161435|Sudan|Oct-2018                                           7.60%    passed     81.77%
+ 212  MW161434|Sudan|Oct-2018                                          19.70%    passed     94.52%
+ 213  MW161433|Sudan|Oct-2018                                          13.57%    passed     96.90%
+ 214  MW161432|Sudan|Oct-2018                                          23.74%    passed     89.25%
+ 215  MW161431|Sudan|Oct-2018                                           5.78%    passed     80.66%
+ 216  MW161430|Sudan|Oct-2018                                          17.11%    passed     94.28%
+ 217  MW161429|Sudan|Oct-2018                                          11.16%    passed     97.40%
+ 218  MW161428|Sudan|Oct-2018                                          16.63%    passed     72.58%
+ 219  MW161427|Sudan|Oct-2018                                          11.38%    passed     94.06%
+ 220  MW161426|Sudan|Oct-2018                                          27.01%    passed     78.91%
+ 221  MW161425|Sudan|Oct-2018                                          24.29%    passed     76.21%
+ 222  MW161424|Sudan|Oct-2018                                          27.26%    passed     41.26%
+ 223  MW161423|Sudan|Oct-2018                                          26.94%    passed     80.47%
+ 224  MW161422|Sudan|Oct-2018                                          12.92%    passed     83.81%
+ 225  MW161421|Sudan|Oct-2018                                          19.02%    passed     75.13%
+ 226  MW161420|Sudan|Oct-2018                                           8.83%    passed     89.27%
+ 227  MW161419|Sudan|Oct-2018                                           5.80%    passed     84.42%
+ 228  MW161418|Sudan|Oct-2018                                           5.72%    passed     85.44%
+ 229  MW161417|Sudan|Oct-2018                                          18.75%    passed     92.91%
+ 230  MW161416|Sudan|Oct-2018                                           9.00%    passed     61.47%
+ 231  MW161415|Sudan|Oct-2018                                           6.53%    passed     80.93%
+ 232  MW161414|Sudan|Oct-2018                                           6.45%    passed     85.00%
+ 233  MW161413|Sudan|Oct-2018                                           7.12%    passed     63.10%
+ 234  MW161412|Sudan|Oct-2018                                           7.98%    passed     78.36%
+ 235  MW161411|Sudan|Oct-2018                                           6.38%    passed     91.30%
+ 236  MW161410|Sudan|Oct-2018                                           6.42%    passed     93.97%
+ 237  MW161409|Sudan|Oct-2018                                          13.99%    passed     83.99%
+ 238  MW161408|Sudan|Oct-2018                                           8.70%    passed     90.26%
+ 239  MW161407|Sudan|Oct-2018                                           6.36%    passed     89.10%
+ 240  MW161406|Sudan|Oct-2018                                           6.36%    passed     88.18%
+ 241  MW161405|Sudan|Oct-2018                                           6.49%    passed     74.68%
+ 242  MW161404|Sudan|Oct-2018                                           8.41%    passed     82.26%
+ 243  MW161403|Sudan|Oct-2018                                           5.76%    passed     80.96%
+ 244  MW161402|Sudan|Oct-2018                                           7.42%    passed     78.02%
+ 245  MW161401|Sudan|Oct-2018                                           5.66%    passed     81.55%
+ 246  MW161400|Sudan|Oct-2018                                           6.92%    passed     79.44%
+ 247  MW161399|Sudan|Oct-2018                                           7.09%    passed     76.32%
+ 248  MW161398|Sudan|Oct-2018                                           9.69%    passed     86.96%
+ 249  MW161397|Sudan|Oct-2018                                           7.72%    passed     80.41%
+ 250  MW161396|Sudan|Oct-2018                                           7.66%    passed     78.29%
+ 251  MW161395|Sudan|Oct-2018                                           9.27%    passed     87.17%
+ 252  MW161394|Sudan|Oct-2018                                          25.34%    passed     78.25%
+ 253  MW161393|Sudan|Oct-2018                                          32.07%    passed     70.92%
+ 254  MW161392|Sudan|Oct-2018                                           5.91%    passed     87.26%
+ 255  MW161391|Sudan|Oct-2018                                          22.96%    passed     87.90%
+ 256  MW161390|Sudan|Oct-2018                                          25.66%    passed     56.88%
+ 257  MW161389|Sudan|Oct-2018                                           5.95%    passed     89.52%
+ 258  MW161388|Sudan|Oct-2018                                           5.78%    passed     80.74%
+ 259  MW161387|Sudan|Oct-2018                                           5.74%    passed     80.01%
+ 260  MW161386|Sudan|Oct-2018                                          18.20%    passed     80.78%
+ 261  MW161385|Sudan|Oct-2018                                           5.81%    passed     80.60%
+ 262  MW161384|Sudan|Oct-2018                                           5.67%    passed     77.63%
+ 263  MW161383|Sudan|Oct-2018                                           5.76%    passed     83.37%
+ 264  MW161382|Sudan|Oct-2018                                           5.67%    passed     78.84%
+ 265  MW161381|Sudan|Oct-2018                                           5.63%    passed     79.41%
+ 266  MW161380|Sudan|Oct-2018                                           5.57%    passed     78.74%
+ 267  MW161379|Sudan|Oct-2018                                          27.90%    passed     47.90%
+ 268  MW161378|Sudan|Oct-2018                                          20.37%    passed     48.00%
+ 269  MW161377|Sudan|Oct-2018                                          13.24%    passed     86.75%
+ 270  MW161376|Sudan|Oct-2018                                          12.83%    passed     65.98%
+ 271  MW161375|Sudan|Oct-2018                                           5.76%    passed     79.98%
+ 272  MW161374|Sudan|Oct-2018                                          19.96%    passed     83.50%
+ 273  MW161373|Sudan|Oct-2018                                           5.76%    passed     77.84%
+ 274  MW161372|Sudan|Oct-2018                                           6.39%    passed     82.14%
+ 275  MW161371|Sudan|Oct-2018                                           9.92%    passed     67.64%
+ 276  MW161370|Sudan|Oct-2018                                           6.33%    passed     75.48%
+ 277  MW161369|Sudan|Oct-2018                                          24.27%    passed     56.33%
+ 278  MW161368|Sudan|Oct-2018                                           6.30%    passed     83.76%
+ 279  MW161367|Sudan|Oct-2018                                           6.47%    passed     88.91%
+ 280  MW161366|Sudan|Oct-2018                                           6.48%    passed     85.85%
+ 281  MW161365|Sudan|Oct-2018                                           6.49%    passed     87.48%
+ 282  MW161364|Sudan|Oct-2018                                           8.24%    passed     76.94%
+ 283  MW574902|India|2016                                               0.22%    passed     88.46%
+ 284  MW110477|China_Yunnan|12-Oct-2019                                 0.33%    passed     91.13%
+ 285  MW110476|China_Yunnan|12-Oct-2019                                 0.33%    passed     91.41%
+ 286  MW110475|China_Yunnan|08-Oct-2019                                 0.33%    passed     91.41%
+ 287  MW110474|China_Yunnan|06-Oct-2019                                 0.33%    passed     91.11%
+ 288  MW110473|China_Yunnan|06-Oct-2019                                 0.33%    passed     88.90%
+ 289  MW110472|China_Yunnan|28-Sep-2019                                 0.33%    passed     88.90%
+ 290  MT666073|Cameroon|28-Jun-2018                                     2.24%    passed     99.30%
+ 291  MT666072|Cameroon|20-Oct-2016                                     2.23%    passed     99.37%
+ 292  MT666071|Cameroon|17-Sep-2018                                     2.24%    passed     98.78%
+ 293  MT591107|Indonesia_Ambon_Maluku|Jul-2018                          5.65%    passed     42.66%
+ 294  MT591106|Indonesia_Tabanan_Bali|May-2018                          5.65%    passed     39.40%
+ 295  MT591105|Indonesia_Tabanan_Bali|Mar-2018                          5.65%    passed     43.76%
+ 296  MT591104|Indonesia_Tabanan_Bali|Jan-2017                          5.65%    passed     41.79%
+ 297  MT591103|Indonesia_Jambi_Sumatra|Dec-2015                         5.65%    passed     47.61%
+ 298  MT591102|Indonesia_Jambi_Sumatra|Dec-2015                         5.65%    passed     50.13%
+ 299  MT591101|Indonesia_Jambi_Sumatra|Dec-2015                         6.38%    passed     46.44%
+ 300  MT591100|Indonesia_Jambi_Sumatra|Dec-2015                         5.65%    passed     48.01%
+ 301  MT591099|Indonesia_Jambi_Sumatra|Dec-2015                         5.65%    passed     51.15%
+ 302  MT591098|Indonesia_Jambi_Sumatra|Dec-2015                         5.65%    passed     48.60%
+ 303  MT591097|Indonesia_Jambi_Sumatra|Dec-2015                         5.65%    passed     44.44%
+ 304  MT591096|Indonesia_Jambi_Sumatra|Dec-2015                         5.65%    passed     45.97%
+ 305  MT591095|Indonesia_Jambi_Sumatra|Dec-2015                         5.65%    passed     48.89%
+ 306  MT591094|Indonesia_Jambi_Sumatra|Dec-2015                         5.65%    passed     48.01%
+ 307  MT591093|Indonesia_Jambi_Sumatra|Dec-2015                         5.65%    passed     43.20%
+ 308  MT591092|Indonesia_Jambi_Sumatra|Dec-2015                         5.65%    passed     45.07%
+ 309  MT591091|Indonesia_Tabanan_Bali|Mar-2017                          5.65%    passed     52.37%
+ 310  MT591090|Indonesia_Tabanan_Bali|Feb-2017                          5.85%    passed     53.10%
+ 311  MT591089|Indonesia_Buleleng_Bali|Jan-2016                         5.65%    passed     52.04%
+ 312  MT591088|Indonesia_Buleleng_Bali|Jan-2016                         5.65%    passed     48.68%
+ 313  MT591087|Indonesia_Buleleng_Bali|Jan-2016                         5.65%    passed     47.44%
+ 314  MT591086|Indonesia_Buleleng_Bali|Jan-2016                         5.65%    passed     45.71%
+ 315  MT591085|Indonesia_Tomohon_Sulawesi|Dec-2014                      5.65%    passed     48.49%
+ 316  MT591084|Indonesia_Tomohon_Sulawesi|Feb-2015                      5.70%    passed     40.85%
+ 317  MT591083|Indonesia_Tomohon_Sulawesi|Feb-2015                      5.65%    passed     43.31%
+ 318  MT526904|Brazil|26-Jan-2017                                       0.25%    passed     89.32%
+ 319  MT526903|Brazil|26-Jan-2017                                       2.71%    passed     99.22%
+ 320  MT526902|Brazil|25-Jan-2017                                       0.23%    passed     89.36%
+ 321  MT526901|Brazil|25-Jan-2017                                       0.56%    passed     88.10%
+ 322  MT526900|Brazil|24-Jan-2017                                       0.24%    passed     90.92%
+ 323  MT023791|Djibouti|15-Dec-2019                                     4.85%    passed     77.41%
+ 324  LC580270|Thailand|2010                                            4.98%    passed     78.68%
+ 325  LC580269|Thailand_Bangkok|2019-10                                 4.98%    passed     71.46%
+ 326  LC580268|Thailand_Bangkok|2019-10                                 4.98%    passed     74.41%
+ 327  LC580267|Thailand_Bangkok|2019-10                                 4.98%    passed     71.28%
+ 328  LC580266|Thailand_Bangkok|2019-10                                 4.98%    passed     76.13%
+ 329  LC580265|Thailand_Bangkok|2019-10                                 4.98%    passed     73.40%
+ 330  LC580264|Thailand_Bangkok|2019-10                                 4.98%    passed     77.17%
+ 331  LC580263|Thailand_Bangkok|2019-10                                 4.98%    passed     74.07%
+ 332  LC580262|Thailand_Bangkok|2019-10                                 4.98%    passed     78.38%
+ 333  LC580261|Thailand_Bangkok|2019-10                                 4.98%    passed     73.23%
+ 334  LC580260|Thailand_Bangkok|2019-10                                 4.98%    passed     73.40%
+ 335  LC580259|Thailand_Bangkok|2019-10                                 4.98%    passed     74.27%
+ 336  LC580258|Thailand_Bangkok|2019-10                                 4.98%    passed     73.38%
+ 337  LC580257|Thailand_Bangkok|2019-10                                 4.98%    passed     76.58%
+ 338  LC580256|Thailand_Bangkok|2019-10                                 4.98%    passed     76.49%
+ 339  LC580255|Bangladesh_Dhaka|2017-12                                 4.98%    passed     75.67%
+ 340  LC580254|Bangladesh_Dhaka|2017-11                                 4.98%    passed     65.86%
+ 341  LC580253|Bangladesh_Dhaka|2017-11                                 4.98%    passed     73.80%
+ 342  LC580252|Bangladesh_Dhaka|2017-10                                 4.98%    passed     75.17%
+ 343  LC580251|Bangladesh_Dhaka|2017-10                                 4.98%    passed     69.14%
+ 344  LC580250|Bangladesh_Dhaka|2017-10                                 4.98%    passed     73.35%
+ 345  LC580249|Bangladesh|2017-10                                       4.98%    passed     71.97%
+ 346  LC580248|Bangladesh_Dhaka|2017-10                                 4.98%    passed     75.41%
+ 347  LC580247|Bangladesh_Dhaka|2017-09                                 4.98%    passed     71.87%
+ 348  LC580246|Bangladesh_Dhaka|2017-09                                 4.98%    passed     71.87%
+ 349  LC580245|Bangladesh_Dhaka|2017-09                                 4.98%    passed     69.55%
+ 350  LC580244|Bangladesh_Dhaka|2017-09                                 4.98%    passed     71.87%
+ 351  LC580243|Bangladesh_Dhaka|2017-09                                 4.98%    passed     74.45%
+ 352  LC580242|Bangladesh_Dhaka|2017-09                                 4.98%    passed     73.77%
+ 353  LC580241|Bangladesh_Dhaka|2017-09                                 4.98%    passed     73.89%
+ 354  LC580240|Bangladesh_Dhaka|2017-08                                 4.98%    passed     74.72%
+ 355  LC580239|Bangladesh_Dhaka|2017-07                                 4.98%    passed     72.77%
+ 356  LC580238|Bangladesh_Dhaka|2017-07                                 5.01%    passed     71.97%
+ 357  LC580237|Bangladesh_Dhaka|2017-07                                 4.98%    passed     73.46%
+ 358  LC580236|Bangladesh_Dhaka|2017-07                                 4.98%    passed     73.46%
+ 359  MT380162|Kenya_Mombasa|Apr-2018                                  15.13%    passed     90.01%
+ 360  MT380161|Kenya_Mombasa|Dec-2017                                   2.64%    passed     94.27%
+ 361  MT380160|Kenya_Mombasa|Apr-2018                                   9.90%    passed     94.62%
+ 362  MT380159|Kenya_Mombasa|May-2018                                  10.72%    passed     93.90%
+ 363  MT380158|Kenya_Mombasa|May-2018                                  12.03%    passed     95.03%
+ 364  MT380157|Kenya_Mombasa|May-2018                                  11.32%    passed     95.76%
+ 365  MT380156|Kenya_Mombasa|Apr-2018                                  11.33%    passed     96.02%
+ 366  MT380155|Kenya_Mombasa|Apr-2018                                  10.49%    passed     93.07%
+ 367  MT380154|Kenya_Mombasa|Apr-2018                                  10.14%    passed     95.51%
+ 368  MT380153|Kenya_Mombasa|Jan-2018                                  10.22%    passed     94.41%
+ 369  MT380152|Kenya_Mombasa|Jan-2018                                  10.46%    passed     93.37%
+ 370  MT380151|Kenya_Mombasa|Jan-2018                                  10.21%    passed     95.82%
+ 371  MT380150|Kenya_Mombasa|Jan-2018                                  10.14%    passed     95.43%
+ 372  MT380149|Kenya_Mombasa|Jan-2018                                  10.58%    passed     95.49%
+ 373  MT380148|Kenya_Mombasa|Jan-2018                                  10.08%    passed     95.35%
+ 374  MT380147|Kenya_Mombasa|Feb-2018                                  10.38%    passed     95.81%
+ 375  MT380146|Kenya_Mombasa|Feb-2018                                  10.27%    passed     93.57%
+ 376  MT877211|Brazil|03-Jun-2017                                      11.82%    passed     75.00%
+ 377  MT877210|Brazil|14-Apr-2017                                      58.29%    passed     90.29%
+ 378  MT877209|Brazil|16-Apr-2017                                      35.49%    passed     55.54%
+ 379  MT877208|Brazil|22-Mar-2017                                      25.26%    passed     77.72%
+ 380  MT877207|Brazil|19-Mar-2017                                      33.51%    passed     80.52%
+ 381  MT877206|Brazil|30-May-2017                                      26.41%    passed     60.68%
+ 382  MH647218|Singapore|Mar-2013                                       4.98%    passed     80.04%
+ 383  MH647217|Singapore|Feb-2013                                       4.98%    passed     80.23%
+ 384  MH647216|Singapore|Jan-2010                                       4.98%    passed     76.43%
+ 385  MH647215|Singapore|Feb-2010                                       4.98%    passed     75.96%
+ 386  MH647214|Singapore|Jan-2010                                       4.98%    passed     70.27%
+ 387  MH647213|Singapore|Jan-2010                                       4.98%    passed     76.43%
+ 388  MH647212|Singapore|Nov-2009                                       4.98%    passed     71.10%
+ 389  MH647211|Singapore|Dec-2009                                       4.98%    passed     77.20%
+ 390  MH647210|Singapore|Dec-2009                                       4.98%    passed     78.11%
+ 391  MH647209|Singapore|Jun-2013                                       0.99%    passed     85.45%
+ 392  MH647208|Singapore|Jun-2017                                       1.77%    passed     84.33%
+ 393  MH647207|Singapore|Oct-2015                                       1.49%    passed     88.41%
+ 394  MH647206|Singapore|Jun-2014                                       2.41%    passed     96.32%
+ 395  MH647205|Singapore|Apr-2014                                       2.68%    passed     97.89%
+ 396  MH647204|Singapore|Feb-2014                                       1.49%    passed     87.33%
+ 397  MH647203|Singapore|Feb-2014                                       1.34%    passed     85.71%
+ 398  MH647202|Singapore|Jan-2014                                       1.49%    passed     85.74%
+ 399  MH647201|Singapore|Dec-2013                                       1.49%    passed     88.46%
+ 400  MH647200|Singapore|Dec-2013                                       1.49%    passed     85.58%
+ 401  MH647199|Singapore|Dec-2013                                       1.49%    passed     85.37%
+ 402  MH647198|Singapore|Oct-2013                                       1.40%    passed     85.50%
+ 403  MH647197|Singapore|Oct-2013                                       1.49%    passed     89.43%
+ 404  MH647196|Singapore|Aug-2013                                       1.40%    passed     86.82%
+ 405  MH647195|Singapore|Jul-2013                                       1.70%    passed     88.20%
+ 406  MH647194|Singapore|Jun-2013                                       1.49%    passed     85.88%
+ 407  MH647193|Singapore|May-2013                                       1.50%    passed     71.25%
+ 408  MH647192|Singapore|May-2013                                       1.49%    passed     89.58%
+ 409  MH647191|Singapore|May-2013                                       1.49%    passed     87.33%
+ 410  MH647190|Singapore|May-2013                                       1.49%    passed     86.13%
+ 411  MH647189|Singapore|Apr-2013                                       2.47%    passed     96.53%
+ 412  MH647188|Singapore|Apr-2013                                       1.49%    passed     86.86%
+ 413  MH647187|Singapore|Feb-2013                                       1.37%    passed     88.01%
+ 414  MH647186|Singapore|Nov-2012                                       1.49%    passed     87.54%
+ 415  MH647185|Singapore|Nov-2012                                       1.50%    passed     72.65%
+ 416  MH647184|Singapore|Oct-2012                                       0.86%    passed     85.11%
+ 417  MH647183|Singapore|Apr-2012                                       1.50%    passed     70.89%
+ 418  MH647182|Singapore|Jan-2012                                       1.49%    passed     87.44%
+ 419  MH647181|Singapore|Nov-2011                                       0.89%    passed     88.11%
+ 420  MH647180|Singapore|Oct-2011                                       1.49%    passed     89.26%
+ 421  MT349960|Brazil_Sinop_MT|07-Feb-2018                              2.82%    passed     99.15%
+ 422  MN462662|Ecuador|2015-08-27                                       2.76%    passed     81.68%
+ 423  MN462661|Ecuador|2015-08-14                                       2.35%    passed     74.98%
+ 424  MN462660|Ecuador|2015-08-14                                       2.24%    passed     76.21%
+ 425  MN462659|Ecuador|2015-12-08                                       2.11%    passed     71.66%
+ 426  MN462658|Ecuador|2015-04-08                                       2.13%    passed     76.27%
+ 427  MN462657|Ecuador|2015-07-29                                       2.13%    passed     76.72%
+ 428  MN462656|Ecuador|2015-07-23                                       2.13%    passed     74.01%
+ 429  MN462655|Ecuador|2015-07-14                                       2.13%    passed     72.86%
+ 430  MN462654|Ecuador|2015-02-07                                       2.13%    passed     75.61%
+ 431  MN462653|Ecuador|2015-06-30                                       2.13%    passed     71.19%
+ 432  MN462652|Ecuador|2015-06-30                                       2.13%    passed     73.08%
+ 433  MN462651|Ecuador|2015-06-24                                       2.13%    passed     75.38%
+ 434  MN462650|Ecuador|2015-06-16                                       2.13%    passed     76.27%
+ 435  MN462649|Ecuador|2015-02-06                                       2.13%    passed     74.12%
+ 436  MN462648|Ecuador|2015-05-28                                       2.13%    passed     82.54%
+ 437  MN462647|Ecuador|2015-05-28                                       2.13%    passed     74.01%
+ 438  MN462646|Ecuador|2015-05-27                                       2.13%    passed     75.12%
+ 439  MN462645|Ecuador|2015-05-26                                       2.14%    passed     79.23%
+ 440  MN462644|Ecuador|2015-05-15                                       2.13%    passed     81.20%
+ 441  MN462643|Ecuador|2015-11-05                                       2.13%    passed     82.66%
+ 442  MN462642|Ecuador|2015-11-05                                       2.12%    passed     72.85%
+ 443  MN462641|Ecuador|2015-05-05                                       2.14%    passed     80.62%
+ 444  MN462640|Ecuador|2015-04-05                                       2.13%    passed     81.36%
+ 445  MN462639|Ecuador|2015-08-04                                       2.19%    passed     75.07%
+ 446  MN462638|Ecuador|2015-03-24                                       2.25%    passed     73.36%
+ 447  MT636922|Democratic_Republic_of_the_Congo|2019-03-22              2.49%    passed     93.42%
+ 448  MT636921|Democratic_Republic_of_the_Congo|2019-03-21              2.49%    passed     93.42%
+ 449  MT636920|Democratic_Republic_of_the_Congo|2019-03-21              2.49%    passed     93.42%
+ 450  MT636919|Democratic_Republic_of_the_Congo|2019-03-20              2.49%    passed     92.67%
+ 451  MT636918|Democratic_Republic_of_the_Congo|2019-02                 2.49%    passed     94.33%
+ 452  MT636917|Democratic_Republic_of_the_Congo|2019-03-21              2.49%    passed     93.42%
+ 453  MT636916|Democratic_Republic_of_the_Congo|2019-03-26              2.49%    passed     94.99%
+ 454  MT636915|Democratic_Republic_of_the_Congo|2019-03-26             16.53%    passed     58.29%
+ 455  MT636914|Democratic_Republic_of_the_Congo|2019-03-26              2.49%    passed     94.99%
+ 456  MT636913|Democratic_Republic_of_the_Congo|2019-02-06              2.49%    passed     93.17%
+ 457  MT636912|Democratic_Republic_of_the_Congo|2019-02-01              2.49%    passed     94.58%
+ 458  MT636911|Democratic_Republic_of_the_Congo|2019-01-21              2.49%    passed     93.62%
+ 459  MT636910|Democratic_Republic_of_the_Congo|2019-01-21              2.49%    passed     95.04%
+ 460  MT636909|Democratic_Republic_of_the_Congo|2019-01-21              2.49%    passed     93.94%
+ 461  MT636908|Democratic_Republic_of_the_Congo|2019-01-07              2.49%    passed     94.91%
+ 462  MT636907|Democratic_Republic_of_the_Congo|2019-01-07              2.49%    passed     94.24%
+ 463  MH349097|China|30-Apr-2017                                        0.36%    passed     86.35%
+ 464  MK040571|Thailand|21-Aug-2018                                     1.50%    passed     85.27%
+ 465  MK040570|Thailand|24-Aug-2018                                     1.43%    passed     90.59%
+ 466  MK040569|Thailand|25-Aug-2018                                     1.40%    passed     89.60%
+ 467  MN974224|Thailand_Yala|06-Sep-2019                                3.81%    passed     83.15%
+ 468  MN974213|Thailand_Bangkok|07-Oct-2019                             0.13%    passed     90.59%
+ 469  MN974212|Thailand_Kampheang_Phet|08-Jul-2019                      0.13%    passed     87.75%
+ 470  MN974211|Thailand_Pattani|12-Dec-2018                             0.13%    passed     90.47%
+ 471  MN974210|Thailand_Kampheang_Phet|26-Aug-2019                      0.13%    passed     90.15%
+ 472  MN974209|Thailand_Bangkok|07-Oct-2019                             0.13%    passed     86.34%
+ 473  MN974208|Thailand_Yala|12-Feb-2019                                0.13%    passed     90.31%
+ 474  MN974207|Thailand_Narathiwas|12-Mar-2019                          0.13%    passed     90.98%
+ 475  MN974206|Thailand_Satool|30-Aug-2019                              0.13%    passed     91.48%
+ 476  MN974205|Thailand_Bangkok|24-Jul-2019                             0.13%    passed     89.02%
+ 477  MN974204|Thailand_Bangkok|15-Aug-2019                             0.13%    passed     91.54%
+ 478  MN974203|Thailand_Nonthaburi|11-Sep-2019                          0.13%    passed     89.29%
+ 479  MN974223|Thailand_Pattalung|21-Jul-2018                           0.35%    passed     91.07%
+ 480  MN974222|Thailand_Yala|21-Jul-2018                                0.36%    passed     90.65%
+ 481  MN974221|Thailand_Pattani|19-Jul-2018                             0.35%    passed     90.50%
+ 482  MN974220|Thailand_Satool|19-Jul-2018                              0.35%    passed     89.12%
+ 483  MN974219|Thailand_Narathiwas|13-Jul-2018                          0.35%    passed     87.94%
+ 484  MN974218|Thailand_Narathiwas|02-Jul-2018                          0.35%    passed     87.88%
+ 485  MN974217|Thailand_Yala|02-Jul-2018                                0.35%    passed     87.94%
+ 486  MN974216|Thailand_Songkhla|30-Jun-2018                            0.35%    passed     86.66%
+ 487  MN974215|Thailand_Pattalung|23-Jun-2018                           0.35%    passed     86.27%
+ 488  MN974214|Thailand_Satool|20-Jun-2018                              0.35%    passed     86.27%
+ 489  MK518395|Brazil|16-May-2017                                       0.23%    passed     88.25%
+ 490  MT150100|Bolivia_Beni_Trinidad|27-Apr-2015                        6.82%    passed     48.86%
+ 491  MT150099|Bolivia_Santa_Cruz_de_la_Sierra|04-May-2015              5.45%    passed     51.69%
+ 492  MT150098|Bolivia_Santa_Cruz_de_la_Sierra|04-May-2015              5.45%    passed     51.02%
+ 493  MT150097|Bolivia_Santa_Cruz_de_la_Sierra|04-May-2015              5.45%    passed     50.98%
+ 494  MT150096|Bolivia_Santa_Cruz_de_la_Sierra|04-May-2015              5.45%    passed     49.65%
+ 495  MT150095|Bolivia_Cochabamba|26-Apr-2015                           5.45%    passed     52.11%
+ 496  MT150094|Bolivia_Santa_Cruz_de_la_Sierra|01-Mar-2015              5.50%    passed     50.22%
+ 497  MT150093|Bolivia_Santa_Cruz_de_la_Sierra|01-Mar-2015              5.45%    passed     52.31%
+ 498  MT150092|Bolivia_Santa_Cruz_de_la_Sierra|24-Feb-2015              5.45%    passed     51.69%
+ 499  MH000706|Brazil_Recife-PE|18-Feb-2016                             4.44%    passed     88.86%
+ 500  MH000705|Brazil_Recife-PE|25-Feb-2016                             3.95%    passed     88.63%
+ 501  MH000704|Brazil|19-Feb-2016                                       3.95%    passed     87.52%
+ 502  MH000703|Brazil_Recife-PE|15-Feb-2016                             3.95%    passed     88.09%
+ 503  MH000702|Brazil_Caruaru-PE|15-Feb-2016                            3.14%    passed     98.79%
+ 504  MH000701|Brazil_Recife-PE|22-Feb-2016                             3.96%    passed     88.26%
+ 505  MH000700|Brazil_Recife-PE|04-Feb-2016                             4.12%    passed     88.93%
+ 506  MN075150|Finland|Feb-2019                                         0.18%    passed     89.85%
+ 507  MN075149|Finland|Feb-2019                                         0.18%    passed     89.85%
+ 508  MN402892|China|02-Aug-2019                                        0.28%    passed     91.37%
+ 509  MN402891|China|30-Jul-2019                                        0.28%    passed     90.17%
+ 510  MN402890|China|26-Jul-2019                                        0.28%    passed     90.58%
+ 511  MN402889|China|25-Jul-2019                                        0.28%    passed     90.97%
+ 512  MN402888|Myanmar|01-Aug-2019                                      0.28%    passed     86.87%
+ 513  MN402887|Myanmar|01-Aug-2019                                      0.28%    passed     92.45%
+ 514  MN402886|China|02-Jul-2019                                        0.28%    passed     92.98%
+ 515  MN402885|China|08-May-2019                                        0.28%    passed     90.86%
+ 516  MN402884|China|28-Jun-2019                                        0.28%    passed     92.26%
+ 517  MN402883|China|07-May-2019                                        0.28%    passed     92.41%
+ 518  MK752958|Brazil_Ipecaeta_Bahia|23-Aug-2017                       28.07%    passed     62.15%
+ 519  MK752956|Brazil_Ipecaeta_Bahia|30-Aug-2017                       32.28%    passed     39.37%
+ 520  MK752955|Brazil_Coaraci_Bahia|05-Jun-2017                        36.93%    passed     76.43%
+ 521  MK752954|Brazil_Itamaraju_Bahia|22-Jun-2017                      40.26%    passed     74.19%
+ 522  MK752953|Brazil_Ipecaeta_Bahia|16-Aug-2017                       34.77%    passed     45.06%
+ 523  MK752952|Brazil_Ipecaeta_Bahia|30-Aug-2017                       40.77%    passed     52.46%
+ 524  MK752951|Brazil_Itamaraju_Bahia|27-Jul-2017                      35.84%    passed     46.15%
+ 525  MK752950|Brazil_Ipecaeta_Bahia|23-Aug-2017                       43.07%    passed     25.78%
+ 526  MK159127|Brazil_Feira_de_Santana-BA|10-Oct-2016                  14.12%    failed      1.71%
+ 527  MK159126|Brazil_Feira_de_Santana-BA|10-Oct-2016                   3.34%    passed     19.07%
+ 528  MK159125|Brazil_Feira_de_Santana-BA|10-Oct-2016                   3.47%    passed     25.18%
+ 529  MK159124|Brazil_Feira_de_Santana-BA|03-Oct-2016                   7.55%    passed      8.35%
+ 530  MK159123|Brazil_Feira_de_Santana-BA|03-Oct-2016                   5.23%    passed     22.61%
+ 531  MH124583|India|2016                                               0.97%    passed     89.80%
+ 532  MH124582|India|2016                                               0.59%    passed     87.21%
+ 533  MH124581|India|2016                                               0.58%    passed     88.06%
+ 534  MH124580|India|2016                                               0.55%    passed     87.83%
+ 535  MH124579|India|2010                                               0.63%    passed     85.94%
+ 536  MH124578|India|2010                                               0.58%    passed     85.88%
+ 537  MH124577|India|2010                                               0.98%    passed     89.87%
+ 538  MH124576|India|2010                                               1.04%    passed     86.69%
+ 539  MH124575|India|2010                                               0.72%    passed     83.12%
+ 540  MH124574|India|2010                                               1.35%    passed     82.72%
+ 541  MH124573|India|2010                                               0.78%    passed     82.21%
+ 542  MH124572|India|2010                                               0.63%    passed     81.12%
+ 543  MH124571|India|2010                                               0.55%    passed     84.27%
+ 544  MH124570|India|2010                                               0.53%    passed     83.91%
+ 545  MK468627|Bangladesh|18-Sep-2017                                  13.02%    passed     63.01%
+ 546  MK468626|Bangladesh|17-Jun-2017                                  18.82%    passed     65.89%
+ 547  MK468625|Bangladesh|31-May-2017                                  29.87%    passed     81.62%
+ 548  MK468624|Bangladesh|14-Jun-2017                                  60.39%    passed     40.82%
+ 549  MK468623|Bangladesh|31-May-2017                                  51.75%    passed     31.43%
+ 550  MK468622|Bangladesh|31-Aug-2017                                  11.49%    passed     99.08%
+ 551  MK468621|Bangladesh|18-Jul-2017                                   2.45%    passed     94.87%
+ 552  MK468620|Bangladesh|11-Jul-2017                                   0.22%    passed     84.88%
+ 553  MK468619|Bangladesh|08-Jul-2017                                   1.62%    passed     73.30%
+ 554  MK468618|Bangladesh|29-Jun-2017                                   3.75%    passed     83.22%
+ 555  MK468617|Bangladesh|21-Jun-2017                                   0.20%    passed     83.56%
+ 556  MK468616|Bangladesh|19-Jun-2017                                  18.25%    passed     29.86%
+ 557  MK468615|Bangladesh|10-Jul-2017                                   0.19%    passed     85.95%
+ 558  MK468614|Bangladesh|10-Jul-2017                                  18.31%    passed     56.71%
+ 559  MK468613|Bangladesh|24-Jun-2017                                   0.18%    passed     83.54%
+ 560  MK468612|Bangladesh|17-Jun-2017                                   0.19%    passed     85.33%
+ 561  MK468611|Bangladesh|31-May-2017                                   0.17%    passed     83.11%
+ 562  MK468610|Bangladesh|22-Nov-2017                                   0.14%    passed     78.91%
+ 563  MK468609|Bangladesh|19-Jun-2017                                   4.25%    passed     76.93%
+ 564  MK468608|Bangladesh|17-Jun-2017                                   0.46%    passed     80.32%
+ 565  MK163628|Sudan|Oct-2018                                           9.88%    passed     89.68%
+ 566  MN630017|Australia_Queensland|2019                                0.12%    passed     86.94%
+ 567  MK551553|India|03-Oct-2016                                        3.53%    passed     87.43%
+ 568  MK551552|India|30-Sep-2016                                        3.56%    passed     90.74%
+ 569  MK518340|India|28-Sep-2016                                        3.63%    passed     89.01%
+ 570  MK935344|Republic_of_the_Congo_Pointe-Noire|05-Mar-2019           0.33%    passed     81.84%
+ 571  MK935343|Republic_of_the_Congo_Pointe-Noire|20-Mar-2019           3.31%    passed     85.22%
+ 572  MH329303|Colombia_Cartagena_Bolivar|01-Oct-2014                   1.29%    passed     65.54%
+ 573  MH329296|Colombia_Mahates_Bolivar|13-Sep-2014                     1.50%    passed     69.95%
+ 574  MH329295|Colombia_Planeta_Rica|Nov-2014                           0.29%    passed     63.76%
+ 575  MH329294|Colombia_Ovejas|15-Oct-2014                              1.37%    passed     69.98%
+ 576  MH329293|Colombia_Cartagena|Nov-2014                              0.39%    passed     68.92%
+ 577  MK690206|Republic_of_the_Congo_Diosso|2019                        2.49%    passed     94.02%
+ 578  MK473640|India|18-Oct-2016                                        0.93%    passed     80.82%
+ 579  MK473639|India|23-Oct-2016                                        7.81%    passed     31.06%
+ 580  MK473638|India|20-Sep-2016                                        1.23%    passed     83.49%
+ 581  MK473637|India|20-Sep-2016                                        1.58%    passed     83.33%
+ 582  MK473636|India|20-Sep-2016                                        6.29%    passed      8.89%
+ 583  MK473635|India|02-Sep-2016                                        3.23%    passed     57.66%
+ 584  MK473634|India|2016                                               3.86%    passed     92.33%
+ 585  MK473633|India|19-Oct-2016                                       12.02%    passed     67.63%
+ 586  MK473632|India|17-Sep-2016                                        4.29%    passed     94.70%
+ 587  MK473631|India|11-Sep-2016                                        4.76%    passed     94.50%
+ 588  MK473630|India|2016                                               2.81%    passed     96.10%
+ 589  MK473629|India|18-Oct-2016                                        4.24%    passed     94.72%
+ 590  MK473628|India|13-Oct-2016                                        1.43%    passed     91.88%
+ 591  MK473627|India|23-Oct-2016                                        0.56%    passed     87.59%
+ 592  MK473626|India|06-Oct-2016                                        1.73%    passed     97.67%
+ 593  MK473625|India|26-Aug-2016                                        1.07%    passed     91.13%
+ 594  MK473624|India|23-Oct-2016                                        3.04%    passed     91.57%
+ 595  MK473623|India|20-Sep-2016                                        1.21%    passed     89.55%
+ 596  MK473622|India|13-Sep-2016                                        0.90%    passed     91.73%
+ 597  MK473621|India|02-Sep-2016                                        0.52%    passed     89.10%
+ 598  MH670649|China|19-Nov-2009                                        0.37%    passed     61.60%
+ 599  MH823668|Brazil_Cuiaba-MT|05-Jan-2017                             0.13%    passed     91.46%
+ 600  MH823667|Brazil_Cuiaba-MT|01-Mar-2017                             0.13%    passed     91.76%
+ 601  MH823666|Brazil_Cuiaba-MT|01-Mar-2017                             0.13%    passed     89.80%
+ 602  MH823665|Brazil_Cuiaba-MT|16-Mar-2017                             0.13%    passed     90.50%
+ 603  MH823664|Brazil_Cuiaba-MT|16-Mar-2017                             0.13%    passed     90.65%
+ 604  MH823663|Brazil_Cuiaba-MT|05-Jan-2017                             0.14%    passed     91.34%
+ 605  MK134713|Brazil_Roraima|11-Nov-2014                              14.59%    passed     59.40%
+ 606  MK134712|Brazil_Roraima_Boa_Vista|03-Dec-2014                    15.16%    passed     56.83%
+ 607  MK121908|Brazil_Roraima_Boa_Vista|05-Mar-2017                    27.25%    passed     73.63%
+ 608  MK121907|Brazil_Roraima_Boa_Vista|27-Feb-2017                     7.11%    passed     82.34%
+ 609  MK121906|Brazil_Roraima_Boa_Vista|27-Feb-2017                     8.70%    passed     80.11%
+ 610  MK121905|Brazil_Roraima_Boa_Vista|02-Mar-2017                    32.20%    passed     72.89%
+ 611  MK121904|Brazil_Roraima_Boa_Vista|02-Mar-2017                     9.15%    passed     88.67%
+ 612  MK121903|Brazil_Roraima_Boa_Vista|15-Mar-2017                    11.56%    passed     81.01%
+ 613  MK121902|Brazil_Roraima_Boa_Vista|17-Mar-2017                    14.54%    passed     90.96%
+ 614  MK121901|Brazil_Roraima_Boa_Vista|17-Mar-2017                    20.91%    passed     98.15%
+ 615  MK121900|Brazil_Roraima_Iracema|17-Mar-2017                      15.85%    passed     87.92%
+ 616  MK121899|Brazil_Roraima_Boa_Vista|17-Mar-2017                    17.42%    passed     91.95%
+ 617  MK121898|Brazil_Roraima_Boa_Vista|22-Feb-2017                    15.82%    passed     90.76%
+ 618  MK121897|Brazil_Roraima_Bonfim|20-Feb-2017                       48.03%    passed     41.85%
+ 619  MK121896|Brazil_Roraima_Boa_Vista|03-Mar-2017                    14.30%    passed     91.86%
+ 620  MK121895|Brazil_Amazonas_Manaus|20-Mar-2017                      14.30%    passed     92.51%
+ 621  MK121894|Brazil_Amazonas_Manaus|31-Jan-2016                      19.85%    passed     94.94%
+ 622  MK121893|Brazil_Amazonas_Manaus|15-Jul-2015                      14.30%    passed     91.94%
+ 623  MK121892|Brazil_Amazonas_Manaus|15-Jul-2015                      23.33%    passed     91.91%
+ 624  MK121891|Brazil_Amazonas_Manaus|15-Jul-2015                      14.30%    passed     91.32%
+ 625  MK120202|Italy|25-Aug-2007                                        3.55%    passed     92.30%
+ 626  MK120201|Italy|20-Aug-2007                                        3.55%    passed     90.83%
+ 627  MK120200|Italy|09-Aug-2017                                        2.78%    passed     94.93%
+ 628  MK120199|Italy|02-Aug-2017                                        2.47%    passed     96.82%
+ 629  MK120198|Italy|02-Aug-2017                                        3.00%    passed     94.86%
+ 630  MK120197|Italy|02-Aug-2017                                        3.75%    passed     83.24%
+ 631  MK120196|Italy|30-Sep-2017                                        2.76%    passed     96.36%
+ 632  MK120195|Italy|27-Sep-2017                                        3.03%    passed     93.96%
+ 633  MK120194|Italy|27-Sep-2017                                        2.92%    passed     96.57%
+ 634  MH754507|Italy|08-Sep-2017                                        2.69%    passed     96.44%
+ 635  MH423810|Kenya_Mandera|31-May-2016                                9.39%    passed     97.90%
+ 636  MH423806|Kenya_Mandera|01-Jun-2016                                3.27%    passed     97.71%
+ 637  MH423805|Kenya_Mandera|01-Jun-2016                                2.64%    passed     98.89%
+ 638  MH423804|Kenya_Mandera|01-Jun-2016                                2.50%    passed     98.67%
+ 639  MH423803|Kenya_Mandera|31-May-2016                                2.37%    passed     98.45%
+ 640  MH423802|Kenya_Mandera|31-May-2016                                2.17%    passed     98.03%
+ 641  MH423801|Kenya_Mandera|31-May-2016                                2.55%    passed     99.30%
+ 642  MH423800|Kenya_Mandera|31-May-2016                                2.99%    passed     97.01%
+ 643  MH423799|Kenya_Mandera|31-May-2016                                2.46%    passed     99.00%
+ 644  MH423798|Kenya_Mandera|08-May-2016                                2.65%    passed     98.12%
+ 645  MH423797|Kenya_Mandera|07-May-2016                                2.24%    passed     97.96%
+ 646  MH400249|China|23-Aug-2017                                        0.33%    passed     83.97%
+ 647  MH507158|Italy|2017                                               3.04%    passed     96.77%
+ 648  MG912993|China|30-Aug-2017                                        0.52%    passed     88.46%
+ 649  MG137428|India|29-Jun-2016                                        0.39%    passed     87.07%
+ 650  KT324228|Malaysia|Feb-2009                                        0.59%    passed     88.94%
+ 651  KT324227|Malaysia_KL|Mar-2009                                     0.13%    passed     88.36%
+ 652  KT324226|Malaysia_KL-SalakS|Jan-2009                              0.62%    passed     89.88%
+ 653  KT324225|Malaysia_NegeriSembilan-Kpilah|Jan-2009                  0.69%    passed     90.48%
+ 654  KT324224|Malaysia_Johor-BatuPahat|Dec-2008                        0.58%    passed     88.53%
+ 655  MF740874|Pakistan_Karachi|2017                                    4.98%    passed     71.87%
+ 656  MG000876|Haiti|17-May-2016                                        0.13%    passed     88.84%
+ 657  MG000875|Haiti|27-Jun-2016                                        0.17%    passed     90.06%
+ 658  MG664851|China|2012                                               0.37%    passed     50.73%
+ 659  MG664850|China|2010                                               0.13%    passed     87.10%
+ 660  KX619423|India|23-Jul-2014                                        3.19%    passed     94.71%
+ 661  KX619422|India|08-Jul-2014                                        3.53%    passed     90.44%
+ 662  MF773569|Papua_New_Guinea|2013                                    0.13%    passed     89.23%
+ 663  MF773568|Malaysia|2008                                            0.13%    passed     87.96%
+ 664  MF773567|Borneo|2011                                              0.13%    passed     87.16%
+ 665  MF773566|Bangladesh|2017                                          0.12%    passed     84.86%
+ 666  LC259094|Angola|2016-05-11                                        0.13%    passed     77.85%
+ 667  LC259093|Malaysia|2009-01-06                                      0.13%    passed     88.46%
+ 668  LC259091|Indonesia|2015-05-07                                     0.36%    passed     56.67%
+ 669  LC259087|Indonesia|2013-07-06                                     0.36%    passed     48.83%
+ 670  LC259085|Indonesia|2012-10-15                                     0.36%    passed     48.91%
+ 671  LC259084|Philippines|2012-09-25                                   0.35%    passed     61.09%
+ 672  LC259083|Indonesia|2009-09-11                                     0.22%    passed     51.31%
+ 673  KX097988|Indonesia|2015                                           0.90%    passed     53.36%
+ 674  KX097986|Indonesia|2015                                           1.62%    passed     62.82%
+ 675  KX097982|Indonesia|2015                                           0.37%    passed     50.67%
+ 676  LC331252|Japan_Tokyo|2016                                         0.47%    passed     93.35%
+ 677  MG049915|Italy|2017                                               1.88%    passed     95.57%
+ 678  MF076577|Laos_Champasack_Khong_Done_Khao|31-Aug-2012              4.98%    passed     81.43%
+ 679  MF076576|Laos_Champasack_Khong_Donkao|31-Aug-2012                 4.98%    passed     80.03%
+ 680  MF076575|Laos_Champasack_Mounlapamok_Nadee|16-Aug-2012            4.98%    passed     77.79%
+ 681  MF076574|Laos_Champasack_Mounlapamok_Huiko|16-Aug-2012            4.98%    passed     78.06%
+ 682  MF076573|Laos_Champasack_Mounlapamok_Salaosong|07-Aug-2012        4.98%    passed     77.79%
+ 683  MF076572|Laos_Champasack_Mounlapamok_Luangso|12-Mar-2013          4.98%    passed     76.92%
+ 684  MF076571|Laos_Champasack_Pathoumphone_Bangliengnai|28-Mar-2013    4.98%    passed     81.35%
+ 685  MF076570|Laos_Champasack_Khong_Khone_Noy|28-Mar-2013              4.98%    passed     75.52%
+ 686  MF076569|Laos_Champasack_Khong_Khone_Noy|28-Mar-2013              4.98%    passed     75.67%
+ 687  MF076568|Laos_Champasack_Khong_Khone_Noy|28-Mar-2013              4.98%    passed     82.76%
+ 688  MF503628|Hong_Kong|26-Aug-2016                                    1.44%    passed     89.98%
+ 689  MF499120|Hong_Kong|15-Sep-2016                                    0.79%    passed     85.19%
+ 690  MF774619|Pakistan|2016                                            0.30%    passed     87.01%
+ 691  MF774618|Pakistan|2016                                            0.30%    passed     84.39%
+ 692  MF774617|Pakistan|2016                                            0.28%    passed     88.96%
+ 693  MF774616|Pakistan|2016                                            0.29%    passed     87.53%
+ 694  MF774615|Pakistan|2016                                            0.29%    passed     87.81%
+ 695  MF774614|Pakistan|2016                                            0.82%    passed     89.53%
+ 696  MF774613|Pakistan|2016                                            0.40%    passed     87.37%
+ 697  KY124329|Brazil_Rio_de_Janeiro|16-Mar-2016                        4.34%    passed     84.12%
+ 698  KY124328|Brazil_Rio_de_Janeiro|16-Mar-2016                        2.56%    passed     98.27%
+ 699  KP003813|Republic_of_the_Congo_Brazzaville|2011                   4.72%    passed     70.58%
+ 700  KY704955|Brazil_Joao_Pessoa_Paraiba|17-Jun-2016                   0.19%    passed     90.50%
+ 701  KY704954|Brazil_Joao_Pessoa_Paraiba|20-Jun-2016                   0.19%    passed     90.34%
+ 702  KY704953|Brazil_Maceio_Alagoas|09-Apr-2016                       25.36%    passed     36.81%
+ 703  KY704952|Brazil_Maceio_Alagoas|07-Apr-2016                        6.43%    passed     82.79%
+ 704  KY704951|Brazil_Maceio_Alagoas|13-Apr-2016                       41.96%    failed      1.01%
+ 705  KY704950|Brazil_Maceio_Alagoas|07-Apr-2016                       32.40%    passed     24.39%
+ 706  KY704949|Brazil_Maceio_Alagoas|07-Apr-2016                       40.29%    passed     31.71%
+ 707  KY704948|Brazil_Maceio_Alagoas|19-Apr-2016                       43.77%    passed     24.59%
+ 708  KY704947|Brazil_Maceio_Alagoas|15-Apr-2016                       16.27%    passed     42.96%
+ 709  KY704946|Brazil_Capela_Alagoas|17-Apr-2016                       33.51%    passed      5.88%
+ 710  KY704945|Brazil_Maceio_Alagoas|14-Apr-2016                       48.31%    passed     16.10%
+ 711  KY704944|Brazil_Maceio_Alagoas|19-Apr-2016                       39.29%    passed     20.01%
+ 712  KY704943|Brazil_Maceio_Alagoas|19-Apr-2016                       21.53%    passed     28.94%
+ 713  KY704942|Brazil_Maceio_Alagoas|16-Apr-2016                        4.72%    passed     86.50%
+ 714  KY704941|Brazil_Maceio_Alagoas|14-Apr-2016                       48.08%    passed     47.62%
+ 715  KY704940|Brazil_Maceio_Alagoas|14-Apr-2016                       27.65%    passed     11.84%
+ 716  KY704939|Brazil_Maceio_Alagoas|17-Apr-2016                        5.23%    passed     80.68%
+ 717  KY704938|Brazil_Maceio_Alagoas|19-Apr-2016                       32.99%    passed     23.73%
+ 718  KY704937|Brazil_Maceio_Alagoas|15-Apr-2016                       52.08%    passed     16.73%
+ 719  KY704936|Brazil_Maceio_Alagoas|01-Apr-2016                       38.46%    passed     17.63%
+ 720  KY704935|Brazil_Maceio_Alagoas|01-Apr-2016                       26.54%    passed     10.35%
+ 721  KY704934|Brazil_Maceio_Alagoas|30-Mar-2016                       37.87%    passed      5.47%
+ 722  KY704933|Brazil_Maceio_Alagoas|30-Mar-2016                       21.14%    passed     68.37%
+ 723  KX619426|India|03-Dec-2015                                        1.00%    passed     84.71%
+ 724  KX619425|India|11-Sep-2015                                        2.17%    passed     91.78%
+ 725  KX619424|India|22-Sep-2015                                        0.95%    passed     87.06%
+ 726  KY055011|Brazil_Aracaju-SE|20-Feb-2016                            0.15%    passed     90.30%
+ 727  KY435486|British_Virgin_Islands|23-Jan-2014                       5.08%    passed     45.80%
+ 728  KY435485|Dominica|28-Jan-2014                                     5.08%    passed     46.11%
+ 729  KY435484|Dominica|30-Jan-2014                                     5.08%    passed     44.18%
+ 730  KY435483|Anguilla|12-Feb-2014                                     5.08%    passed     45.00%
+ 731  KY435482|Saint_Kitts_and_Nevis|11-Mar-2014                        5.08%    passed     47.05%
+ 732  KY435481|Saint_Lucia|22-Apr-2014                                  5.08%    passed     45.00%
+ 733  KY435480|Haiti|27-Apr-2014                                        5.08%    passed     47.35%
+ 734  KY435479|Antigua_and_Barbuda|28-Apr-2014                          5.08%    passed     45.29%
+ 735  KY435478|Guyana|17-May-2014                                       5.08%    passed     46.67%
+ 736  KY435477|Guyana|31-May-2014                                       5.08%    passed     43.67%
+ 737  KY435476|Turks_and_Caicos_Islands|05-Jun-2014                     5.08%    passed     45.00%
+ 738  KY435475|Saint_Vincent_and_the_Grenadines|22-May-2014             5.08%    passed     44.54%
+ 739  KY435474|Saint_Lucia|19-May-2014                                  5.08%    passed     44.18%
+ 740  KY435473|Saint_Lucia|22-May-2014                                  5.08%    passed     46.23%
+ 741  KY435472|Grenada|16-Jun-2014                                      5.08%    passed     45.00%
+ 742  KY435471|Turks_and_Caicos_Islands|11-Jun-2014                     5.08%    passed     43.34%
+ 743  KY435470|Bahamas|08-Jul-2014                                      5.08%    passed     46.23%
+ 744  KY435469|Grenada|30-Jul-2014                                      5.08%    passed     45.29%
+ 745  KY435468|Jamaica|06-Aug-2014                                      5.08%    passed     44.87%
+ 746  KY435467|Montserrat|24-Jul-2014                                   5.08%    passed     43.63%
+ 747  KY435466|Barbados|06-Aug-2014                                     5.08%    passed     45.92%
+ 748  KY435465|Trinidad_and_Tobago|17-Aug-2014                          5.08%    passed     44.18%
+ 749  KY435464|Barbados|15-Aug-2014                                     5.08%    passed     46.23%
+ 750  KY435463|Suriname|02-Aug-2014                                     5.08%    passed     46.94%
+ 751  KY435462|Jamaica|25-Aug-2014                                      5.08%    passed     45.00%
+ 752  KY435461|Jamaica|24-Aug-2014                                      5.08%    passed     45.80%
+ 753  KY435460|Cayman_Islands|06-Jul-2014                               5.08%    passed     45.80%
+ 754  KY435459|Cayman_Islands|17-Sep-2014                               5.08%    passed     45.10%
+ 755  KY435458|Guyana|03-Nov-2014                                       5.08%    passed     47.83%
+ 756  KY435457|Montserrat|30-Oct-2014                                   5.08%    passed     45.29%
+ 757  KY435456|Suriname|17-Aug-2014                                     5.08%    passed     46.11%
+ 758  KY435455|Anguilla|12-Nov-2014                                     5.08%    passed     43.34%
+ 759  KY435454|Trinidad_and_Tobago|Nov-2011                             5.08%    passed     43.60%
+ 760  MF001513|USA|2015                                                 0.21%    passed     66.73%
+ 761  MF001512|USA|2015                                                 0.21%    passed     63.89%
+ 762  MF001510|USA|2015                                                 0.19%    passed     63.81%
+ 763  MF001508|USA|2015                                                 0.36%    passed     65.25%
+ 764  MF001507|USA|2015                                                 0.17%    passed     62.62%
+ 765  KY038947|Central_African_Republic_Bangui|Dec-1983                 0.34%    passed     84.51%
+ 766  KY038946|Central_African_Republic_Bozo|Jun-1975                   0.27%    passed     80.61%
+ 767  KY751908|Australia_imported_from_India|2016                       0.25%    passed     86.82%
+ 768  KX009171|Thailand|2013                                            1.78%    passed     89.55%
+ 769  KX009170|Thailand|2013                                            1.42%    passed     88.72%
+ 770  KX009169|Thailand|2013                                            1.47%    passed     84.60%
+ 771  KX009168|Thailand|2013                                            1.74%    passed     93.55%
+ 772  KX009167|Thailand|2013                                            0.52%    passed     86.65%
+ 773  KY272970|Dominican_Republic|2014                                  2.68%    passed     69.83%
+ 774  KY272969|Dominican_Republic|2014                                  2.68%    passed     66.19%
+ 775  KY272968|Dominican_Republic|2014                                  2.68%    passed     68.05%
+ 776  KY272967|Dominican_Republic|2014                                  2.68%    passed     66.73%
+ 777  KY272966|Dominican_Republic|2014                                  2.68%    passed     66.73%
+ 778  KY272965|Dominican_Republic|2014                                  2.68%    passed     69.35%
+ 779  KY272964|Dominican_Republic|2014                                  2.68%    passed     69.01%
+ 780  KY272963|Dominican_Republic|2014                                  2.68%    passed     68.05%
+ 781  KY272962|Dominican_Republic|2014                                  2.68%    passed     68.05%
+ 782  KY272961|Dominican_Republic|2014                                  2.68%    passed     66.73%
+ 783  KY057363|India|28-Aug-2016                                        0.12%    passed     88.64%
+ 784  KU365373|Colombia_Sincelejo|Dec-2014                              0.23%    passed     66.12%
+ 785  KU940226|Brazil|01-Aug-2015                                      33.43%    passed     77.84%
+ 786  KU940225|Brazil|15-Jul-2015                                       0.19%    passed     90.78%
+ 787  KT308163|Philippines|2012                                         2.61%    passed     80.26%
+ 788  KT308162|Philippines|2012                                         2.67%    passed     66.14%
+ 789  KT308161|Philippines|2012                                         1.24%    passed     82.79%
+ 790  KT308160|Philippines|2012                                         1.83%    passed     72.07%
+ 791  KT308159|Philippines|2012                                         1.83%    passed     71.50%
+ 792  FJ513679|Sri_Lanka|Apr-2008                                       0.92%    passed     84.81%
+ 793  FJ513675|Sri_Lanka|Apr-2008                                       0.93%    passed     83.85%
+ 794  FJ513673|Sri_Lanka|Apr-2008                                       0.98%    passed     84.91%
+ 795  FJ513657|Sri_Lanka|Apr-2008                                       1.10%    passed     82.83%
+ 796  FJ513654|Sri_Lanka|Apr-2008                                       0.92%    passed     87.19%
+ 797  FJ513645|Sri_Lanka|Apr-2008                                       0.95%    passed     86.17%
+ 798  FJ513637|Sri_Lanka|Mar-2008                                       0.98%    passed     80.72%
+ 799  FJ513635|Sri_Lanka|Mar-2008                                       0.85%    passed     80.70%
+ 800  FJ513632|Sri_Lanka|Mar-2008                                       1.12%    passed     86.79%
+ 801  FJ513629|Sri_Lanka|Mar-2008                                       0.93%    passed     82.95%
+ 802  FJ513628|Sri_Lanka|Mar-2008                                       0.88%    passed     83.83%
+ 803  KX228391|Brazil_Pernambuco|03-Mar-2016                            1.93%    passed     97.83%
+ 804  KU355832|Brazil|2015                                              2.06%    passed     63.31%
+ 805  KC488650|China|2012                                               0.72%    passed     64.06%
+ 806  KX168429|Malaysia_Selangor|2009                                   1.13%    passed     60.16%
+ 807  KT192707|Nicaragua|31-Oct-2014                                    0.72%    passed     66.41%
+ 808  FR687348|Malaysia_Sungai_Buloh_Selangor|03-Apr-2009               5.53%    passed     72.09%
+ 809  FR687347|Malaysia_Sungai_Buloh_Selangor|12-Feb-2009               5.53%    passed     70.30%
+ 810  FR687346|Malaysia_Johor|16-Feb-2009                               5.53%    passed     72.04%
+ 811  FR687345|Malaysia_Ipoh_Perak|05-Feb-2009                          5.53%    passed     76.10%
+ 812  FR687344|Malaysia_Kelantan|12-Jan-2009                            5.53%    passed     70.56%
+ 813  FR687343|Malaysia_Negeri_Sembilan|12-Dec-2008                     5.53%    passed     68.18%
+ 814  FR687342|Malaysia_Kuala_Lumpur|10-Nov-2008                        5.53%    passed     74.28%
+ 815  FR687341|Malaysia_Muar_Johor|05-Nov-2008                          5.53%    passed     77.32%
+ 816  FR687340|Malaysia_Muar_Johor|21-Aug-2008                          5.53%    passed     75.92%
+ 817  KT327164|Mexico|2014                                              0.23%    passed     68.07%
+ 818  KT336782|India_Kumily_Kerala|27-May-2013                          4.98%    passed     76.15%
+ 819  KT336781|India_Kumily_Kerala|06-Mar-2013                          4.98%    passed     72.82%
+ 820  KT336780|India_Anchuthengu_Kerala|03-Aug-2012                     4.98%    passed     80.96%
+ 821  KT336779|India_Thiruvananthapuram_Kerala|03-Aug-2012              4.98%    passed     79.22%
+ 822  KT336778|India_Thiruvananthapuram_Kerala|16-Jul-2010              4.98%    passed     73.40%
+ 823  KT336777|India_Kozhikkode_Kerala|08-Apr-2009                      4.98%    passed     76.12%
+ 824  KR264950|Puerto_Rico|16-Jul-2014                                  4.24%    passed     54.84%
+ 825  KC614648|Yemen_Al_Hodayda_Al_Khawkha_district|25-Jan-2011         0.41%    passed     85.93%
+ 826  KP851710|Mexico_Jalisco|30-May-2014                               0.16%    passed     70.39%
+ 827  KP851709|Mexico_Chiapas|15-Oct-2014                               0.17%    passed     61.38%
+ 828  KP164570|Brazil_Feira_de_Santana-BA|03-Sep-2014                   1.28%    passed     90.43%
+ 829  KP164569|Brazil_Feira_de_Santana-BA|28-Aug-2014                   0.13%    passed     88.90%
+ 830  KP164568|Brazil_Feira_de_Santana-BA|26-Aug-2014                   0.13%    passed     88.84%
+ 831  KP164567|Brazil_Oiapoque-AP|28-Aug-2014                           1.34%    passed     65.37%
+ 832  KM673291|Indonesia_Bali|Jan-2013                                  0.37%    passed     50.66%
+ 833  KF151175|Myanmar|11-Dec-2009                                      0.29%    passed     85.26%
+ 834  KF151174|Myanmar|13-Jul-2009                                      0.29%    passed     87.21%
+ 835  KM923920|Malaysia|09-Mar-2007                                     0.10%    passed     60.21%
+ 836  KM923919|Malaysia|09-Mar-2007                                     0.10%    passed     61.50%
+ 837  KM923918|Malaysia|09-Mar-2007                                     0.10%    passed     61.50%
+ 838  KM923917|Malaysia|09-Mar-2007                                     0.10%    passed     60.21%
+ 839  KP003812|Gabon|2007                                               2.24%    passed     97.69%
+ 840  KP003811|Italy|2007                                               2.23%    passed     94.64%
+ 841  KP003810|Italy|2007                                               2.23%    passed     94.56%
+ 842  KP003809|Mayotte|2006                                             0.30%    passed     80.58%
+ 843  KP003808|Madagascar|2006                                          2.23%    passed     90.18%
+ 844  KP003807|France|2006                                              2.25%    passed     92.24%
+ 845  KJ579187|Thailand|14-Oct-2013                                     0.93%    passed     88.31%
+ 846  KJ579186|Thailand|14-Oct-2013                                     0.92%    passed     88.15%
+ 847  KJ579185|Thailand|14-Oct-2013                                     0.92%    passed     89.23%
+ 848  KJ579184|Thailand|14-Oct-2013                                     0.92%    passed     89.17%
+ 849  KF590566|Myanmar|2010                                             0.81%    passed     87.12%
+ 850  KF590565|Myanmar|2010                                             0.88%    passed     85.80%
+ 851  KF590564|Myanmar|2010                                             1.11%    passed     85.67%
+ 852  KJ941050|USA|2006                                                 1.45%    passed     82.67%
+ 853  AB860301|Philippines|2013                                         0.59%    passed     62.80%
+ 854  KJ796852|Thailand|12-Feb-2009                                     0.49%    passed     90.14%
+ 855  KJ796851|Thailand|01-Dec-2008                                     0.51%    passed     87.75%
+ 856  KJ796850|Thailand|16-Sep-2009                                     0.60%    passed     89.92%
+ 857  KJ796849|Thailand|23-Dec-2008                                     0.48%    passed     85.33%
+ 858  KJ796848|Thailand|06-Nov-2008                                     0.49%    passed     88.22%
+ 859  KJ796847|Thailand|05-Mar-2009                                     0.52%    passed     89.18%
+ 860  KJ796846|India_Chaliyum_Kozhikkode_Kerala_State|18-Aug-2009       0.52%    passed     81.79%
+ 861  KJ796845|India_Baypore_Kozhikkode_Kerala_State|04-Aug-2009        0.52%    passed     80.62%
+ 862  KJ796844|India_Baypore_Kozhikkode_Kerala_State|04-Aug-2009        0.52%    passed     82.49%
+ 863  JQ065892|China|Oct-2010                                           5.72%    passed     75.02%
+ 864  JQ065891|China|Oct-2010                                           1.20%    passed     89.94%
+ 865  JQ065890|China|Oct-2010                                           1.23%    passed     91.27%
+ 866  JQ065889|China|Oct-2010                                           1.67%    passed     87.66%
+ 867  JQ065888|China|Oct-2010                                           1.67%    passed     90.08%
+ 868  JQ065887|China|Oct-2010                                           1.71%    passed     88.07%
+ 869  JQ065886|China|Oct-2010                                           1.71%    passed     89.76%
+ 870  JQ065885|China|Oct-2010                                           1.71%    passed     88.07%
+ 871  KF872195|Russia|24-Sep-2013                                       0.45%    passed     46.76%
+ 872  KC862329|Indonesia|2010                                           0.13%    passed     87.50%
+ 873  JN558836|India_Andhra_Pradesh_Kadapa|2009                         0.79%    passed     79.07%
+ 874  JN558835|India_Andhra_Pradesh_Kadapa|2008                         0.79%    passed     77.98%
+ 875  JN558834|India_Andhra_Pradesh_Chittoor|2009                       0.79%    passed     82.09%
+ 876  JQ861260|Cambodia|28-May-2011                                     0.70%    passed     85.73%
+ 877  JQ861259|Cambodia|26-May-2011                                     6.03%    passed     90.53%
+ 878  JQ861258|Cambodia|16-Aug-2011                                     0.79%    passed     87.67%
+ 879  JQ861257|Cambodia|16-Aug-2011                                     0.60%    passed     86.85%
+ 880  JQ861256|Cambodia|16-Aug-2011                                     0.61%    passed     86.01%
+ 881  JQ861255|Cambodia|16-Aug-2011                                     0.76%    passed     87.75%
+ 882  JQ861254|Cambodia|16-Aug-2011                                     0.64%    passed     86.83%
+ 883  JQ861253|Cambodia|16-Aug-2011                                     0.68%    passed     87.68%
+ 884  HE806461|New_Caledonia|28-Feb-2011                                1.83%    passed     66.77%
+ 885  FR717337|France_La_Reunion|26-Dec-2005                            2.26%    passed     89.97%
+ 886  FR717336|France_La_Reunion|26-Dec-2005                            2.26%    passed     89.97%
+ 887  JX088705|China|2010                                               0.13%    passed     88.67%
+ 888  GU189061|Sri_Lanka|2006                                           0.13%    passed     86.29%
+ 889  HM045823|Angola|1962                                              0.62%    passed     84.36%
+ 890  HM045822|Central_African_Republic|Oct-1978                        0.63%    passed     84.92%
+ 891  HM045821|Senegal|20-Mar-1963                                      0.33%    passed     73.28%
+ 892  HM045820|Cote_d_Ivoire|Dec-1993                                   0.68%    passed     90.51%
+ 893  HM045819|Senegal|Feb-1993                                         0.63%    passed     89.94%
+ 894  HM045818|Cote_d_Ivoire|Sep-1981                                   0.63%    passed     90.20%
+ 895  HM045817|Senegal|Nov-2005                                         0.57%    passed     96.56%
+ 896  HM045816|Senegal|23-Nov-1966                                      0.64%    passed     98.31%
+ 897  HM045815|Senegal|Feb-1979                                         0.65%    passed     97.02%
+ 898  HM045814|Thailand|1975                                            0.20%    passed     71.97%
+ 899  HM045813|India|06-Nov-1963                                        0.19%    passed     86.35%
+ 900  HM045812|Uganda|1982                                              0.44%    passed     83.03%
+ 901  HM045811|Tanzania|22-Feb-1953                                     0.43%    passed     75.19%
+ 902  HM045810|Thailand|1958                                            0.19%    passed     88.24%
+ 903  HM045809|Democratic_Republic_of_the_Congo|1960                    0.63%    passed     78.71%
+ 904  HM045808|Thailand|1978                                            0.20%    passed     74.95%
+ 905  HM045807|Nigeria|13-Apr-1965                                      0.47%    passed     99.38%
+ 906  HM045806|India|1986                                               1.44%    passed     81.24%
+ 907  HM045805|South_Africa|1976                                        1.21%    passed     82.66%
+ 908  HM045803|India|06-Nov-1963                                        0.18%    passed     86.83%
+ 909  HM045801|Sri_Lanka|2007                                           0.51%    passed     81.83%
+ 910  HM045800|Philippines|1985                                         0.85%    passed     84.49%
+ 911  HM045799|Sri_Lanka|2007                                           0.58%    passed     82.26%
+ 912  HM045798|Senegal|Nov-1966                                         0.56%    passed     94.94%
+ 913  HM045797|Indonesia|1985                                           0.19%    passed     71.18%
+ 914  HM045796|Thailand|1995                                            0.19%    passed     58.93%
+ 915  HM045795|South_Africa|1976                                        1.13%    passed     86.43%
+ 916  HM045794|USA_California|2006                                      0.45%    passed     80.29%
+ 917  HM045792|South_Africa|Apr-1956                                    0.49%    passed     72.35%
+ 918  HM045791|Indonesia|1983                                           0.19%    passed     73.22%
+ 919  HM045790|Philippines|17-Jul-1985                                  0.81%    passed     85.56%
+ 920  HM045789|Thailand|1988                                            0.24%    passed     78.85%
+ 921  HM045788|India|1973                                               0.20%    passed     80.73%
+ 922  HM045787|Thailand|1995                                            0.21%    passed     59.69%
+ 923  HM045786|Nigeria|07-Jul-1964                                      0.46%    passed     99.25%
+ 924  HM045785|Senegal|Nov-1966                                         0.47%    passed     94.66%
+ 925  HM045784|Central_African_Republic|19-Nov-1984                     0.47%    passed     72.31%
+ 926  GU301781|Thailand|27-Jul-2009                                     0.13%    passed     88.31%
+ 927  GU301780|Thailand|21-Oct-2008                                     0.13%    passed     88.64%
+ 928  GU301779|Thailand|04-Sep-2009                                     0.13%    passed     89.79%
+ 929  GU908223|Thailand|14-Aug-2009                                     1.32%    passed     93.47%
+ 930  GQ905863|Thailand|25-May-2009                                     0.63%    passed     84.03%
+ 931  GU199353|China|2008                                               1.18%    passed     87.70%
+ 932  GU199352|China|2008                                               1.26%    passed     89.70%
+ 933  GU199351|China|2008                                               0.29%    passed     86.05%
+ 934  GU199350|China|2008                                               1.18%    passed     81.21%
+ 935  GU013528|Sri_Lanka|Mar-2008                                       0.94%    passed     83.27%
+ 936  GU013529|Sri_Lanka|Mar-2008                                       0.92%    passed     82.41%
+ 937  GU013530|Sri_Lanka|Apr-2008                                       0.95%    passed     82.96%
+ 938  FJ807899|Malaysia|2008                                            0.13%    passed     87.95%
+ 939  FJ807898|Bangladesh|2008                                          0.13%    passed     86.90%
+ 940  FJ807896|Singapore|2006                                           0.13%    passed     83.34%
+ 941  GQ428215|India|29-May-2008                                        0.52%    passed     87.24%
+ 942  GQ428214|India|29-Jun-2008                                        0.52%    passed     88.23%
+ 943  GQ428213|India|13-Jul-2007                                        0.52%    passed     86.33%
+ 944  GQ428212|India|12-Jul-2007                                        0.52%    passed     86.62%
+ 945  GQ428211|India|07-Oct-2006                                        0.52%    passed     83.97%
+ 946  GQ428210|India|07-Oct-2006                                        0.52%    passed     80.04%
+ 947  FJ959103|Mauritius|2006                                           0.13%    passed     84.46%
+ 948  FJ000069|India_Kerala|Jun-2007                                    0.13%    passed     87.24%
+ 949  FJ000068|India_Karnataka|Aug-2006                                 0.13%    passed     85.67%
+ 950  FJ000067|India_Maharashtra|Aug-2006                               0.13%    passed     84.94%
+ 951  FJ000066|India_Kerala|Sep-2006                                    0.13%    passed     88.48%
+ 952  FJ000065|India_Gujarat|Sep-2006                                   0.13%    passed     85.67%
+ 953  FJ000064|India_Gujarat|Sep-2006                                   0.16%    passed     86.35%
+ 954  FJ000063|India_Karnataka|Oct-2006                                 0.13%    passed     88.28%
+ 955  FJ000062|India_Gujarat|Sep-2006                                   0.13%    passed     87.87%
+ 956  EU244823|Italy|2007                                               0.32%    passed     84.91%
+ 957  EU372006|India_Kerala|11-Jun-2007                                 0.44%    passed     82.49%
+ 958  EF210157|India|2006                                               0.44%    passed     84.05%
+ 959  EU564335|India_Rajasthan|31-Oct-2006                              0.14%    passed     83.83%
+ 960  EU564334|Mauritius|14-Feb-2006                                    0.46%    passed     81.88%
+ 961  MW759070|India|2010                                               3.42%    passed     98.88%
+ 962  ON009843|Tanzania|1953                                            0.49%    passed     75.83%
+ 963  ON009842|Brazil|2015                                              0.78%    passed     87.20%
+ 964  MW281311|France|12-Sep-2017                                       0.85%    passed     92.15%
+ 965  OL999095|Cambodia|24-May-2021                                     0.36%    passed     86.56%
+ 966  OL999094|Cambodia|05-Mar-2021                                     1.86%    passed     92.51%
+ 967  OL999093|Cambodia|24-Feb-2021                                     0.19%    passed     90.80%
+ 968  OL999092|Cambodia|12-Feb-2021                                     1.86%    passed     91.42%
+ 969  OL999091|Cambodia|25-Dec-2020                                     0.49%    passed     88.34%
+ 970  OL979157|Cambodia|02-Nov-2020                                     1.51%    passed     81.87%
+ 971  OL979156|Cambodia|16-Nov-2020                                     0.45%    passed     88.88%
+ 972  OL979155|Cambodia|18-Nov-2020                                     0.19%    passed     91.49%
+ 973  OL979154|Cambodia|07-Dec-2020                                     0.50%    passed     86.69%
+ 974  OL979153|Cambodia|24-Dec-2020                                     0.19%    passed     84.15%
+ 975  OL893107|Cambodia|14-Oct-2020                                     0.41%    passed     90.35%
+ 976  OL893106|Cambodia|09-Oct-2020                                     0.21%    passed     91.00%
+ 977  OL893105|Cambodia|06-Oct-2020                                     0.39%    passed     91.93%
+ 978  OL849991|Cambodia|28-Sep-2020                                     1.86%    passed     94.48%
+ 979  OL849990|Cambodia|22-Sep-2020                                     1.86%    passed     93.12%
+ 980  OL741630|Cambodia|23-Jul-2020                                     0.22%    passed     86.03%
+ 981  OL705486|Cambodia|15-Jul-2020                                     0.23%    passed     85.96%
+ 982  OK655884|Indonesia_Jambi|21-Nov-2016                              0.43%    passed     60.79%
+ 983  OK655883|Indonesia_Jambi|24-Nov-2016                              0.64%    passed     70.36%
+ 984  MW473668|USA|02-Feb-2018                                          0.26%    passed     80.14%
+ 985  MT668625|China_Tianjin|04-Nov-2019                                0.84%    passed     91.88%
+ 986  MW260519|Brazil_Natal_Rio_Grande_do_Norte|30-Mar-2019             6.04%    passed     83.24%
+ 987  MW260518|Brazil_Natal_Rio_Grande_do_Norte|30-Mar-2019             4.75%    passed     89.65%
+ 988  MW260517|Brazil_Natal_Rio_Grande_do_Norte|29-Mar-2019             7.85%    passed     84.33%
+ 989  MW260516|Brazil_Natal_Rio_Grande_do_Norte|28-Mar-2019             6.82%    passed     88.34%
+ 990  MW260515|Brazil_Natal_Rio_Grande_do_Norte|27-Mar-2019             6.87%    passed     87.22%
+ 991  MW260514|Brazil_Natal_Rio_Grande_do_Norte|28-Mar-2019             7.97%    passed     91.66%
+ 992  MW260513|Brazil_Natal_Rio_Grande_do_Norte|23-Mar-2019             5.45%    passed     88.79%
+ 993  MW260512|Brazil_Natal_Rio_Grande_do_Norte|23-Mar-2019             6.38%    passed     88.94%
+ 994  MT640256|Thailand_Bangkok|05-Feb-2020                             3.26%    passed     93.56%
+ 995  MT640255|Thailand_Samut_Prakan|17-Jan-2020                        1.54%    passed     95.24%
+ 996  MT495608|Thailand_Samut_Sakhon|06-Nov-2019                        1.39%    passed     85.44%
+ 997  MT495607|Thailand_Chon_Buri|28-Aug-2019                           1.72%    passed     90.71%
+ 998  MT495606|Thailand_Tak|12-Aug-2019                                 1.25%    passed     80.85%
+ 999  MT495605|Thailand_Ranong|14-Apr-2019                              1.40%    passed     88.38%
+1000  MW321606|India|2016                                               0.18%    passed     89.20%
+1001  MT038409|Paraguay_Fernando_de_la_Mora|06-May-2015                13.59%    passed     67.44%
+1002  MT038408|Paraguay_Fernando_de_la_Mora|03-May-2015                13.93%    passed     62.75%
+1003  MT038407|Paraguay_Fernando_de_la_Mora|28-Apr-2015                13.77%    passed     68.44%
+1004  MT038406|Paraguay_Guarambare|26-Apr-2015                         15.15%    passed     68.05%
+1005  MT038405|Paraguay_Pedro_Juan_Caballero|03-Nov-2014               13.48%    passed     72.02%
+1006  MT038404|Paraguay_Luque|30-Nov-2014                              15.00%    passed     69.23%
+1007  MT038403|Paraguay_Bella_Vista|10-Jul-2018                         6.52%    passed     86.24%
+1008  MT038402|Paraguay_Bella_Vista_Norte|03-Jul-2018                   6.27%    passed     84.54%
+1009  MT038401|Paraguay_Pedro_Juan_Caballero|25-Jun-2018                8.73%    passed     78.74%
+1010  MT038400|Paraguay_Bella_Vista_Norte|29-Jun-2018                  29.15%    passed     78.50%
+1011  MT038399|Paraguay_Pedro_Juan_Caballero|25-Jun-2018                9.11%    passed     76.25%
+1012  MT038398|Paraguay_Yaguaron|21-Mar-2016                            6.57%    passed     56.88%
+1013  MT038397|Paraguay_Yaguaron|21-Jan-2016                            6.22%    passed     59.33%
+1014  MT038396|Paraguay_Yaguaron|22-Feb-2016                            7.69%    passed     71.63%
+1015  MT038395|Paraguay_Yaguaron|16-Feb-2016                            6.30%    passed     58.29%
+1016  MT038394|Paraguay_Yaguaron|19-Feb-2016                            6.87%    passed     60.23%
+1017  MT038393|Paraguay_Yaguaron|20-Jan-2016                            6.55%    passed     57.66%
+1018  MW042255|India|Jun-2019                                           0.03%    passed     82.81%
+1019  MW042254|India|Oct-2014                                           0.61%    passed     89.63%
+1020  MT123010|China|01-Sep-2017                                        0.33%    passed     84.97%
+1021  MT123009|China|01-Sep-2017                                        0.33%    passed     85.92%
+1022  MT123008|China|01-Sep-2017                                        0.33%    passed     84.22%
+1023  MT933051|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-05-28     6.48%    passed     89.07%
+1024  MT933050|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-08-14     7.31%    passed     83.36%
+1025  MT933049|Brazil_Southeast-RJ_state__Duque_de_Caxias|2019-07-07    6.42%    passed     85.45%
+1026  MT933048|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-07-31    16.08%    passed     82.65%
+1027  MT933047|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-07-02     7.33%    passed     77.66%
+1028  MT933046|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-07-01     6.64%    passed     82.24%
+1029  MT933045|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-06-19     7.32%    passed     74.79%
+1030  MT933044|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-06-13     6.49%    passed     87.81%
+1031  MT933043|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-06-07     8.02%    passed     84.31%
+1032  MT933042|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-05-11     9.12%    passed     86.11%
+1033  MT933041|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-05-08     7.25%    passed     81.21%
+1034  MT933040|Brazil_Southeast-RJ_state__Duque_de_Caxias|2019-05-06   15.09%    passed     89.73%
+1035  MT933039|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-05-06     6.33%    passed     92.01%
+1036  MT933038|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-04-22     6.43%    passed     84.42%
+1037  MT933037|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-04-18    14.40%    passed     69.96%
+1038  MT933036|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-04-17     6.42%    passed     86.82%
+1039  MT933035|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-04-17     7.28%    passed     83.87%
+1040  MT933034|Brazil_Southeast-RJ_state__Duque_de_Caxias|2019-03-15    6.42%    passed     84.60%
+1041  MT933033|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-03-08     7.23%    passed     79.65%
+1042  MT933032|Brazil_Southeast-RJ_state__Rio_de_Janeiro|2019-02-05     7.31%    passed     81.74%
+1043  MT933031|Brazil_Southeast-RJ_state__Duque_de_Caxias|2019-02-18   22.79%    passed     97.05%
+1044  MT933030|Brazil_Southeast-RJ_state__Duque_de_Caxias|2019-01-28    7.32%    passed     83.45%
+1045  MT933029|Brazil_Southeast-RJ_state__Duque_de_Caxias|2019-01-21    7.50%    passed     80.90%
+1046  KX262991|Saint_Martin|2013                                        0.59%    passed     66.28%
+1047  MT228633|Saint_Martin|2013                                        1.27%    passed     67.21%
+1048  MN428527|Brazil_Cuiaba_Mato_Grosso|06-Mar-2018                   10.59%    passed     88.39%
+1049  MN428526|Brazil_Cuiaba_Mato_Grosso|06-Mar-2018                   13.56%    passed     87.08%
+1050  MN428525|Brazil_Cuiaba_Mato_Grosso|06-Mar-2018                   10.58%    passed     88.90%
+1051  MN428524|Brazil_Cuiaba_Mato_Grosso|06-Mar-2018                   13.50%    passed     78.50%
+1052  MN428523|Brazil_Cuiaba_Mato_Grosso|08-Mar-2018                   10.60%    passed     91.06%
+1053  MN428522|Brazil_Cuiaba_Mato_Grosso|08-Mar-2018                   16.55%    passed     78.51%
+1054  MN428521|Brazil_Cuiaba_Mato_Grosso|16-Mar-2018                   12.93%    passed     82.41%
+1055  MN428520|Brazil_Cuiaba_Mato_Grosso|09-Mar-2018                   14.79%    passed     76.55%
+1056  MN428519|Brazil_Cuiaba_Mato_Grosso|16-Mar-2018                   11.84%    passed     88.34%
+1057  MN428518|Brazil_Cuiaba_Mato_Grosso|08-Mar-2018                   10.60%    passed     88.22%
+1058  MN428517|Brazil_Cuiaba_Mato_Grosso|17-Mar-2018                   15.86%    passed     83.69%
+1059  MN428516|Brazil_Cuiaba_Mato_Grosso|23-Mar-2018                   13.55%    passed     82.56%
+1060  MN428515|Brazil_Cuiaba_Mato_Grosso|20-Mar-2018                    6.49%    passed     85.25%
+1061  MN428514|Brazil_Cuiaba_Mato_Grosso|13-Mar-2018                   47.02%    passed     87.64%
+1062  MN428513|Brazil_Cuiaba_Mato_Grosso|26-Apr-2018                   17.34%    passed     81.43%
+1063  MN428512|Brazil_Cuiaba_Mato_Grosso|13-Mar-2018                   11.54%    passed     78.26%
+1064  MN428511|Brazil_Cuiaba_Mato_Grosso|18-Apr-2018                   14.92%    passed     82.51%
+1065  MN428510|Brazil_Cuiaba_Mato_Grosso|25-Apr-2018                   20.07%    passed     74.83%
+1066  MN428509|Brazil_Cuiaba_Mato_Grosso|13-Mar-2018                   16.09%    passed     62.04%
+1067  MN428508|Brazil_Cuiaba_Mato_Grosso|27-Apr-2018                   21.82%    passed     38.20%
+1068  MN428507|Brazil_Cuiaba_Mato_Grosso|05-Jul-2018                   17.28%    passed     87.03%
+1069  MN428506|Brazil_Cuiaba_Mato_Grosso|01-Feb-2018                    6.43%    passed     83.75%
+1070  MN428505|Brazil_Cuiaba_Mato_Grosso|21-May-2018                   16.16%    passed     76.91%
+1071  MN428504|Brazil_Cuiaba_Mato_Grosso|23-Feb-2018                    6.41%    passed     84.05%
+1072  MN783353|Brazil_Feira_de_SantanaBahia|13-Oct-2016                 0.80%    passed     97.71%
+1073  MN783352|Brazil_Feira_de_SantanaBahia|01-Apr-2016                 0.80%    passed     96.76%
+1074  MN756625|China|2019-08-08                                         2.79%    passed     94.45%
+1075  MK993757|Brazil_Natal_RN|13-Jan-2016                              0.90%    passed     97.35%
+1076  MK993756|Brazil_Natal_RN|14-Jan-2016                              1.03%    passed     96.13%
+1077  MK993755|Brazil_Natal_RN|14-Jan-2016                              3.26%    passed     97.81%
+1078  MK156064|Brazil|26-Sep-2018                                      24.39%    passed     93.78%
+1079  MK156063|Brazil|26-Sep-2018                                      13.72%    passed     94.90%
+1080  MK156062|Brazil|26-Sep-2018                                      16.46%    passed     86.61%
+1081  MK156061|Brazil|26-Sep-2018                                      19.47%    passed     72.87%
+1082  MK156060|Brazil|26-Sep-2018                                      23.21%    passed     88.82%
+1083  MK156059|Brazil|21-Sep-2018                                      30.23%    passed     86.29%
+1084  MK156058|Brazil|21-Sep-2018                                      19.58%    passed     84.42%
+1085  MK156057|Brazil|21-Sep-2018                                      21.02%    passed     88.98%
+1086  MK156056|Brazil|21-Sep-2018                                      46.79%    passed     81.19%
+1087  MK156055|Brazil|21-Sep-2018                                      28.56%    passed     56.59%
+1088  MK156054|Brazil|21-Sep-2018                                      21.43%    passed     92.06%
+1089  MK156053|Brazil|21-Sep-2018                                      34.27%    passed     60.18%
+1090  MK468801|Thailand|27-Jun-2018                                     1.85%    passed     92.12%
+1091  MK848202|Thailand|21-Nov-2018                                     6.45%    passed     79.54%
+1092  MK086029|Sri_Lanka|14-Nov-2006                                    0.13%    passed     83.80%
+1093  MK244656|Brazil_Niteroi_Rio_de_Janeiro|06-Apr-2018               40.23%    passed     77.90%
+1094  MK244655|Brazil_Niteroi_Rio_de_Janeiro|06-Apr-2018               33.39%    passed     76.60%
+1095  MK244654|Brazil_Niteroi_Rio_de_Janeiro|06-Apr-2018               46.16%    passed     93.02%
+1096  MK244653|Brazil_Niteroi_Rio_de_Janeiro|06-Apr-2018               37.54%    passed     93.41%
+1097  MK244652|Brazil_Niteroi_Rio_de_Janeiro|05-Apr-2018               28.99%    passed     88.15%
+1098  MK244651|Brazil_Niteroi_Rio_de_Janeiro|05-Apr-2018               30.26%    passed     77.84%
+1099  MK244650|Brazil_Niteroi_Rio_de_Janeiro|03-Apr-2018               31.99%    passed     81.62%
+1100  MK244649|Brazil_Niteroi_Rio_de_Janeiro|03-Apr-2018               50.16%    passed     98.12%
+1101  MK244648|Brazil_Niteroi_Rio_de_Janeiro|04-Apr-2018               36.42%    passed     91.20%
+1102  MK244647|Brazil_Niteroi_Rio_de_Janeiro|27-Mar-2018               20.55%    passed     70.12%
+1103  MK244646|Brazil_Niteroi_Rio_de_Janeiro|28-Mar-2018               34.28%    passed     82.39%
+1104  MK244645|Brazil_Niteroi_Rio_de_Janeiro|28-Mar-2018               30.96%    passed     90.03%
+1105  MK244644|Brazil_Niteroi_Rio_de_Janeiro|26-Mar-2018               26.67%    passed     89.95%
+1106  MK244643|Brazil_Niteroi_Rio_de_Janeiro|28-Mar-2018               50.18%    passed     97.58%
+1107  MK244642|Brazil_Sao_Joao_de_Meriti_Rio_de_Janeiro|18-Feb-2018    24.21%    passed     92.85%
+1108  MK244641|Brazil_Niteroi_Rio_de_Janeiro|09-Mar-2017               29.88%    passed     48.91%
+1109  MK244640|Brazil_Sao_Goncalo_Rio_de_Janeiro|07-Mar-2017           20.29%    passed     75.01%
+1110  MK244639|Brazil_Sao_Joao_de_Meriti_Rio_de_Janeiro|19-Apr-2016    27.58%    passed     81.53%
+1111  MK244638|Brazil_Mesquita_Rio_de_Janeiro|05-Apr-2016              23.30%    passed     81.68%
+1112  MK244637|Brazil_Rio_de_Janeiro|10-May-2016                       29.28%    passed     90.97%
+1113  MK244636|Brazil_Rio_de_Janeiro|02-May-2016                       17.55%    passed     87.84%
+1114  MK244635|Brazil_Rio_de_Janeiro|19-Feb-2016                       34.32%    passed     64.68%
+1115  MK244634|Brazil_Rio_de_Janeiro|27-Apr-2016                       26.00%    passed     74.00%
+1116  MK244633|Brazil_Rio_de_Janeiro|06-May-2016                       25.50%    passed     73.62%
+1117  MK244632|Brazil_Rio_de_Janeiro|05-Apr-2016                       37.72%    passed     69.98%
+1118  MG925665|China|15-Dec-2017                                        0.79%    passed     89.97%
+1119  KY883764|Singapore|Jan-2013                                       0.58%    passed     57.88%
+1120  KY704002|Nicaragua_Managua|15-Jan-2015                            4.39%    passed     49.47%
+1121  KY704001|Nicaragua_Managua|21-Jan-2015                            1.77%    passed     74.25%
+1122  KY703999|Nicaragua_Managua|19-Jan-2015                            0.57%    passed     73.22%
+1123  KY703998|Nicaragua_Managua|06-Aug-2015                            1.50%    passed     65.94%
+1124  KY703997|Nicaragua_Managua|19-Dec-2015                            0.57%    passed     70.19%
+1125  KY703996|Nicaragua_Managua|26-Dec-2015                            2.33%    passed     72.56%
+1126  KY703995|Nicaragua_Managua|13-Aug-2015                            1.58%    passed     72.58%
+1127  KY703992|Nicaragua_Managua|05-Aug-2015                            0.79%    passed     66.91%
+1128  KY703991|Nicaragua_Managua|09-Oct-2015                            0.61%    passed     67.53%
+1129  KY703989|Nicaragua_Managua|03-Dec-2014                            1.03%    passed     61.81%
+1130  KY703988|Nicaragua_Managua|27-Nov-2014                            4.39%    passed     47.74%
+1131  KY703987|Nicaragua_Managua|04-Nov-2015                            0.57%    passed     67.87%
+1132  KY703984|Nicaragua_Managua|27-Nov-2014                            0.61%    passed     66.22%
+1133  KY703983|Nicaragua_Managua|11-Dec-2014                            1.36%    passed     72.92%
+1134  KY703982|Nicaragua_Managua|30-Nov-2015                            1.07%    passed     73.32%
+1135  KY703981|Nicaragua_Managua|21-Nov-2014                           38.26%    passed     10.27%
+1136  KY703980|Nicaragua_Managua|06-Sep-2015                            4.45%    passed     50.88%
+1137  KY703979|Nicaragua_Matagalpa|22-Sep-2015                          4.39%    passed     40.88%
+1138  KY703977|Nicaragua_Managua|03-Aug-2015                            1.56%    passed     67.46%
+1139  KY703976|Nicaragua_Managua|05-Sep-2015                            1.81%    passed     70.19%
+1140  KY703975|Nicaragua_Masaya|22-Sep-2015                             4.39%    passed     50.13%
+1141  KY703974|Nicaragua_Managua|03-Sep-2015                            0.61%    passed     75.42%
+1142  KY703973|Nicaragua_Managua|06-Nov-2015                            4.39%    passed     47.02%
+1143  KY703972|Nicaragua_Managua|09-Dec-2014                            0.33%    passed     58.60%
+1144  KY703971|Nicaragua_Carazo|28-Nov-2015                             3.21%    passed     68.39%
+1145  KY703968|Nicaragua_Managua|23-Jan-2015                            3.31%    passed     66.97%
+1146  KY703966|Nicaragua_Managua|10-Dec-2015                            0.68%    passed     65.50%
+1147  KY703965|Nicaragua_Managua|03-Sep-2015                            4.40%    passed     50.18%
+1148  KY703964|Nicaragua_Leon|16-Oct-2015                              32.67%    passed     21.04%
+1149  KY703963|Nicaragua_Managua|07-Sep-2015                            4.21%    passed     49.59%
+1150  KY703962|Nicaragua_Nuevo_Segovia|01-Oct-2015                      0.39%    passed     66.67%
+1151  KY703961|Nicaragua_Managua|06-Aug-2015                            2.33%    passed     70.82%
+1152  KY703959|Nicaragua_Managua|03-Dec-2014                            4.40%    passed     49.81%
+1153  KY703958|Nicaragua_Managua|25-Nov-2015                            0.61%    passed     62.06%
+1154  KY703957|Nicaragua_Managua|05-Sep-2015                            0.18%    passed     69.44%
+1155  KY703956|Nicaragua_Managua|28-Oct-2014                            1.80%    passed     72.46%
+1156  KY703954|Nicaragua_Managua|05-Nov-2014                            4.39%    passed     47.38%
+1157  KY703953|Nicaragua_Managua|06-Oct-2015                           25.27%    passed     36.31%
+1158  KY703951|Nicaragua_Managua|05-Aug-2015                            2.00%    passed     71.25%
+1159  KY703950|Nicaragua_Managua|25-Nov-2014                            0.57%    passed     69.15%
+1160  KY703949|Nicaragua_Managua|15-Jan-2015                            0.39%    passed     68.35%
+1161  KY703948|Nicaragua_Managua|18-Aug-2015                            4.39%    passed     48.61%
+1162  KY703947|Nicaragua_Managua|19-Nov-2014                            4.39%    passed     48.26%
+1163  KY703945|Nicaragua_Managua|02-Oct-2015                            0.57%    passed     61.63%
+1164  KY703944|Nicaragua_Managua|03-Oct-2015                            4.39%    passed     50.70%
+1165  KY703943|Nicaragua_Managua|10-Oct-2015                            4.39%    passed     50.66%
+1166  KY703942|Nicaragua_Managua|04-Aug-2015                            0.57%    passed     70.90%
+1167  KY703941|Nicaragua_Carazo|28-Oct-2015                            12.04%    passed     86.94%
+1168  KY703940|Nicaragua_Managua|28-Oct-2014                            0.57%    passed     71.04%
+1169  KY703939|Nicaragua|01-Dec-2015                                   19.69%    passed     64.89%
+1170  KY703938|Nicaragua_Managua|18-Feb-2015                            0.39%    passed     66.85%
+1171  KY703937|Nicaragua_Managua|15-Oct-2015                            0.39%    passed     67.04%
+1172  KY703936|Nicaragua_Managua|07-Oct-2015                            4.49%    passed     46.15%
+1173  KY703935|Nicaragua_Managua|02-Dec-2015                            0.38%    passed     51.55%
+1174  KY703934|Nicaragua_Managua|27-Oct-2015                            4.39%    passed     47.74%
+1175  KY703933|Nicaragua_Managua|09-Oct-2015                            4.39%    passed     48.24%
+1176  KY703932|Nicaragua_Managua|19-Aug-2015                            2.16%    passed     81.03%
+1177  KY703931|Nicaragua_Managua|19-Sep-2015                            1.46%    passed     73.13%
+1178  KY703930|Nicaragua_Managua|24-Nov-2015                            0.38%    passed     67.67%
+1179  KY703929|Nicaragua_Boaco|02-Dec-2015                             26.49%    passed     34.66%
+1180  KY703928|Nicaragua_Managua|30-Jan-2015                            4.39%    passed     50.37%
+1181  KY703926|Nicaragua_Managua|20-Aug-2015                            0.38%    passed     70.04%
+1182  KY703925|Nicaragua_Managua|06-Sep-2015                            1.61%    passed     74.40%
+1183  KY703924|Nicaragua_Managua|13-Aug-2015                            0.61%    passed     75.30%
+1184  KY703923|Nicaragua_Managua|19-Sep-2015                            4.39%    passed     50.30%
+1185  KY703922|Nicaragua_Managua|06-Sep-2015                            4.64%    passed     46.65%
+1186  KY703921|Nicaragua_Managua|04-Nov-2015                            4.39%    passed     49.82%
+1187  KY703920|Nicaragua_Granada|16-Nov-2015                            3.63%    passed     54.38%
+1188  KY703919|Nicaragua_Managua|29-Jan-2015                            4.39%    passed     51.03%
+1189  KY703918|Nicaragua_Managua|26-Jan-2015                            4.39%    passed     48.93%
+1190  KY703917|Nicaragua_Esteli|08-Jan-2016                             4.39%    passed     47.69%
+1191  KY703916|Nicaragua_Managua|04-Aug-2015                            2.26%    passed     77.17%
+1192  KY703915|Nicaragua_Managua|03-Aug-2015                            4.39%    passed     47.11%
+1193  KY703914|Nicaragua_Managua|15-Aug-2015                            0.39%    passed     70.04%
+1194  KY703913|Nicaragua_Managua|13-Aug-2015                            0.61%    passed     65.53%
+1195  KY703912|Nicaragua_Carazo|14-Dec-2015                             6.82%    passed     53.51%
+1196  KY703911|Nicaragua_Managua|17-Dec-2015                            2.33%    passed     76.70%
+1197  KY703910|Nicaragua_Nuevo_Segovia|18-Oct-2015                      0.39%    passed     68.16%
+1198  KY703909|Nicaragua_Managua|28-Jan-2015                            0.61%    passed     66.02%
+1199  KY703907|Nicaragua_Managua|15-Jul-2015                            4.39%    passed     49.47%
+1200  KY703906|Nicaragua_Managua|08-Sep-2015                            4.39%    passed     48.03%
+1201  KY703905|Nicaragua_Managua|17-Sep-2015                            0.57%    passed     72.12%
+1202  KY703904|Nicaragua_Managua|04-Oct-2014                            4.39%    passed     47.17%
+1203  KY703903|Nicaragua_Managua|05-Sep-2015                            4.39%    passed     45.87%
+1204  KY703902|Nicaragua_Managua|05-Sep-2015                            4.18%    passed     47.80%
+1205  KY703901|Nicaragua_Managua|26-Jan-2015                            0.57%    passed     69.79%
+1206  KY703900|Nicaragua_Managua|14-Dec-2015                            4.39%    passed     43.59%
+1207  KY703899|Nicaragua_Nuevo_Segovia|20-Oct-2015                      0.61%    passed     68.91%
+1208  KY703898|Nicaragua_Managua|25-Aug-2015                            4.39%    passed     41.96%
+1209  KY703897|Nicaragua_Managua|16-Jan-2015                            2.33%    passed     72.93%
+1210  KY703896|Nicaragua_Managua|18-Dec-2014                            0.64%    passed     41.13%
+1211  KY703894|Nicaragua_Managua|09-Oct-2015                            4.39%    passed     50.37%
+1212  KY703893|Nicaragua_Managua|02-Sep-2015                            0.21%    passed     69.07%
+1213  KY703892|Nicaragua_Managua|26-Nov-2015                            2.16%    passed     77.26%
+1214  KY703891|Nicaragua_Rivas|17-Sep-2015                              4.39%    passed     53.64%
+1215  KY703890|Nicaragua_Masaya|23-Sep-2015                             4.39%    passed     48.24%
+1216  KY703889|Nicaragua_Managua|05-Aug-2015                            4.39%    passed     47.41%
+1217  KY703888|Nicaragua_Managua|15-Aug-2015                            3.21%    passed     62.24%
+1218  KY680414|USA_Seminole_County|13-Sep-2014                          4.39%    passed     41.02%
+1219  KY680413|USA_Duval_County|17-Sep-2014                             0.51%    passed     65.87%
+1220  KY680412|USA_Dade_County|28-Aug-2014                              1.06%    passed     59.56%
+1221  KY680410|USA_Osceola_County|22-Aug-2014                           4.39%    passed     47.33%
+1222  KY680409|USA_Duval_County|21-Oct-2014                             4.39%    passed     49.40%
+1223  KY680408|USA_Dade_County|26-Jun-2014                              1.11%    passed     67.92%
+1224  KY680407|USA_Duval_County|20-Nov-2014                             2.82%    passed     68.01%
+1225  KY680406|USA_Polk_County|08-Aug-2014                              0.57%    passed     72.87%
+1226  KY680401|USA|22-Sep-2014                                          0.61%    passed     64.33%
+1227  KY680400|USA_Pasco_County|15-Jul-2014                             0.61%    passed     66.16%
+1228  KY680399|USA_Duval_County|05-Sep-2014                             0.91%    passed     64.18%
+1229  KY680398|USA_Palm_Beach_County|05-Aug-2014                        2.33%    passed     76.50%
+1230  KY680396|USA_Osceola_County|02-Sep-2014                           2.33%    passed     76.14%
+1231  KY680395|USA_Dade_County|21-Jul-2014                              1.47%    passed     67.10%
+1232  KY680394|USA_Osceola_County|05-Oct-2014                           1.81%    passed     67.93%
+1233  KY680392|USA_Osceola_County|19-Oct-2014                           4.49%    passed     48.17%
+1234  KY680391|USA_Orange_County|24-Oct-2014                            1.94%    passed     67.67%
+1235  KY680390|USA_Hillsborough_County|07-May-2014                      2.37%    passed     73.02%
+1236  KY680389|USA_Osceola_County|14-Jul-2015                           0.39%    passed     64.07%
+1237  KY680388|USA_Polk_County|02-Oct-2014                              2.51%    passed     71.96%
+1238  KY680387|USA_Osceola_County|14-Oct-2014                           0.39%    passed     62.05%
+1239  KY680386|USA_Broward_County|24-Sep-2014                           1.41%    passed     67.48%
+1240  KY680385|USA_Polk_County|25-Nov-2014                              4.39%    passed     46.70%
+1241  KY680384|USA_Orange_County|25-Jun-2014                            2.72%    passed     72.25%
+1242  KY680381|USA_Osceola_County|21-Oct-2014                           2.33%    passed     73.55%
+1243  KY680380|USA|13-Oct-2014                                          4.39%    passed     47.33%
+1244  KY680379|USA_Hillsborough_County|16-Sep-2014                      4.39%    passed     45.63%
+1245  KY680378|USA_Collier_County|19-Oct-2014                           2.33%    passed     74.69%
+1246  KY680377|USA_Polk_County|16-Aug-2014                              4.39%    passed     47.74%
+1247  KY680376|USA_Polk_County|08-Oct-2014                              4.39%    passed     46.85%
+1248  KY680375|USA_Osceola_County|04-Jun-2014                           2.34%    passed     77.38%
+1249  KY680374|USA_Osceola_County|06-Dec-2014                           0.57%    passed     67.90%
+1250  KY680373|USA_Duval_County|22-Oct-2014                             2.31%    passed     74.91%
+1251  KY680371|USA_Palm_Beach_County|20-Aug-2014                        0.39%    passed     62.76%
+1252  KY680370|USA_Orange_County|03-Oct-2014                            0.57%    passed     74.82%
+1253  KY680368|USA_Palm_Beach_County|01-Dec-2014                        0.39%    passed     62.44%
+1254  KY680366|USA_Palm_Beach_County|24-Jul-2015                        0.61%    passed     63.32%
+1255  KY680365|USA_Seminole_County|18-Sep-2014                         19.71%    passed     60.72%
+1256  KY680364|USA_Dade_County|15-May-2014                              4.39%    passed     47.74%
+1257  KY680363|USA_Dade_County|15-Jun-2014                              0.57%    passed     67.68%
+1258  KY680361|USA_Broward_County|26-May-2014                           2.33%    passed     75.12%
+1259  KY680360|USA_Broward_County|05-Aug-2014                           4.39%    passed     43.90%
+1260  KY680357|USA_Orange_County|09-Aug-2014                            4.39%    passed     45.87%
+1261  KY680355|USA_Palm_Beach_County|22-Jul-2014                        2.79%    passed     62.62%
+1262  KY680354|USA_Hillsborough_County|08-May-2014                      3.39%    passed     67.43%
+1263  KY680353|USA_Seminole_County|25-Aug-2014                          4.41%    passed     48.31%
+1264  KY680352|USA_Broward_County|15-May-2014                           2.33%    passed     75.45%
+1265  KY680351|USA_Hillsborough_County|24-Jun-2014                      0.38%    passed     57.90%
+1266  KY680350|USA_Osceola_County|10-Dec-2014                           2.06%    passed     75.66%
+1267  KY680349|USA_Orange_County|02-Jul-2014                            4.39%    passed     48.58%
+1268  KY680347|USA_Broward_County|13-May-2014                           0.39%    passed     65.33%
+1269  KY575574|USA|1995                                                 0.59%    passed     94.04%
+1270  KY575573|USA|2014                                                 1.78%    passed     68.96%
+1271  KY575572|USA|2014                                                 3.39%    passed     68.71%
+1272  KY575571|USA|2006                                                 0.95%    passed     80.88%
+1273  KY575570|USA|2008                                                 0.58%    passed     84.14%
+1274  KY575569|USA|2014                                                 1.48%    passed     65.82%
+1275  KY575568|USA|2006                                                 0.58%    passed     81.12%
+1276  KY575567|USA|2006                                                 0.58%    passed     85.14%
+1277  KY575566|USA|2014                                                 3.21%    passed     63.40%
+1278  KY575565|USA|2014                                                 2.92%    passed     71.11%
+1279  KU365371|Bangladesh_Shibganj|Nov-2011                             0.19%    passed     84.08%
+1280  KU365370|Bangladesh_Dohar|Nov-2011                                0.14%    passed     85.72%
+1281  KU365369|Trinidad_and_Tobago|2014                                 3.53%    passed     64.09%
+1282  KU365368|Mexico_Chiapas_Tapachula|26-Mar-2014                     0.19%    passed     65.60%
+1283  KU365366|Mexico_Chiapas_Ciudad_Hidalgo|09-Oct-2014                0.23%    passed     67.62%
+1284  KX262997|Malaysia|2009                                            1.33%    passed     90.35%
+1285  KX262996|Cameroon|2006                                            2.16%    passed     98.13%
+1286  KX262995|Senegal_Kedougou|10-Jul-1983                             1.28%    passed     93.11%
+1287  KX262994|French_Guiana|21-Jan-2014                                1.43%    passed     70.90%
+1288  KX262993|Italy|2007                                               1.73%    passed     91.24%
+1289  KX262992|Guadeloupe|05-Jan-2014                                   4.50%    passed     48.34%
+1290  KX262989|Italy|2007                                               0.58%    passed     81.54%
+1291  KX262988|Thailand_Northeast_Thailand|1988                         0.10%    passed     78.03%
+1292  KX262987|Thailand_Northeast_Thailand|1996                         1.50%    passed     66.90%
+1293  KX262986|Senegal_Kedougou|1983                                    1.35%    passed     95.67%
+1294  KT581023|Brazil|2014                                              3.79%    passed     54.56%
+1295  KP164869|Thailand|2009                                            0.13%    passed     87.00%
+1296  KJ679578|India|21-Dec-2011                                        2.19%    passed     93.00%
+1297  KJ679577|India|12-Sep-2011                                        2.19%    passed     89.00%
+WARNING: 6 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                             5.84%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: MW110475|China_Yunnan|08-Oct-2019 is identical to MW110476|China_Yunnan|12-Oct-2019 but kept for subsequent analysis
+NOTE: MW110472|China_Yunnan|28-Sep-2019 is identical to MW110473|China_Yunnan|06-Oct-2019 but kept for subsequent analysis
+NOTE: LC580246|Bangladesh_Dhaka|2017-09 is identical to LC580247|Bangladesh_Dhaka|2017-09 but kept for subsequent analysis
+NOTE: LC580236|Bangladesh_Dhaka|2017-07 is identical to LC580237|Bangladesh_Dhaka|2017-07 but kept for subsequent analysis
+NOTE: MH647213|Singapore|Jan-2010 is identical to MH647216|Singapore|Jan-2010 but kept for subsequent analysis
+NOTE: MT636921|Democratic_Republic_of_the_Congo|2019-03-21 is identical to MT636922|Democratic_Republic_of_the_Congo|2019-03-22 but kept for subsequent analysis
+NOTE: MT636914|Democratic_Republic_of_the_Congo|2019-03-26 is identical to MT636916|Democratic_Republic_of_the_Congo|2019-03-26 but kept for subsequent analysis
+NOTE: MN075149|Finland|Feb-2019 is identical to MN075150|Finland|Feb-2019 but kept for subsequent analysis
+NOTE: MF076573|Laos_Champasack_Mounlapamok_Salaosong|07-Aug-2012 is identical to MF076575|Laos_Champasack_Mounlapamok_Nadee|16-Aug-2012 but kept for subsequent analysis
+NOTE: KY272962|Dominican_Republic|2014 is identical to KY272968|Dominican_Republic|2014 but kept for subsequent analysis
+NOTE: KM923917|Malaysia|09-Mar-2007 is identical to KM923920|Malaysia|09-Mar-2007 but kept for subsequent analysis
+NOTE: KM923918|Malaysia|09-Mar-2007 is identical to KM923919|Malaysia|09-Mar-2007 but kept for subsequent analysis
+NOTE: JQ065885|China|Oct-2010 is identical to JQ065887|China|Oct-2010 but kept for subsequent analysis
+NOTE: FR717336|France_La_Reunion|26-Dec-2005 is identical to FR717337|France_La_Reunion|26-Dec-2005 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.0267165 secs using 959.2% CPU
+Identifying sites to remove: done in 0.150968 secs using 130.7% CPU
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: LC580244|Bangladesh_Dhaka|2017-09 (identical to LC580247|Bangladesh_Dhaka|2017-09) is ignored but added at the end
+NOTE: MT636920|Democratic_Republic_of_the_Congo|2019-03-21 (identical to MT636922|Democratic_Republic_of_the_Congo|2019-03-22) is ignored but added at the end
+Alignment was printed to aln.chikv_rj+references.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to aln.chikv_rj+references.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.034 seconds
+
+NOTE: 1704 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.483, 0.242 / LogL: -853163.611
+Init pinv, alpha: 0.062, 1.000 / Estimate: 0.483, 0.241 / LogL: -852594.900
+Init pinv, alpha: 0.125, 1.000 / Estimate: 0.483, 0.239 / LogL: -853258.717
+Init pinv, alpha: 0.187, 1.000 / Estimate: 0.483, 0.238 / LogL: -852964.538
+Init pinv, alpha: 0.249, 1.000 / Estimate: 0.483, 0.236 / LogL: -852673.508
+Init pinv, alpha: 0.311, 1.000 / Estimate: 0.483, 0.234 / LogL: -852389.536
+Init pinv, alpha: 0.374, 1.000 / Estimate: 0.483, 0.232 / LogL: -852326.838
+Init pinv, alpha: 0.436, 1.000 / Estimate: 0.483, 0.230 / LogL: -852071.795
+Init pinv, alpha: 0.498, 1.000 / Estimate: 0.483, 0.228 / LogL: -851959.269
+Init pinv, alpha: 0.560, 1.000 / Estimate: 0.483, 0.225 / LogL: -852121.924
+Optimal pinv,alpha: 0.483, 0.228 / LogL: -851959.269
+
+Parameters optimization took 360.503 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 3.71355 secs using 999.1% CPU
+Computing ML distances took 3.737060 sec (of wall-clock time) 37.318623 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.013881 secs using 787.2% CPU
+Constructing RapidNJ tree: done in 3.12096 secs using 341.9% CPU
+Computing RapidNJ tree took 3.135097 sec (of wall-clock time) 10.782294 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -126074.816
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 62.350 second
+Computing log-likelihood of 98 initial trees ... 118.073 seconds
+Current best score: -126074.816
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 38.7015 secs using 998.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -118222.621
+Optimizing NNI: done in 356.243 secs using 997.8% CPU
+Optimizing NNI: done in 231.871 secs using 997.3% CPU
+Optimizing NNI: done in 323.415 secs using 997.5% CPU
+Optimizing NNI: done in 343.158 secs using 998% CPU
+Optimizing NNI: done in 291.815 secs using 997.3% CPU
+Optimizing NNI: done in 253.998 secs using 997.7% CPU
+Optimizing NNI: done in 308.145 secs using 997.3% CPU
+Optimizing NNI: done in 262.494 secs using 997.5% CPU
+Optimizing NNI: done in 286.737 secs using 997.3% CPU
+Iteration 10 / LogL: -185388.893 / Time: 0h:55m:25s
+Optimizing NNI: done in 264.852 secs using 997.2% CPU
+Optimizing NNI: done in 257.292 secs using 997.2% CPU
+Optimizing NNI: done in 317.916 secs using 997.8% CPU
+Optimizing NNI: done in 298.192 secs using 997.7% CPU
+Optimizing NNI: done in 243.979 secs using 997% CPU
+Optimizing NNI: done in 322.86 secs using 997.5% CPU
+Optimizing NNI: done in 329.854 secs using 998% CPU
+Optimizing NNI: done in 242.637 secs using 996.9% CPU
+Optimizing NNI: done in 262.166 secs using 997.4% CPU
+Optimizing NNI: done in 264.916 secs using 997.5% CPU
+Iteration 20 / LogL: -204312.661 / Time: 1h:42m:11s
+Finish initializing candidate tree set (20)
+Current best tree score: -118222.621 / CPU time: 5743.535
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 28.0621 secs using 997.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -118083.180
+Optimizing NNI: done in 28.465 secs using 997.2% CPU
+Optimizing NNI: done in 50.513 secs using 997.9% CPU
+Optimizing NNI: done in 21.3234 secs using 997.4% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -117783.904
+Optimizing NNI: done in 17.2065 secs using 996.3% CPU
+Optimizing NNI: done in 21.4574 secs using 996.9% CPU
+Optimizing NNI: done in 31.8698 secs using 997.6% CPU
+Optimizing NNI: done in 21.1325 secs using 997% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -117714.366
+Optimizing NNI: done in 37.1143 secs using 997.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -117608.317
+Optimizing NNI: done in 21.9985 secs using 997% CPU
+Iteration 30 / LogL: -117863.061 / Time: 1h:47m:7s (6h:5m:39s left)
+Optimizing NNI: done in 33.1195 secs using 997.6% CPU
+Optimizing NNI: done in 27.8597 secs using 997.9% CPU
+Optimizing NNI: done in 17.6787 secs using 997% CPU
+Optimizing NNI: done in 21.0916 secs using 997.2% CPU
+Optimizing NNI: done in 22.9706 secs using 996.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -117521.001
+Optimizing NNI: done in 19.0496 secs using 997.2% CPU
+Optimizing NNI: done in 13.5233 secs using 997% CPU
+Optimizing NNI: done in 19.74 secs using 996.9% CPU
+Optimizing NNI: done in 19.6534 secs using 997% CPU
+Optimizing NNI: done in 15.7281 secs using 996.8% CPU
+Iteration 40 / LogL: -117569.055 / Time: 1h:50m:43s (4h:29m:42s left)
+Optimizing NNI: done in 21.8334 secs using 997.5% CPU
+Optimizing NNI: done in 19.1769 secs using 996.5% CPU
+Optimizing NNI: done in 23.2838 secs using 997.1% CPU
+Optimizing NNI: done in 21.9918 secs using 996.9% CPU
+Optimizing NNI: done in 16.8535 secs using 995.7% CPU
+Optimizing NNI: done in 20.395 secs using 996.6% CPU
+Optimizing NNI: done in 23.6258 secs using 996.9% CPU
+Optimizing NNI: done in 23.1702 secs using 997.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 48: -117333.541
+Optimizing NNI: done in 20.3 secs using 995.9% CPU
+Optimizing NNI: done in 15.5725 secs using 996.3% CPU
+Iteration 50 / LogL: -117447.899 / Time: 1h:54m:16s (3h:48m:31s left)
+Optimizing NNI: done in 17.5328 secs using 996.9% CPU
+Optimizing NNI: done in 19.4268 secs using 996.6% CPU
+Optimizing NNI: done in 21.9512 secs using 997.5% CPU
+Optimizing NNI: done in 21.8412 secs using 997.2% CPU
+Optimizing NNI: done in 16.1076 secs using 997.1% CPU
+Optimizing NNI: done in 21.314 secs using 996.9% CPU
+Optimizing NNI: done in 18.7903 secs using 997.4% CPU
+Optimizing NNI: done in 17.216 secs using 997.1% CPU
+Optimizing NNI: done in 18.6992 secs using 997.2% CPU
+Optimizing NNI: done in 13.4275 secs using 996.5% CPU
+Iteration 60 / LogL: -117440.732 / Time: 1h:57m:26s (2h:55m:8s left)
+Optimizing NNI: done in 33.4765 secs using 998.3% CPU
+Optimizing NNI: done in 22.8889 secs using 996.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 62: -117285.059
+Optimizing NNI: done in 22.8166 secs using 997.2% CPU
+Optimizing NNI: done in 16.5181 secs using 996.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 64: -117281.297
+Optimizing NNI: done in 17.7508 secs using 996.7% CPU
+Optimizing NNI: done in 22.9882 secs using 996.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 66: -117229.055
+Optimizing NNI: done in 19.4784 secs using 996.8% CPU
+Optimizing NNI: done in 21.927 secs using 996.8% CPU
+Optimizing NNI: done in 19.2515 secs using 997.4% CPU
+Optimizing NNI: done in 18.4105 secs using 996.8% CPU
+Iteration 70 / LogL: -117329.025 / Time: 2h:1m:13s (2h:48m:38s left)
+Optimizing NNI: done in 23.1712 secs using 997.1% CPU
+Optimizing NNI: done in 16.94 secs using 996.9% CPU
+Optimizing NNI: done in 30.9611 secs using 997.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 73: -117150.643
+Optimizing NNI: done in 19.9166 secs using 996.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 74: -117131.211
+Optimizing NNI: done in 22.145 secs using 997.2% CPU
+Optimizing NNI: done in 20.1763 secs using 997.2% CPU
+Optimizing NNI: done in 20.6478 secs using 997.2% CPU
+Optimizing NNI: done in 22.6947 secs using 997.1% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 78: -117122.031
+Optimizing NNI: done in 20.4761 secs using 996.4% CPU
+Optimizing NNI: done in 20.2707 secs using 996.2% CPU
+Iteration 80 / LogL: -117163.721 / Time: 2h:5m:2s (2h:35m:5s left)
+Optimizing NNI: done in 19.4057 secs using 997.4% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 81: -117071.139
+Optimizing NNI: done in 21.6187 secs using 996.6% CPU
+Optimizing NNI: done in 18.646 secs using 996.7% CPU
+Optimizing NNI: done in 21.4111 secs using 996.7% CPU
+Optimizing NNI: done in 18.9276 secs using 996.2% CPU
+Optimizing NNI: done in 19.4836 secs using 997.1% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 86: -117066.380
+Optimizing NNI: done in 25.5933 secs using 997.7% CPU
+Optimizing NNI: done in 22.5785 secs using 997.5% CPU
+Optimizing NNI: done in 20.5324 secs using 997.1% CPU
+Optimizing NNI: done in 20.6992 secs using 997.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 90: -117045.003
+Iteration 90 / LogL: -117045.003 / Time: 2h:8m:42s (2h:24m:36s left)
+Optimizing NNI: done in 28.4101 secs using 996.6% CPU
+Optimizing NNI: done in 17.3323 secs using 997% CPU
+Optimizing NNI: done in 22.7649 secs using 997% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 93: -117024.839
+Optimizing NNI: done in 22.3586 secs using 997.3% CPU
+Optimizing NNI: done in 15.6397 secs using 997% CPU
+Optimizing NNI: done in 23.7537 secs using 996.1% CPU
+Optimizing NNI: done in 17.3764 secs using 997% CPU
+Optimizing NNI: done in 27.8808 secs using 997.6% CPU
+Optimizing NNI: done in 19.5122 secs using 996.8% CPU
+Optimizing NNI: done in 21.7907 secs using 997% CPU
+Iteration 100 / LogL: -117126.694 / Time: 2h:12m:26s (2h:4m:23s left)
+Optimizing NNI: done in 18.5468 secs using 997% CPU
+Optimizing NNI: done in 21.8408 secs using 996.7% CPU
+Optimizing NNI: done in 16.6063 secs using 996.9% CPU
+Optimizing NNI: done in 28.5205 secs using 996.8% CPU
+Optimizing NNI: done in 16.6062 secs using 996.7% CPU
+Optimizing NNI: done in 35.836 secs using 997.4% CPU
+Optimizing NNI: done in 26.1476 secs using 997.9% CPU
+Optimizing NNI: done in 27.4493 secs using 997.1% CPU
+Optimizing NNI: done in 24.8913 secs using 997.2% CPU
+Optimizing NNI: done in 23.7804 secs using 996.1% CPU
+Iteration 110 / LogL: -117156.901 / Time: 2h:16m:29s (1h:43m:55s left)
+Optimizing NNI: done in 18.2886 secs using 996.7% CPU
+Optimizing NNI: done in 34.236 secs using 997.4% CPU
+Optimizing NNI: done in 20.6488 secs using 997.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 113: -116999.649
+Optimizing NNI: done in 36.8783 secs using 997.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 114: -116995.588
+Optimizing NNI: done in 23.737 secs using 996.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 115: -116967.639
+Optimizing NNI: done in 17.411 secs using 997.1% CPU
+Optimizing NNI: done in 14.8353 secs using 996.3% CPU
+Optimizing NNI: done in 24.8864 secs using 997.3% CPU
+Optimizing NNI: done in 19.5198 secs using 997% CPU
+Optimizing NNI: done in 22.778 secs using 996.7% CPU
+Iteration 120 / LogL: -117243.075 / Time: 2h:20m:34s (1h:52m:12s left)
+Optimizing NNI: done in 17.5168 secs using 996.4% CPU
+Optimizing NNI: done in 17.9341 secs using 997.2% CPU
+Optimizing NNI: done in 22.6851 secs using 997% CPU
+Optimizing NNI: done in 17.6767 secs using 997.1% CPU
+Optimizing NNI: done in 18.6075 secs using 997% CPU
+Optimizing NNI: done in 18.2412 secs using 997.3% CPU
+Optimizing NNI: done in 18.9084 secs using 997.2% CPU
+Optimizing NNI: done in 19.3476 secs using 996.7% CPU
+Optimizing NNI: done in 19.486 secs using 997.5% CPU
+Optimizing NNI: done in 37.4543 secs using 997.4% CPU
+Iteration 130 / LogL: -116999.625 / Time: 2h:24m:5s (1h:34m:56s left)
+Optimizing NNI: done in 33.37 secs using 997.5% CPU
+Optimizing NNI: done in 20.1357 secs using 996.6% CPU
+Optimizing NNI: done in 30.1702 secs using 997.9% CPU
+Optimizing NNI: done in 22.5941 secs using 997.4% CPU
+Optimizing NNI: done in 29.8302 secs using 997.9% CPU
+Optimizing NNI: done in 22.1884 secs using 997.3% CPU
+Optimizing NNI: done in 29.5235 secs using 997.9% CPU
+Optimizing NNI: done in 20.6406 secs using 997% CPU
+Optimizing NNI: done in 20.5179 secs using 997.1% CPU
+Optimizing NNI: done in 23.868 secs using 997.1% CPU
+Iteration 140 / LogL: -117446.708 / Time: 2h:28m:22s (1h:20m:3s left)
+Optimizing NNI: done in 24.4309 secs using 996.7% CPU
+Optimizing NNI: done in 27.416 secs using 997.7% CPU
+Optimizing NNI: done in 19.3811 secs using 996.8% CPU
+Optimizing NNI: done in 26.5665 secs using 997.3% CPU
+Optimizing NNI: done in 26.6437 secs using 996.9% CPU
+Optimizing NNI: done in 19.5482 secs using 996.8% CPU
+Optimizing NNI: done in 20.3226 secs using 995.7% CPU
+Optimizing NNI: done in 16.7573 secs using 996.4% CPU
+Optimizing NNI: done in 19.2723 secs using 997.2% CPU
+Optimizing NNI: done in 20.7938 secs using 996.9% CPU
+Iteration 150 / LogL: -117076.492 / Time: 2h:32m:6s (1h:6m:21s left)
+Optimizing NNI: done in 16.1423 secs using 996.2% CPU
+Optimizing NNI: done in 24.68 secs using 997.1% CPU
+Optimizing NNI: done in 21.0382 secs using 997.4% CPU
+Optimizing NNI: done in 22.4701 secs using 998% CPU
+Optimizing NNI: done in 20.7048 secs using 997% CPU
+Optimizing NNI: done in 34.0261 secs using 997.7% CPU
+Optimizing NNI: done in 29.6126 secs using 997.7% CPU
+Optimizing NNI: done in 23.6758 secs using 996.9% CPU
+Optimizing NNI: done in 22.9886 secs using 997.2% CPU
+Optimizing NNI: done in 19.1993 secs using 997.4% CPU
+Iteration 160 / LogL: -117029.245 / Time: 2h:36m:5s (0h:53m:59s left)
+Optimizing NNI: done in 17.3315 secs using 997.1% CPU
+Optimizing NNI: done in 15.9682 secs using 996.2% CPU
+Optimizing NNI: done in 31.4273 secs using 997.4% CPU
+Optimizing NNI: done in 20.6183 secs using 995.8% CPU
+Optimizing NNI: done in 35.9823 secs using 997.4% CPU
+Optimizing NNI: done in 19.5252 secs using 997.1% CPU
+Optimizing NNI: done in 35.6255 secs using 997.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 167: -116953.938
+Optimizing NNI: done in 30.0855 secs using 997.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 168: -116944.289
+Optimizing NNI: done in 20.6273 secs using 995.9% CPU
+Optimizing NNI: done in 19.9828 secs using 996.3% CPU
+Iteration 170 / LogL: -116980.090 / Time: 2h:40m:21s (1h:32m:58s left)
+Optimizing NNI: done in 28.6564 secs using 997.4% CPU
+Optimizing NNI: done in 15.2593 secs using 996.8% CPU
+Optimizing NNI: done in 21.6982 secs using 997% CPU
+Optimizing NNI: done in 38.1682 secs using 997.3% CPU
+Optimizing NNI: done in 34.8979 secs using 997.2% CPU
+Optimizing NNI: done in 31.0599 secs using 997.3% CPU
+Optimizing NNI: done in 20.7394 secs using 995.4% CPU
+Optimizing NNI: done in 16.087 secs using 995.9% CPU
+Optimizing NNI: done in 17.4254 secs using 995.9% CPU
+Optimizing NNI: done in 18.5445 secs using 996.5% CPU
+Iteration 180 / LogL: -117137.625 / Time: 2h:44m:27s (1h:20m:50s left)
+Optimizing NNI: done in 26.3038 secs using 996.4% CPU
+Optimizing NNI: done in 34.2894 secs using 997.3% CPU
+Optimizing NNI: done in 20.9356 secs using 996.8% CPU
+Optimizing NNI: done in 37.8136 secs using 997.2% CPU
+Optimizing NNI: done in 27.5082 secs using 997.3% CPU
+Optimizing NNI: done in 18.2088 secs using 996.6% CPU
+Optimizing NNI: done in 26.7268 secs using 997.2% CPU
+Optimizing NNI: done in 21.6981 secs using 997.4% CPU
+Optimizing NNI: done in 20.3625 secs using 996.5% CPU
+Optimizing NNI: done in 25.7181 secs using 997.3% CPU
+Iteration 190 / LogL: -117124.086 / Time: 2h:48m:50s (1h:9m:40s left)
+Optimizing NNI: done in 18.6081 secs using 997% CPU
+Optimizing NNI: done in 21.3216 secs using 996.4% CPU
+Optimizing NNI: done in 31.1222 secs using 998% CPU
+Optimizing NNI: done in 33.0882 secs using 997.6% CPU
+Optimizing NNI: done in 20.7928 secs using 996% CPU
+Optimizing NNI: done in 22.8163 secs using 996.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 196: -116908.701
+Optimizing NNI: done in 36.8955 secs using 996.6% CPU
+Optimizing NNI: done in 27.111 secs using 997.3% CPU
+Optimizing NNI: done in 21.1906 secs using 996.4% CPU
+Optimizing NNI: done in 23.859 secs using 996.1% CPU
+Iteration 200 / LogL: -116993.534 / Time: 2h:53m:13s (1h:23m:33s left)
+Optimizing NNI: done in 18.6591 secs using 996.2% CPU
+Optimizing NNI: done in 18.1263 secs using 996.7% CPU
+Optimizing NNI: done in 22.4426 secs using 996.7% CPU
+Optimizing NNI: done in 17.0538 secs using 996.5% CPU
+Optimizing NNI: done in 30.6117 secs using 997% CPU
+Optimizing NNI: done in 21.2667 secs using 997.1% CPU
+Optimizing NNI: done in 16.5131 secs using 996% CPU
+Optimizing NNI: done in 36.1693 secs using 997.8% CPU
+Optimizing NNI: done in 14.8836 secs using 995.9% CPU
+Optimizing NNI: done in 19.1624 secs using 996.5% CPU
+Iteration 210 / LogL: -117069.171 / Time: 2h:56m:52s (1h:12m:46s left)
+Optimizing NNI: done in 20.7687 secs using 996.7% CPU
+Optimizing NNI: done in 18.2295 secs using 996.3% CPU
+Optimizing NNI: done in 22.0614 secs using 996% CPU
+Optimizing NNI: done in 20.3963 secs using 997% CPU
+Optimizing NNI: done in 16.8605 secs using 996.5% CPU
+Optimizing NNI: done in 19.5893 secs using 996.3% CPU
+Optimizing NNI: done in 18.3883 secs using 996.5% CPU
+Optimizing NNI: done in 22.5104 secs using 996.4% CPU
+Optimizing NNI: done in 23.6576 secs using 997.2% CPU
+Optimizing NNI: done in 18.2694 secs using 997.1% CPU
+Iteration 220 / LogL: -116938.369 / Time: 3h:0m:16s (1h:2m:33s left)
+Optimizing NNI: done in 21.4201 secs using 996.8% CPU
+Optimizing NNI: done in 16.5946 secs using 996.7% CPU
+Optimizing NNI: done in 30.4263 secs using 997.7% CPU
+Optimizing NNI: done in 25.6886 secs using 996.6% CPU
+Optimizing NNI: done in 19.7969 secs using 995.9% CPU
+Optimizing NNI: done in 21.1194 secs using 997.2% CPU
+Optimizing NNI: done in 21.0063 secs using 996.6% CPU
+Optimizing NNI: done in 25.1498 secs using 996.8% CPU
+Optimizing NNI: done in 31.4992 secs using 997.6% CPU
+Optimizing NNI: done in 19.3894 secs using 997% CPU
+Iteration 230 / LogL: -116978.248 / Time: 3h:4m:12s (0h:53m:5s left)
+Optimizing NNI: done in 20.8942 secs using 996.6% CPU
+Optimizing NNI: done in 23.6456 secs using 997% CPU
+Optimizing NNI: done in 19.1993 secs using 996.7% CPU
+Optimizing NNI: done in 25.8121 secs using 997.5% CPU
+Optimizing NNI: done in 19.0383 secs using 996.7% CPU
+Optimizing NNI: done in 21.2765 secs using 996.9% CPU
+Optimizing NNI: done in 19.6059 secs using 996.4% CPU
+Optimizing NNI: done in 18.6209 secs using 996.5% CPU
+Optimizing NNI: done in 35.8274 secs using 997.1% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 239: -116884.044
+Optimizing NNI: done in 34.8939 secs using 997.1% CPU
+Iteration 240 / LogL: -116972.524 / Time: 3h:8m:17s (1h:17m:59s left)
+Optimizing NNI: done in 25.0575 secs using 996.3% CPU
+Optimizing NNI: done in 36.8313 secs using 997.3% CPU
+Optimizing NNI: done in 21.4817 secs using 997.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 243: -116868.199
+Optimizing NNI: done in 16.6129 secs using 996.2% CPU
+Optimizing NNI: done in 19.0439 secs using 996.3% CPU
+Optimizing NNI: done in 20.0101 secs using 996.7% CPU
+Optimizing NNI: done in 20.5579 secs using 996.2% CPU
+Optimizing NNI: done in 35.9899 secs using 997.5% CPU
+Optimizing NNI: done in 33.9396 secs using 997.3% CPU
+Optimizing NNI: done in 18.902 secs using 997.1% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 250: -116857.263
+Iteration 250 / LogL: -116857.263 / Time: 3h:12m:34s (1h:17m:20s left)
+Optimizing NNI: done in 34.6313 secs using 997.6% CPU
+Optimizing NNI: done in 16.2465 secs using 996.3% CPU
+Optimizing NNI: done in 18.2023 secs using 997% CPU
+Optimizing NNI: done in 25.2307 secs using 996.1% CPU
+Optimizing NNI: done in 19.4945 secs using 996.5% CPU
+Optimizing NNI: done in 21.4341 secs using 997.2% CPU
+Optimizing NNI: done in 25.7887 secs using 997% CPU
+Optimizing NNI: done in 25.9182 secs using 997.3% CPU
+Optimizing NNI: done in 28.3983 secs using 997.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 259: -116851.502
+Optimizing NNI: done in 36.5621 secs using 997.1% CPU
+Iteration 260 / LogL: -117379.655 / Time: 3h:16m:52s (1h:15m:15s left)
+Optimizing NNI: done in 33.2836 secs using 997.4% CPU
+Optimizing NNI: done in 30.2101 secs using 997.2% CPU
+Optimizing NNI: done in 15.5845 secs using 996.4% CPU
+Optimizing NNI: done in 18.4791 secs using 997.2% CPU
+Optimizing NNI: done in 20.241 secs using 996.5% CPU
+Optimizing NNI: done in 36.5689 secs using 997.5% CPU
+Optimizing NNI: done in 21.4193 secs using 997.3% CPU
+Optimizing NNI: done in 34.1848 secs using 997.3% CPU
+Optimizing NNI: done in 17.0192 secs using 996.9% CPU
+Optimizing NNI: done in 20.0968 secs using 997.1% CPU
+Iteration 270 / LogL: -116858.354 / Time: 3h:21m:3s (1h:6m:30s left)
+Optimizing NNI: done in 33.191 secs using 997.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 271: -116840.767
+Optimizing NNI: done in 30.3074 secs using 997.5% CPU
+Optimizing NNI: done in 28.2993 secs using 996.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 273: -116839.084
+Optimizing NNI: done in 31.329 secs using 997.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 274: -116822.080
+Optimizing NNI: done in 19.4513 secs using 996.4% CPU
+Optimizing NNI: done in 18.0705 secs using 996.5% CPU
+Optimizing NNI: done in 20.1413 secs using 996.5% CPU
+Optimizing NNI: done in 22.0428 secs using 996.3% CPU
+Optimizing NNI: done in 20.2491 secs using 996.4% CPU
+Optimizing NNI: done in 35.5316 secs using 997.3% CPU
+Iteration 280 / LogL: -116844.641 / Time: 3h:25m:33s (1h:9m:15s left)
+Optimizing NNI: done in 22.0592 secs using 997.2% CPU
+Optimizing NNI: done in 21.2562 secs using 996.4% CPU
+Optimizing NNI: done in 25.3188 secs using 996.6% CPU
+Optimizing NNI: done in 32.3412 secs using 997.5% CPU
+Optimizing NNI: done in 17.5172 secs using 996.5% CPU
+Optimizing NNI: done in 21.0755 secs using 997.1% CPU
+Optimizing NNI: done in 33.6236 secs using 997.6% CPU
+Optimizing NNI: done in 18.3818 secs using 996.4% CPU
+Optimizing NNI: done in 37.2959 secs using 997.5% CPU
+Optimizing NNI: done in 41.5202 secs using 997.4% CPU
+Iteration 290 / LogL: -116888.875 / Time: 3h:30m:7s (1h:1m:4s left)
+Optimizing NNI: done in 18.8678 secs using 996.2% CPU
+Optimizing NNI: done in 18.3884 secs using 996.9% CPU
+Optimizing NNI: done in 37.6033 secs using 998% CPU
+Optimizing NNI: done in 15.3458 secs using 997.2% CPU
+Optimizing NNI: done in 19.6303 secs using 996.4% CPU
+Optimizing NNI: done in 18.5032 secs using 997.2% CPU
+Optimizing NNI: done in 17.943 secs using 996.8% CPU
+Optimizing NNI: done in 27.3221 secs using 997.6% CPU
+Optimizing NNI: done in 15.8048 secs using 997.2% CPU
+Optimizing NNI: done in 36.6691 secs using 997.1% CPU
+Iteration 300 / LogL: -116845.912 / Time: 3h:33m:57s (0h:52m:56s left)
+Optimizing NNI: done in 28.0776 secs using 997.8% CPU
+Optimizing NNI: done in 24.4182 secs using 996.5% CPU
+Optimizing NNI: done in 20.3868 secs using 996.8% CPU
+Optimizing NNI: done in 30.3204 secs using 997.8% CPU
+Optimizing NNI: done in 18.7764 secs using 996.3% CPU
+Optimizing NNI: done in 20.7387 secs using 996.8% CPU
+Optimizing NNI: done in 18.8536 secs using 997.3% CPU
+Optimizing NNI: done in 17.26 secs using 996.7% CPU
+Optimizing NNI: done in 19.5086 secs using 997.6% CPU
+Optimizing NNI: done in 23.1153 secs using 997.3% CPU
+Iteration 310 / LogL: -116941.304 / Time: 3h:37m:41s (0h:45m:5s left)
+Optimizing NNI: done in 20.553 secs using 997.1% CPU
+Optimizing NNI: done in 28.1228 secs using 997.3% CPU
+Optimizing NNI: done in 30.4882 secs using 996.8% CPU
+Optimizing NNI: done in 26.6996 secs using 996.6% CPU
+Optimizing NNI: done in 16.2832 secs using 996.8% CPU
+Optimizing NNI: done in 19.2134 secs using 996.9% CPU
+Optimizing NNI: done in 17.976 secs using 996.8% CPU
+Optimizing NNI: done in 17.6806 secs using 996.5% CPU
+Optimizing NNI: done in 34.0802 secs using 997.8% CPU
+Optimizing NNI: done in 42.692 secs using 997.6% CPU
+Iteration 320 / LogL: -116946.550 / Time: 3h:41m:59s (0h:37m:34s left)
+Optimizing NNI: done in 20.5198 secs using 996.3% CPU
+Optimizing NNI: done in 24.9751 secs using 996.3% CPU
+Optimizing NNI: done in 17.4946 secs using 996.8% CPU
+Optimizing NNI: done in 17.5393 secs using 996.8% CPU
+Optimizing NNI: done in 34.6575 secs using 997.5% CPU
+Optimizing NNI: done in 26.7032 secs using 997.2% CPU
+Optimizing NNI: done in 20.7201 secs using 996.8% CPU
+Optimizing NNI: done in 21.3459 secs using 996.3% CPU
+Optimizing NNI: done in 24.3915 secs using 997.1% CPU
+Optimizing NNI: done in 17.2166 secs using 996.5% CPU
+Iteration 330 / LogL: -117010.265 / Time: 3h:45m:48s (0h:30m:11s left)
+Optimizing NNI: done in 17.7596 secs using 996.9% CPU
+Optimizing NNI: done in 21.2877 secs using 996.5% CPU
+Optimizing NNI: done in 20.608 secs using 997.3% CPU
+Optimizing NNI: done in 38.0704 secs using 997.5% CPU
+Optimizing NNI: done in 19.9575 secs using 996.2% CPU
+Optimizing NNI: done in 19.0517 secs using 996.6% CPU
+Optimizing NNI: done in 19.5846 secs using 996.9% CPU
+Optimizing NNI: done in 30.7802 secs using 998% CPU
+Optimizing NNI: done in 23.4373 secs using 997.4% CPU
+Optimizing NNI: done in 16.2733 secs using 997% CPU
+Iteration 340 / LogL: -116934.479 / Time: 3h:49m:38s (0h:23m:1s left)
+Optimizing NNI: done in 20.701 secs using 996.8% CPU
+Optimizing NNI: done in 25.3157 secs using 996.5% CPU
+Optimizing NNI: done in 33.0978 secs using 997.5% CPU
+Optimizing NNI: done in 29.802 secs using 998.1% CPU
+Optimizing NNI: done in 19.8349 secs using 997.1% CPU
+Optimizing NNI: done in 18.4577 secs using 996.3% CPU
+Optimizing NNI: done in 17.0035 secs using 996% CPU
+Optimizing NNI: done in 22.8612 secs using 996.8% CPU
+Optimizing NNI: done in 16.4883 secs using 996.6% CPU
+Optimizing NNI: done in 29.6312 secs using 997.7% CPU
+Iteration 350 / LogL: -116836.264 / Time: 3h:53m:35s (0h:16m:3s left)
+Optimizing NNI: done in 18.2531 secs using 997.1% CPU
+Optimizing NNI: done in 18.4385 secs using 996% CPU
+Optimizing NNI: done in 31.7992 secs using 997.9% CPU
+Optimizing NNI: done in 18.1667 secs using 997.1% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 354: -116793.171
+Optimizing NNI: done in 17.5619 secs using 996.9% CPU
+Optimizing NNI: done in 29.2711 secs using 997.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 356: -116756.975
+Optimizing NNI: done in 17.5303 secs using 997% CPU
+Optimizing NNI: done in 21.366 secs using 996.7% CPU
+Optimizing NNI: done in 18.9964 secs using 996.4% CPU
+Optimizing NNI: done in 18.5565 secs using 996.9% CPU
+Iteration 360 / LogL: -116760.524 / Time: 3h:57m:14s (1h:3m:26s left)
+Optimizing NNI: done in 20.7349 secs using 996.9% CPU
+Optimizing NNI: done in 20.5708 secs using 997.3% CPU
+Optimizing NNI: done in 18.9842 secs using 996.5% CPU
+Optimizing NNI: done in 22.3811 secs using 995.8% CPU
+Optimizing NNI: done in 15.1325 secs using 996.5% CPU
+Optimizing NNI: done in 18.8758 secs using 996.5% CPU
+Optimizing NNI: done in 20.6233 secs using 996.4% CPU
+Optimizing NNI: done in 18.5647 secs using 996.4% CPU
+Optimizing NNI: done in 27.9937 secs using 997.2% CPU
+Optimizing NNI: done in 20.8847 secs using 997% CPU
+Iteration 370 / LogL: -116836.862 / Time: 4h:0m:42s (0h:56m:5s left)
+Optimizing NNI: done in 19.842 secs using 996.4% CPU
+Optimizing NNI: done in 18.405 secs using 996.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 372: -116743.063
+Optimizing NNI: done in 23.2386 secs using 996.2% CPU
+Optimizing NNI: done in 22.0095 secs using 996.6% CPU
+Optimizing NNI: done in 30.4212 secs using 997.1% CPU
+Optimizing NNI: done in 17.5061 secs using 996.6% CPU
+Optimizing NNI: done in 19.7396 secs using 996.4% CPU
+Optimizing NNI: done in 23.6651 secs using 996.5% CPU
+Optimizing NNI: done in 18.5813 secs using 997% CPU
+Optimizing NNI: done in 19.6225 secs using 996.4% CPU
+Iteration 380 / LogL: -116754.719 / Time: 4h:4m:21s (0h:59m:18s left)
+Optimizing NNI: done in 16.1024 secs using 996.3% CPU
+Optimizing NNI: done in 18.3295 secs using 996.4% CPU
+Optimizing NNI: done in 24.4525 secs using 996.8% CPU
+Optimizing NNI: done in 20.3233 secs using 996.8% CPU
+Optimizing NNI: done in 16.0128 secs using 996.8% CPU
+Optimizing NNI: done in 18.511 secs using 997.4% CPU
+Optimizing NNI: done in 21.4534 secs using 996.7% CPU
+Optimizing NNI: done in 18.1917 secs using 996.7% CPU
+Optimizing NNI: done in 21.8241 secs using 997.3% CPU
+Optimizing NNI: done in 37.7591 secs using 997.6% CPU
+Iteration 390 / LogL: -116786.086 / Time: 4h:7m:58s (0h:52m:16s left)
+Optimizing NNI: done in 22.8746 secs using 997.5% CPU
+Optimizing NNI: done in 22.8986 secs using 996.8% CPU
+Optimizing NNI: done in 20.3409 secs using 996.6% CPU
+Optimizing NNI: done in 19.8821 secs using 996.4% CPU
+Optimizing NNI: done in 19.1976 secs using 996.7% CPU
+Optimizing NNI: done in 19.3364 secs using 997% CPU
+Optimizing NNI: done in 22.324 secs using 997% CPU
+Optimizing NNI: done in 17.4696 secs using 997% CPU
+Optimizing NNI: done in 15.1974 secs using 996.1% CPU
+Optimizing NNI: done in 24.174 secs using 997.1% CPU
+Iteration 400 / LogL: -116823.234 / Time: 4h:11m:25s (0h:45m:22s left)
+Optimizing NNI: done in 20.76 secs using 997.3% CPU
+Optimizing NNI: done in 18.0876 secs using 997.2% CPU
+Optimizing NNI: done in 22.1269 secs using 996.7% CPU
+Optimizing NNI: done in 19.0396 secs using 996.7% CPU
+Optimizing NNI: done in 21.6841 secs using 997.3% CPU
+Optimizing NNI: done in 19.1634 secs using 997.1% CPU
+Optimizing NNI: done in 17.1169 secs using 996.9% CPU
+Optimizing NNI: done in 18.9544 secs using 996.7% CPU
+Optimizing NNI: done in 20.7064 secs using 996.6% CPU
+Optimizing NNI: done in 19.3332 secs using 997.3% CPU
+Iteration 410 / LogL: -117219.946 / Time: 4h:14m:46s (0h:38m:37s left)
+Optimizing NNI: done in 22.1784 secs using 996.8% CPU
+Optimizing NNI: done in 22.4017 secs using 996.7% CPU
+Optimizing NNI: done in 20.0392 secs using 997.4% CPU
+Optimizing NNI: done in 34.1509 secs using 997.7% CPU
+Optimizing NNI: done in 19.7996 secs using 996.2% CPU
+Optimizing NNI: done in 21.7631 secs using 996.3% CPU
+Optimizing NNI: done in 14.7767 secs using 996% CPU
+Optimizing NNI: done in 27.5159 secs using 997.7% CPU
+Optimizing NNI: done in 25.7405 secs using 997.5% CPU
+Optimizing NNI: done in 16.5705 secs using 996.7% CPU
+Iteration 420 / LogL: -116820.225 / Time: 4h:18m:34s (0h:32m:5s left)
+Optimizing NNI: done in 16.7054 secs using 997.2% CPU
+Optimizing NNI: done in 18.7261 secs using 997.2% CPU
+Optimizing NNI: done in 21.6541 secs using 996.5% CPU
+Optimizing NNI: done in 19.1141 secs using 996.8% CPU
+Optimizing NNI: done in 20.2393 secs using 996.9% CPU
+Optimizing NNI: done in 21.2906 secs using 996.5% CPU
+Optimizing NNI: done in 16.7712 secs using 996.4% CPU
+Optimizing NNI: done in 17.9146 secs using 996.8% CPU
+Optimizing NNI: done in 17.6864 secs using 996.4% CPU
+Optimizing NNI: done in 17.5926 secs using 996.9% CPU
+Iteration 430 / LogL: -116974.511 / Time: 4h:21m:45s (0h:25m:37s left)
+Optimizing NNI: done in 22.3614 secs using 997.2% CPU
+Optimizing NNI: done in 19.5494 secs using 996.6% CPU
+Optimizing NNI: done in 25.1548 secs using 996.8% CPU
+Optimizing NNI: done in 17.2893 secs using 997.1% CPU
+Optimizing NNI: done in 15.4067 secs using 996.8% CPU
+Optimizing NNI: done in 18.0045 secs using 996.1% CPU
+Optimizing NNI: done in 19.8703 secs using 997% CPU
+Optimizing NNI: done in 18.5735 secs using 997.2% CPU
+Optimizing NNI: done in 17.4363 secs using 996.5% CPU
+Optimizing NNI: done in 18.181 secs using 996.7% CPU
+Iteration 440 / LogL: -116913.585 / Time: 4h:25m:1s (0h:19m:19s left)
+Optimizing NNI: done in 17.6764 secs using 997.1% CPU
+Optimizing NNI: done in 16.7348 secs using 997.4% CPU
+Optimizing NNI: done in 17.2544 secs using 996.8% CPU
+Optimizing NNI: done in 16.2581 secs using 996.6% CPU
+Optimizing NNI: done in 20.5962 secs using 997.3% CPU
+Optimizing NNI: done in 17.6519 secs using 996.4% CPU
+Optimizing NNI: done in 21.546 secs using 996.5% CPU
+Optimizing NNI: done in 16.169 secs using 996.1% CPU
+Optimizing NNI: done in 24.3828 secs using 996.7% CPU
+Optimizing NNI: done in 18.9452 secs using 996.7% CPU
+Iteration 450 / LogL: -116770.540 / Time: 4h:28m:11s (0h:13m:8s left)
+Optimizing NNI: done in 18.5372 secs using 996.7% CPU
+Optimizing NNI: done in 21.169 secs using 996.4% CPU
+Optimizing NNI: done in 17.5571 secs using 996.4% CPU
+Optimizing NNI: done in 21.1 secs using 996.9% CPU
+Optimizing NNI: done in 21.4627 secs using 997.1% CPU
+Optimizing NNI: done in 19.3547 secs using 997% CPU
+Optimizing NNI: done in 25.3192 secs using 996.2% CPU
+Optimizing NNI: done in 17.0224 secs using 996.7% CPU
+Optimizing NNI: done in 20.9857 secs using 996.8% CPU
+Optimizing NNI: done in 26.5844 secs using 997.2% CPU
+Iteration 460 / LogL: -116835.448 / Time: 4h:31m:44s (0h:7m:6s left)
+Optimizing NNI: done in 16.8717 secs using 996.7% CPU
+Optimizing NNI: done in 22.7713 secs using 996.8% CPU
+Optimizing NNI: done in 17.1537 secs using 997.2% CPU
+Optimizing NNI: done in 17.0196 secs using 996.5% CPU
+Optimizing NNI: done in 17.4924 secs using 996.4% CPU
+Optimizing NNI: done in 18.631 secs using 996.8% CPU
+Optimizing NNI: done in 20.8407 secs using 996.4% CPU
+Optimizing NNI: done in 16.3122 secs using 996.9% CPU
+Optimizing NNI: done in 17.4408 secs using 997.4% CPU
+Optimizing NNI: done in 22.1605 secs using 996.4% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 470: -116733.408
+Iteration 470 / LogL: -116733.408 / Time: 4h:34m:57s (0h:58m:37s left)
+Optimizing NNI: done in 22.6205 secs using 997.2% CPU
+Optimizing NNI: done in 21.412 secs using 996.6% CPU
+Optimizing NNI: done in 19.7843 secs using 996.7% CPU
+Optimizing NNI: done in 20.884 secs using 997% CPU
+Optimizing NNI: done in 24.2455 secs using 997.4% CPU
+Optimizing NNI: done in 22.6334 secs using 996.8% CPU
+Optimizing NNI: done in 20.9694 secs using 997.8% CPU
+Optimizing NNI: done in 18.2486 secs using 997.2% CPU
+Optimizing NNI: done in 20.0192 secs using 997.1% CPU
+Optimizing NNI: done in 18.036 secs using 996.7% CPU
+Iteration 480 / LogL: -116844.512 / Time: 4h:38m:29s (0h:52m:19s left)
+Optimizing NNI: done in 20.5277 secs using 996.8% CPU
+Optimizing NNI: done in 17.198 secs using 996.9% CPU
+Optimizing NNI: done in 20.6807 secs using 997.3% CPU
+Optimizing NNI: done in 16.7048 secs using 996.5% CPU
+Optimizing NNI: done in 21.0647 secs using 996.7% CPU
+Optimizing NNI: done in 18.9755 secs using 996.8% CPU
+Optimizing NNI: done in 14.9312 secs using 996.6% CPU
+Optimizing NNI: done in 21.5835 secs using 997.1% CPU
+Optimizing NNI: done in 20.3013 secs using 996.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 489: -116712.993
+Optimizing NNI: done in 20.0161 secs using 996.5% CPU
+Iteration 490 / LogL: -116802.913 / Time: 4h:41m:48s (0h:57m:2s left)
+Optimizing NNI: done in 16.8067 secs using 996.6% CPU
+Optimizing NNI: done in 21.5468 secs using 996.9% CPU
+Optimizing NNI: done in 21.2127 secs using 997.3% CPU
+Optimizing NNI: done in 21.9071 secs using 997.2% CPU
+Optimizing NNI: done in 18.6477 secs using 997% CPU
+Optimizing NNI: done in 17.8613 secs using 997.1% CPU
+Optimizing NNI: done in 18.0054 secs using 996.7% CPU
+Optimizing NNI: done in 19.7143 secs using 997% CPU
+Optimizing NNI: done in 19.659 secs using 996.7% CPU
+Optimizing NNI: done in 21.1614 secs using 996.9% CPU
+Iteration 500 / LogL: -116767.801 / Time: 4h:45m:8s (0h:50m:51s left)
+Optimizing NNI: done in 18.3257 secs using 997% CPU
+Optimizing NNI: done in 21.3784 secs using 996.8% CPU
+Optimizing NNI: done in 22.511 secs using 997.3% CPU
+Optimizing NNI: done in 18.7365 secs using 996.9% CPU
+Optimizing NNI: done in 15.7879 secs using 996.2% CPU
+Optimizing NNI: done in 19.6383 secs using 996.9% CPU
+Optimizing NNI: done in 17.8884 secs using 996.8% CPU
+Optimizing NNI: done in 19.886 secs using 996.9% CPU
+Optimizing NNI: done in 17.5233 secs using 997.4% CPU
+Optimizing NNI: done in 20.4387 secs using 997% CPU
+Iteration 510 / LogL: -116813.367 / Time: 4h:48m:23s (0h:44m:45s left)
+Optimizing NNI: done in 20.3822 secs using 997.1% CPU
+Optimizing NNI: done in 17.391 secs using 997.1% CPU
+Optimizing NNI: done in 19.037 secs using 997% CPU
+Optimizing NNI: done in 17.8989 secs using 996.3% CPU
+Optimizing NNI: done in 20.8019 secs using 997.5% CPU
+Optimizing NNI: done in 38.2678 secs using 998.2% CPU
+Optimizing NNI: done in 21.7859 secs using 996.8% CPU
+Optimizing NNI: done in 17.4118 secs using 996.9% CPU
+Optimizing NNI: done in 16.0821 secs using 996.8% CPU
+Optimizing NNI: done in 15.8817 secs using 996.7% CPU
+Iteration 520 / LogL: -117382.877 / Time: 4h:51m:52s (0h:38m:48s left)
+Optimizing NNI: done in 53.1369 secs using 998.3% CPU
+Optimizing NNI: done in 19.0153 secs using 997.3% CPU
+Optimizing NNI: done in 18.0004 secs using 997.2% CPU
+Optimizing NNI: done in 18.821 secs using 996.5% CPU
+Optimizing NNI: done in 18.7366 secs using 997% CPU
+Optimizing NNI: done in 18.0656 secs using 997.5% CPU
+Optimizing NNI: done in 22.7579 secs using 996.2% CPU
+Optimizing NNI: done in 20.8173 secs using 996.4% CPU
+Optimizing NNI: done in 34.8193 secs using 997.5% CPU
+Optimizing NNI: done in 17.2101 secs using 997.3% CPU
+Iteration 530 / LogL: -117245.524 / Time: 4h:55m:56s (0h:33m:0s left)
+Optimizing NNI: done in 18.8808 secs using 997% CPU
+Optimizing NNI: done in 20.824 secs using 997.3% CPU
+Optimizing NNI: done in 21.6724 secs using 996.9% CPU
+Optimizing NNI: done in 18.5405 secs using 997.3% CPU
+Optimizing NNI: done in 25.482 secs using 996.9% CPU
+Optimizing NNI: done in 18.1502 secs using 996.8% CPU
+Optimizing NNI: done in 21.8561 secs using 997.1% CPU
+Optimizing NNI: done in 17.4884 secs using 997.5% CPU
+Optimizing NNI: done in 19.6266 secs using 996.7% CPU
+Optimizing NNI: done in 15.5754 secs using 996.6% CPU
+Iteration 540 / LogL: -116966.119 / Time: 4h:59m:18s (0h:27m:12s left)
+Optimizing NNI: done in 18.9562 secs using 997.3% CPU
+Optimizing NNI: done in 28.3923 secs using 997.7% CPU
+Optimizing NNI: done in 24.3655 secs using 997.4% CPU
+Optimizing NNI: done in 14.2257 secs using 996.5% CPU
+Optimizing NNI: done in 20.0816 secs using 996.7% CPU
+Optimizing NNI: done in 21.4736 secs using 996.6% CPU
+Optimizing NNI: done in 18.358 secs using 997.3% CPU
+Optimizing NNI: done in 19.682 secs using 997% CPU
+Optimizing NNI: done in 17.7386 secs using 997.2% CPU
+Optimizing NNI: done in 18.1916 secs using 997.1% CPU
+Iteration 550 / LogL: -116768.291 / Time: 5h:2m:43s (0h:21m:30s left)
+Optimizing NNI: done in 16.6016 secs using 997.1% CPU
+Optimizing NNI: done in 16.9118 secs using 996.4% CPU
+Optimizing NNI: done in 20.4794 secs using 997.2% CPU
+Optimizing NNI: done in 17.8598 secs using 997.4% CPU
+Optimizing NNI: done in 17.5327 secs using 996.7% CPU
+Optimizing NNI: done in 20.6609 secs using 997.8% CPU
+Optimizing NNI: done in 17.954 secs using 997% CPU
+Optimizing NNI: done in 19.0361 secs using 996.8% CPU
+Optimizing NNI: done in 20.3395 secs using 997% CPU
+Optimizing NNI: done in 18.7799 secs using 997.1% CPU
+Iteration 560 / LogL: -116767.191 / Time: 5h:5m:53s (0h:15m:52s left)
+Optimizing NNI: done in 18.7959 secs using 996.5% CPU
+Optimizing NNI: done in 19.7342 secs using 996.4% CPU
+Optimizing NNI: done in 18.1594 secs using 997.6% CPU
+Optimizing NNI: done in 19.8159 secs using 996.4% CPU
+Optimizing NNI: done in 19.2242 secs using 996.8% CPU
+Optimizing NNI: done in 14.7213 secs using 996.3% CPU
+Optimizing NNI: done in 15.9086 secs using 997.2% CPU
+Optimizing NNI: done in 19.8915 secs using 997.3% CPU
+Optimizing NNI: done in 22.5396 secs using 997.1% CPU
+Optimizing NNI: done in 17.0926 secs using 997.2% CPU
+Iteration 570 / LogL: -116903.714 / Time: 5h:9m:2s (0h:10m:19s left)
+Optimizing NNI: done in 13.5243 secs using 996.4% CPU
+Optimizing NNI: done in 17.1278 secs using 996.6% CPU
+Optimizing NNI: done in 18.869 secs using 997.3% CPU
+Optimizing NNI: done in 16.3864 secs using 996.8% CPU
+Optimizing NNI: done in 16.4655 secs using 995.6% CPU
+Optimizing NNI: done in 16.0791 secs using 996.8% CPU
+Optimizing NNI: done in 19.6735 secs using 996.9% CPU
+Optimizing NNI: done in 24.9478 secs using 997% CPU
+Optimizing NNI: done in 20.0117 secs using 996.6% CPU
+Optimizing NNI: done in 19.1249 secs using 997.4% CPU
+Iteration 580 / LogL: -117234.182 / Time: 5h:12m:8s (0h:4m:51s left)
+Optimizing NNI: done in 23.6588 secs using 996.7% CPU
+Optimizing NNI: done in 21.9172 secs using 997.3% CPU
+Optimizing NNI: done in 19.4339 secs using 996.9% CPU
+Optimizing NNI: done in 19.1077 secs using 997.2% CPU
+Optimizing NNI: done in 17.2223 secs using 996.6% CPU
+Optimizing NNI: done in 17.0238 secs using 996.9% CPU
+Optimizing NNI: done in 22.223 secs using 996.8% CPU
+Optimizing NNI: done in 21.7526 secs using 996.8% CPU
+Optimizing NNI: done in 26.2183 secs using 997.3% CPU
+Optimizing NNI: done in 21.0083 secs using 997.1% CPU
+Iteration 590 / LogL: -116859.500 / Time: 5h:15m:41s (0h:0m:-33s left)
+TREE SEARCH COMPLETED AFTER 590 ITERATIONS / Time: 5h:15m:41s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -116712.993
+Optimal log-likelihood: -116712.991
+Rate parameters:  A-C: 1.24583  A-G: 5.83146  A-T: 2.04794  C-G: 0.57133  C-T: 14.92659  G-T: 1.00000
+Base frequencies:  A: 0.293  C: 0.249  G: 0.255  T: 0.203
+Proportion of invariable sites: 0.348
+Gamma shape alpha: 0.925
+Parameters optimization took 1 rounds (2.700 sec)
+BEST SCORE FOUND : -116712.991
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -116712.988 > -116712.991
+28.665 sec.
+Total tree length: 1.495
+
+Total number of iterations: 590
+CPU time used for tree search: 183335.528 sec (50h:55m:35s)
+Wall-clock time used for tree search: 18553.696 sec (5h:9m:13s)
+Total CPU time used: 187489.262 sec (52h:4m:49s)
+Total wall-clock time used: 18972.799 sec (5h:16m:12s)
+
+Analysis results written to: 
+  IQ-TREE report:                aln.chikv_rj+references.fasta.iqtree
+  Maximum-likelihood tree:       aln.chikv_rj+references.fasta.treefile
+  Likelihood distances:          aln.chikv_rj+references.fasta.mldist
+  Screen log file:               aln.chikv_rj+references.fasta.log
+
+Date and Time: Tue May 31 17:07:55 2022

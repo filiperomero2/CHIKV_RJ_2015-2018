@@ -1,0 +1,250 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=148;
+	taxlabels
+	'010|Brazil|RJ|Duque-de-Caxias|2017-07-26'
+	'053|Brazil|RJ|Duque-de-Caxias|2018-03-01'
+	'057|Brazil|RJ|Duque-de-Caxias|2018-03-08'
+	'066|Brazil|RJ|Duque-de-Caxias|2018-03-15'
+	'079|Brazil|RJ|Duque-de-Caxias|2018-03-22'
+	'083|Brazil|RJ|Duque-de-Caxias|2018-03-27'
+	'089|Brazil|RJ|Duque-de-Caxias|2018-03-29'
+	'092|Brazil|RJ|Duque-de-Caxias|2018-03-29'
+	'097|Brazil|RJ|Duque-de-Caxias|2018-04-02'
+	'099|Brazil|RJ|Duque-de-Caxias|2018-04-02'
+	'101|Brazil|RJ|Duque-de-Caxias|2018-04-02'
+	'114|Brazil|RJ|Duque-de-Caxias|2018-04-05'
+	'116|Brazil|RJ|Duque-de-Caxias|2018-04-05'
+	'117|Brazil|RJ|Duque-de-Caxias|2018-04-05'
+	'120|Brazil|RJ|Duque-de-Caxias|2018-04-16'
+	'126|Brazil|RJ|Duque-de-Caxias|2018-04-17'
+	'128|Brazil|RJ|Duque-de-Caxias|2018-04-19'
+	'130|Brazil|RJ|Duque-de-Caxias|2018-04-19'
+	'134|Brazil|RJ|Duque-de-Caxias|2018-04-19'
+	'143|Brazil|RJ|Duque-de-Caxias|2018-04-30'
+	'149|Brazil|RJ|Duque-de-Caxias|2018-04-30'
+	'152|Brazil|RJ|Duque-de-Caxias|2018-05-03'
+	'155|Brazil|RJ|Duque-de-Caxias|2018-05-03'
+	'157|Brazil|RJ|Duque-de-Caxias|2018-05-07'
+	'159|Brazil|RJ|Duque-de-Caxias|2018-05-07'
+	'161|Brazil|RJ|Duque-de-Caxias|2018-05-07'
+	'165|Brazil|RJ|Duque-de-Caxias|2018-05-09'
+	'166|Brazil|RJ|Duque-de-Caxias|2018-05-09'
+	'170|Brazil|RJ|Duque-de-Caxias|2018-05-14'
+	'174|Brazil|RJ|Duque-de-Caxias|2018-05-17'
+	'181|Brazil|RJ|Duque-de-Caxias|2018-05-23'
+	'KP164568|Brazil|BA|Feira-de-Santana|2014-08-26'
+	'KP164569|Brazil|BA|Feira-de-Santana|2014-08-28'
+	'KP164570|Brazil|BA|Feira-de-Santana|2014-09-03'
+	'KU940225|Brazil|BA|2015-07-15'
+	'KU940226|Brazil|BA|2015-08-01'
+	'KX228391|Brazil|PE|2016-03-03'
+	'KY055011|Brazil|SE|Aracaju|2016-02-20'
+	'KY124328|Brazil|RJ|2016-03-16'
+	'KY124329|Brazil|RJ|2016-03-16'
+	'KY704933|Brazil|AL|Maceio|2016-03-30'
+	'KY704935|Brazil|AL|Maceio|2016-04-01'
+	'KY704938|Brazil|AL|Maceio|2016-04-19'
+	'KY704939|Brazil|AL|Maceio|2016-04-17'
+	'KY704942|Brazil|AL|Maceio|2016-04-16'
+	'KY704943|Brazil|AL|Maceio|2016-04-19'
+	'KY704944|Brazil|AL|Maceio|2016-04-19'
+	'KY704947|Brazil|AL|Maceio|2016-04-15'
+	'KY704949|Brazil|AL|Maceio|2016-04-07'
+	'KY704952|Brazil|AL|Maceio|2016-04-07'
+	'KY704953|Brazil|AL|Maceio|2016-04-09'
+	'KY704954|Brazil|PB|Joao-Pessoa|2016-06-20'
+	'KY704955|Brazil|PB|Joao-Pessoa|2016-06-17'
+	'MH000700|Brazil|PE|Recife|2016-02-04'
+	'MH000702|Brazil|PE|Caruaru|2016-02-15'
+	'MH000703|Brazil|PE|Recife|2016-02-15'
+	'MH000704|Brazil|PE|2016-02-19'
+	'MH000705|Brazil|PE|Recife|2016-02-25'
+	'MH000706|Brazil|PE|Recife|2016-02-18'
+	'MH823663|Brazil|MT|Cuiaba|2017-01-05'
+	'MH823664|Brazil|MT|Cuiaba|2017-03-16'
+	'MH823665|Brazil|MT|Cuiaba|2017-03-16'
+	'MH823666|Brazil|MT|Cuiaba|2017-03-01'
+	'MH823667|Brazil|MT|Cuiaba|2017-03-01'
+	'MH823668|Brazil|MT|Cuiaba|2017-01-05'
+	'MK121892|Brazil|AM|Manaus|2015-07-15'
+	'MK121893|Brazil|AM|Manaus|2015-07-15'
+	'MK121894|Brazil|AM|Manaus|2016-01-31'
+	'MK121895|Brazil|AM|Manaus|2017-03-20'
+	'MK121896|Brazil|RR|Boa_Vista|2017-03-03'
+	'MK121897|Brazil|RR|Bonfim|2017-02-20'
+	'MK121898|Brazil|RR|Boa_Vista|2017-02-22'
+	'MK121899|Brazil|RR|Boa_Vista|2017-03-17'
+	'MK121900|Brazil|RR|Iracema|2017-03-17'
+	'MK121901|Brazil|RR|Boa_Vista|2017-03-17'
+	'MK121902|Brazil|RR|Boa_Vista|2017-03-17'
+	'MK121903|Brazil|RR|Boa_Vista|2017-03-15'
+	'MK121904|Brazil|RR|Boa_Vista|2017-03-02'
+	'MK121905|Brazil|RR|Boa_Vista|2017-03-02'
+	'MK121906|Brazil|RR|Boa_Vista|2017-02-27'
+	'MK121907|Brazil|RR|Boa_Vista|2017-02-27'
+	'MK121908|Brazil|RR|Boa_Vista|2017-03-05'
+	'MK156053|Brazil|BA|2018-09-21'
+	'MK156054|Brazil|BA|2018-09-21'
+	'MK156055|Brazil|BA|2018-09-21'
+	'MK156056|Brazil|BA|2018-09-21'
+	'MK156058|Brazil|BA|2018-09-21'
+	'MK156059|Brazil|BA|2018-09-21'
+	'MK156060|Brazil|BA|2018-09-26'
+	'MK156061|Brazil|BA|2018-09-26'
+	'MK156062|Brazil|BA|2018-09-26'
+	'MK156063|Brazil|BA|2018-09-26'
+	'MK156064|Brazil|BA|2018-09-26'
+	'MK244632|Brazil|RJ|2016-04-05'
+	'MK244633|Brazil|RJ|2016-05-06'
+	'MK244634|Brazil|RJ|2016-04-27'
+	'MK244635|Brazil|RJ|2016-02-19'
+	'MK244636|Brazil|RJ|2016-05-02'
+	'MK244637|Brazil|RJ|2016-05-10'
+	'MK244638|Brazil|RJ|Mesquita|2016-04-05'
+	'MK244640|Brazil|RJ|Sao-Goncalo|2017-03-07'
+	'MK244641|Brazil|RJ|Niteroi|2017-03-09'
+	'MK244642|Brazil|RJ|Sao-Joao-de-Meriti|2018-02-18'
+	'MK244643|Brazil|RJ|Niteroi|2018-03-28'
+	'MK244644|Brazil|RJ|Niteroi|2018-03-26'
+	'MK244645|Brazil|RJ|Niteroi|2018-03-28'
+	'MK244646|Brazil|RJ|Niteroi|2018-03-28'
+	'MK244647|Brazil|RJ|Niteroi|2018-03-27'
+	'MK244648|Brazil|RJ|Niteroi|2018-04-04'
+	'MK244649|Brazil|RJ|Niteroi|2018-04-03'
+	'MK244650|Brazil|RJ|Niteroi|2018-04-03'
+	'MK244651|Brazil|RJ|Niteroi|2018-04-05'
+	'MK244652|Brazil|RJ|Niteroi|2018-04-05'
+	'MK244653|Brazil|RJ|Niteroi|2018-03-06'
+	'MK244654|Brazil|RJ|Niteroi|2018-03-06'
+	'MK244655|Brazil|RJ|Niteroi|2018-03-06'
+	'MK244656|Brazil|RJ|Niteroi|2018-04-06'
+	'MK518395|Brazil|MA|2017-03-16'
+	'MK752951|Brazil|BA|Itamaraju|2017-07-27'
+	'MK752954|Brazil|BA|Itamaraju|2017-06-22'
+	'MK752956|Brazil|BA|Ipecaeta|2017-08-30'
+	'MK993755|Brazil|RN|Natal|2016-01-14'
+	'MK993756|Brazil|RN|Natal|2016-01-14'
+	'MK993757|Brazil|RN|Natal|2016-01-13'
+	'MN783352|Brazil|BA|Feira_de_Santana|2016-04-01'
+	'MN783353|Brazil|BA|Feira_de_Santana|2016-10-13'
+	'MT349960|Brazil|MT|Sinop|2018-02-07'
+	'MT526900|Brazil|PA|2017-01-24'
+	'MT526901|Brazil|PA|2017-01-25'
+	'MT526902|Brazil|PA|2017-01-25'
+	'MT526903|Brazil|PA|2017-01-26'
+	'MT526904|Brazil|PA|2017-01-26'
+	'MT877206|Brazil|CE|2017-03-30'
+	'MT877207|Brazil|CE|2017-03-19'
+	'MT877208|Brazil|CE|2017-03-22'
+	'MT877209|Brazil|CE|2017-04-16'
+	'MT877210|Brazil|CE|2017-04-14'
+	'MT877211|Brazil|CE|2017-06-03'
+	'OM128431|Brazil|RJ|2018-06-06'
+	'OM128432|Brazil|RJ|2018-03-26'
+	'OM128433|Brazil|RJ|2018-06-06'
+	'OM128434|Brazil|RJ|2018-06-07'
+	'OM128435|Brazil|RJ|2018-03-19'
+	'OM128436|Brazil|RJ|2018-06-05'
+	'OM128437|Brazil|RJ|2018-06-07'
+	'OM128438|Brazil|RJ|2016-04-29'
+	'OM128439|Brazil|RJ|2016-04-06'
+	'OM128440|Brazil|RJ|2018-03-20'
+;
+end;
+
+begin trees;
+	tree tree1 = [&R] ('010|Brazil|RJ|Duque-de-Caxias|2017-07-26'[&region="RJ"]:1.0E-4,('149|Brazil|RJ|Duque-de-Caxias|2018-04-30'[&region="RJ"]:6.1E-4,'166|Brazil|RJ|Duque-de-Caxias|2018-05-09'[&region="RJ"]:2.0E-4)[&label="NODE_0000001",region="RJ"]:1.0E-4,('157|Brazil|RJ|Duque-de-Caxias|2018-05-07'[&region="RJ"]:3.9E-4,(('MK244641|Brazil|RJ|Niteroi|2017-03-09'[&region="RJ"]:0.0,(('101|Brazil|RJ|Duque-de-Caxias|2018-04-02'[&region="RJ"]:5.6E-4,'OM128432|Brazil|RJ|2018-03-26'[&region="RJ"]:1.9E-4)[&label="NODE_0000006",region="RJ"]:9.0E-5,('155|Brazil|RJ|Duque-de-Caxias|2018-05-03'[&region="RJ"]:4.1E-4,('143|Brazil|RJ|Duque-de-Caxias|2018-04-30'[&region="RJ"]:3.5E-4,'159|Brazil|RJ|Duque-de-Caxias|2018-05-07'[&region="RJ"]:2.0E-4)[&label="NODE_0000008",region="RJ"]:1.1E-4)[&label="NODE_0000007",region="RJ"]:1.1E-4)[&label="NODE_0000005",region="RJ"]:3.6E-4)[&label="NODE_0000004",region="RJ"]:0.0,((('OM128434|Brazil|RJ|2018-06-07'[&region="RJ"]:1.8E-4,('OM128437|Brazil|RJ|2018-06-07'[&region="RJ"]:9.0E-5,('OM128436|Brazil|RJ|2018-06-05'[&region="RJ"]:2.7E-4,'OM128433|Brazil|RJ|2018-06-06'[&region="RJ"]:9.0E-5)[&label="NODE_0000013",region="RJ"]:0.0)[&label="NODE_0000012",region="RJ"]:9.0E-5)[&label="NODE_0000011",region="RJ"]:5.4E-4,((('MK244649|Brazil|RJ|Niteroi|2018-04-03'[&region="RJ"]:5.4E-4,'MK244644|Brazil|RJ|Niteroi|2018-03-26'[&region="RJ"]:2.3E-4)[&label="NODE_0000016",region="RJ"]:1.1E-4,('MK244656|Brazil|RJ|Niteroi|2018-04-06'[&region="RJ"]:1.5E-4,('MK244652|Brazil|RJ|Niteroi|2018-04-05'[&region="RJ"]:4.8E-4,(('117|Brazil|RJ|Duque-de-Caxias|2018-04-05'[&region="RJ"]:1.9E-4,'128|Brazil|RJ|Duque-de-Caxias|2018-04-19'[&region="RJ"]:3.1E-4)[&label="NODE_0000020",region="RJ"]:1.9E-4,('097|Brazil|RJ|Duque-de-Caxias|2018-04-02'[&region="RJ"]:4.6E-4,('066|Brazil|RJ|Duque-de-Caxias|2018-03-15'[&region="RJ"]:0.0,'174|Brazil|RJ|Duque-de-Caxias|2018-05-17'[&region="RJ"]:2.3E-4)[&label="NODE_0000022",region="RJ"]:2.3E-4)[&label="NODE_0000021",region="RJ"]:0.0)[&label="NODE_0000019",region="RJ"]:0.0)[&label="NODE_0000018",region="RJ"]:0.0)[&label="NODE_0000017",region="RJ"]:8.0E-5)[&label="NODE_0000015",region="RJ"]:1.8E-4,(('MK244655|Brazil|RJ|Niteroi|2018-03-06'[&region="RJ"]:1.3E-4,(('OM128440|Brazil|RJ|2018-03-20'[&region="RJ"]:0.0,'OM128435|Brazil|RJ|2018-03-19'[&region="RJ"]:5.2E-4)[&label="NODE_0000026",region="RJ"]:5.5E-4,('OM128431|Brazil|RJ|2018-06-06'[&region="RJ"]:1.3E-4,('MK244650|Brazil|RJ|Niteroi|2018-04-03'[&region="RJ"]:0.0,('MK244645|Brazil|RJ|Niteroi|2018-03-28'[&region="RJ"]:0.0,'MK244643|Brazil|RJ|Niteroi|2018-03-28'[&region="RJ"]:0.0)[&label="NODE_0000029",region="RJ"]:2.4E-4)[&label="NODE_0000028",region="RJ"]:0.0)[&label="NODE_0000027",region="RJ"]:1.3E-4)[&label="NODE_0000025",region="RJ"]:7.0E-5)[&label="NODE_0000024",region="RJ"]:2.0E-5,(('116|Brazil|RJ|Duque-de-Caxias|2018-04-05'[&region="RJ"]:1.9E-4,'134|Brazil|RJ|Duque-de-Caxias|2018-04-19'[&region="RJ"]:3.7E-4)[&label="NODE_0000031",region="RJ"]:1.4E-4,('MK244654|Brazil|RJ|Niteroi|2018-03-06'[&region="RJ"]:1.6E-4,(('MK244647|Brazil|RJ|Niteroi|2018-03-27'[&region="RJ"]:2.1E-4,'MK244646|Brazil|RJ|Niteroi|2018-03-28'[&region="RJ"]:0.0)[&label="NODE_0000034",region="RJ"]:2.1E-4,('MK244648|Brazil|RJ|Niteroi|2018-04-04'[&region="RJ"]:5.4E-4,('MK244653|Brazil|RJ|Niteroi|2018-03-06'[&region="RJ"]:1.4E-4,'MK244651|Brazil|RJ|Niteroi|2018-04-05'[&region="RJ"]:3.0E-4)[&label="NODE_0000036",region="RJ"]:1.5E-4)[&label="NODE_0000035",region="RJ"]:1.5E-4)[&label="NODE_0000033",region="RJ"]:3.1E-4)[&label="NODE_0000032",region="RJ"]:0.0)[&label="NODE_0000030",region="RJ"]:1.3E-4)[&label="NODE_0000023",region="RJ"]:9.0E-5)[&label="NODE_0000014",region="RJ"]:9.0E-5)[&label="NODE_0000010",region="RJ"]:0.0,(('057|Brazil|RJ|Duque-de-Caxias|2018-03-08'[&region="RJ"]:1.8E-4,(('MK156060|Brazil|BA|2018-09-26'[&region="Northeast"]:1.7E-4,'MK156059|Brazil|BA|2018-09-21'[&region="Northeast"]:0.0)[&label="NODE_0000040",region="Northeast"]:1.5E-4,('MK156058|Brazil|BA|2018-09-21'[&region="Northeast"]:2.1E-4,('MK156055|Brazil|BA|2018-09-21'[&region="Northeast"]:0.0,('MK156056|Brazil|BA|2018-09-21'[&region="Northeast"]:1.6E-4,('MK156054|Brazil|BA|2018-09-21'[&region="Northeast"]:0.0,('MK156064|Brazil|BA|2018-09-26'[&region="Northeast"]:0.0,('MK156053|Brazil|BA|2018-09-21'[&region="Northeast"]:2.6E-4,('MK156063|Brazil|BA|2018-09-26'[&region="Northeast"]:0.0,('MK156062|Brazil|BA|2018-09-26'[&region="Northeast"]:0.0,'MK156061|Brazil|BA|2018-09-26'[&region="Northeast"]:1.1E-4)[&label="NODE_0000048",region="Northeast"]:1.0E-4)[&label="NODE_0000047",region="Northeast"]:2.3E-4)[&label="NODE_0000046",region="Northeast"]:0.0)[&label="NODE_0000045",region="Northeast"]:0.0)[&label="NODE_0000044",region="Northeast"]:0.0)[&label="NODE_0000043",region="Northeast"]:1.7E-4)[&label="NODE_0000042",region="Northeast"]:1.7E-4)[&label="NODE_0000041",region="Northeast"]:0.0)[&label="NODE_0000039",region="Northeast"]:4.7E-4)[&label="NODE_0000038",region="RJ"]:0.0,(('130|Brazil|RJ|Duque-de-Caxias|2018-04-19'[&region="RJ"]:3.7E-4,('083|Brazil|RJ|Duque-de-Caxias|2018-03-27'[&region="RJ"]:1.8E-4,('099|Brazil|RJ|Duque-de-Caxias|2018-04-02'[&region="RJ"]:5.3E-4,'120|Brazil|RJ|Duque-de-Caxias|2018-04-16'[&region="RJ"]:0.0)[&label="NODE_0000052",region="RJ"]:1.8E-4)[&label="NODE_0000051",region="RJ"]:0.0)[&label="NODE_0000050",region="RJ"]:9.0E-5,('MK244640|Brazil|RJ|Sao-Goncalo|2017-03-07'[&region="RJ"]:3.2E-4,(('MK244636|Brazil|RJ|2016-05-02'[&region="RJ"]:2.1E-4,(('MK244637|Brazil|RJ|2016-05-10'[&region="RJ"]:6.0E-4,'MK244634|Brazil|RJ|2016-04-27'[&region="RJ"]:3.1E-4)[&label="NODE_0000057",region="RJ"]:1.5E-4,('MK244633|Brazil|RJ|2016-05-06'[&region="RJ"]:3.4E-4,('MK244638|Brazil|RJ|Mesquita|2016-04-05'[&region="RJ"]:0.0,'MK244632|Brazil|RJ|2016-04-05'[&region="RJ"]:2.8E-4)[&label="NODE_0000059",region="RJ"]:1.1E-4)[&label="NODE_0000058",region="RJ"]:2.1E-4)[&label="NODE_0000056",region="RJ"]:0.0)[&label="NODE_0000055",region="RJ"]:0.0,('MK244635|Brazil|RJ|2016-02-19'[&region="RJ"]:2.5E-4,('KY124328|Brazil|RJ|2016-03-16'[&region="RJ"]:2.7E-4,((('OM128439|Brazil|RJ|2016-04-06'[&region="RJ"]:4.5E-4,'OM128438|Brazil|RJ|2016-04-29'[&region="RJ"]:6.0E-4)[&label="NODE_0000064",region="RJ"]:0.0,('126|Brazil|RJ|Duque-de-Caxias|2018-04-17'[&region="RJ"]:0.00144,('053|Brazil|RJ|Duque-de-Caxias|2018-03-01'[&region="RJ"]:1.0E-4,('181|Brazil|RJ|Duque-de-Caxias|2018-05-23'[&region="RJ"]:1.9E-4,(('152|Brazil|RJ|Duque-de-Caxias|2018-05-03'[&region="RJ"]:2.9E-4,'165|Brazil|RJ|Duque-de-Caxias|2018-05-09'[&region="RJ"]:2.3E-4)[&label="NODE_0000069",region="RJ"]:3.3E-4,('161|Brazil|RJ|Duque-de-Caxias|2018-05-07'[&region="RJ"]:4.9E-4,('089|Brazil|RJ|Duque-de-Caxias|2018-03-29'[&region="RJ"]:1.0E-4,'092|Brazil|RJ|Duque-de-Caxias|2018-03-29'[&region="RJ"]:1.2E-4)[&label="NODE_0000071",region="RJ"]:2.4E-4)[&label="NODE_0000070",region="RJ"]:1.7E-4)[&label="NODE_0000068",region="RJ"]:0.0)[&label="NODE_0000067",region="RJ"]:1.8E-4)[&label="NODE_0000066",region="RJ"]:6.2E-4)[&label="NODE_0000065",region="RJ"]:0.0)[&label="NODE_0000063",region="RJ"]:0.0,('KY124329|Brazil|RJ|2016-03-16'[&region="RJ"]:6.3E-4,('KY055011|Brazil|SE|Aracaju|2016-02-20'[&region="Northeast"]:4.5E-4,(('MK752956|Brazil|BA|Ipecaeta|2017-08-30'[&region="Northeast"]:6.2E-4,(('KU940225|Brazil|BA|2015-07-15'[&region="Northeast"]:0.0,('MT349960|Brazil|MT|Sinop|2018-02-07'[&region="Centre-West"]:0.00126,'KU940226|Brazil|BA|2015-08-01'[&region="Northeast"]:0.0)[&label="NODE_0000078",region="Northeast"]:0.0)[&label="NODE_0000077",region="Northeast"]:0.0,((('MH823666|Brazil|MT|Cuiaba|2017-03-01'[&region="Centre-West"]:0.0,'MH823664|Brazil|MT|Cuiaba|2017-03-16'[&region="Centre-West"]:9.0E-5)[&label="NODE_0000081",region="Centre-West"]:1.8E-4,(('MH823668|Brazil|MT|Cuiaba|2017-01-05'[&region="Centre-West"]:2.7E-4,'MH823665|Brazil|MT|Cuiaba|2017-03-16'[&region="Centre-West"]:2.7E-4)[&label="NODE_0000083",region="Centre-West"]:0.0,('MH823667|Brazil|MT|Cuiaba|2017-03-01'[&region="Centre-West"]:0.0,'MH823663|Brazil|MT|Cuiaba|2017-01-05'[&region="Centre-West"]:0.0)[&label="NODE_0000084",region="Centre-West"]:0.0)[&label="NODE_0000082",region="Centre-West"]:2.7E-4)[&label="NODE_0000080",region="Centre-West"]:5.4E-4,((('MK518395|Brazil|MA|2017-03-16'[&region="Northeast"]:4.5E-4,'MK121895|Brazil|AM|Manaus|2017-03-20'[&region="North"]:5.9E-4)[&label="NODE_0000087",region="North"]:0.0,('MT526903|Brazil|PA|2017-01-26'[&region="North"]:0.0,('MT526902|Brazil|PA|2017-01-25'[&region="North"]:9.0E-5,('MT526904|Brazil|PA|2017-01-26'[&region="North"]:0.0,'MT526901|Brazil|PA|2017-01-25'[&region="North"]:9.0E-5)[&label="NODE_0000090",region="North"]:9.0E-5)[&label="NODE_0000089",region="North"]:9.0E-5)[&label="NODE_0000088",region="North"]:3.6E-4)[&label="NODE_0000086",region="North"]:3.6E-4,('MT526900|Brazil|PA|2017-01-24'[&region="North"]:3.6E-4,('KY704942|Brazil|AL|Maceio|2016-04-16'[&region="Northeast"]:5.4E-4,('KY704944|Brazil|AL|Maceio|2016-04-19'[&region="Northeast"]:0.0,(('KY704952|Brazil|AL|Maceio|2016-04-07'[&region="Northeast"]:3.7E-4,'KY704949|Brazil|AL|Maceio|2016-04-07'[&region="Northeast"]:2.9E-4)[&label="NODE_0000095",region="Northeast"]:1.8E-4,(('KY704953|Brazil|AL|Maceio|2016-04-09'[&region="Northeast"]:3.4E-4,'KY704939|Brazil|AL|Maceio|2016-04-17'[&region="Northeast"]:9.0E-5)[&label="NODE_0000097",region="Northeast"]:0.0,(('KY704943|Brazil|AL|Maceio|2016-04-19'[&region="Northeast"]:4.4E-4,'KY704938|Brazil|AL|Maceio|2016-04-19'[&region="Northeast"]:3.8E-4)[&label="NODE_0000099",region="Northeast"]:0.0,('KY704933|Brazil|AL|Maceio|2016-03-30'[&region="Northeast"]:1.1E-4,('KY704947|Brazil|AL|Maceio|2016-04-15'[&region="Northeast"]:2.0E-4,'KY704935|Brazil|AL|Maceio|2016-04-01'[&region="Northeast"]:1.1E-4)[&label="NODE_0000101",region="Northeast"]:0.0)[&label="NODE_0000100",region="Northeast"]:9.0E-5)[&label="NODE_0000098",region="Northeast"]:1.8E-4)[&label="NODE_0000096",region="Northeast"]:0.0)[&label="NODE_0000094",region="Northeast"]:0.0)[&label="NODE_0000093",region="Northeast"]:1.1E-4)[&label="NODE_0000092",region="Northeast"]:3.4E-4)[&label="NODE_0000091",region="Northeast"]:0.0)[&label="NODE_0000085",region="Northeast"]:0.0)[&label="NODE_0000079",region="Northeast"]:9.0E-5)[&label="NODE_0000076",region="Northeast"]:0.0)[&label="NODE_0000075",region="Northeast"]:1.8E-4,((('KP164570|Brazil|BA|Feira-de-Santana|2014-09-03'[&region="Northeast"]:0.0,'KP164568|Brazil|BA|Feira-de-Santana|2014-08-26'[&region="Northeast"]:0.0)[&label="NODE_0000104",region="Northeast"]:0.0,('KP164569|Brazil|BA|Feira-de-Santana|2014-08-28'[&region="Northeast"]:9.0E-5,('MK752951|Brazil|BA|Itamaraju|2017-07-27'[&region="Northeast"]:6.6E-4,(('MT877208|Brazil|CE|2017-03-22'[&region="Northeast"]:2.3E-4,('MT877211|Brazil|CE|2017-06-03'[&region="Northeast"]:0.0,'MT877209|Brazil|CE|2017-04-16'[&region="Northeast"]:1.3E-4)[&label="NODE_0000109",region="Northeast"]:4.1E-4)[&label="NODE_0000108",region="Northeast"]:2.7E-4,('MN783353|Brazil|BA|Feira_de_Santana|2016-10-13'[&region="Northeast"]:5.4E-4,(('MK752954|Brazil|BA|Itamaraju|2017-06-22'[&region="Northeast"]:3.7E-4,'MK121892|Brazil|AM|Manaus|2015-07-15'[&region="North"]:0.0)[&label="NODE_0000112",region="Northeast"]:2.3E-4,('MK121893|Brazil|AM|Manaus|2015-07-15'[&region="North"]:3.0E-4,('MK993755|Brazil|RN|Natal|2016-01-14'[&region="Northeast"]:4.5E-4,('MK993757|Brazil|RN|Natal|2016-01-13'[&region="Northeast"]:0.0,'MK993756|Brazil|RN|Natal|2016-01-14'[&region="Northeast"]:0.0)[&label="NODE_0000115",region="Northeast"]:0.0)[&label="NODE_0000114",region="Northeast"]:3.6E-4)[&label="NODE_0000113",region="Northeast"]:1.8E-4)[&label="NODE_0000111",region="Northeast"]:0.0)[&label="NODE_0000110",region="Northeast"]:0.0)[&label="NODE_0000107",region="Northeast"]:0.0)[&label="NODE_0000106",region="Northeast"]:2.7E-4)[&label="NODE_0000105",region="Northeast"]:0.0)[&label="NODE_0000103",region="Northeast"]:0.0,(('MK121894|Brazil|AM|Manaus|2016-01-31'[&region="North"]:2.1E-4,('MH000704|Brazil|PE|2016-02-19'[&region="Northeast"]:0.0,('MH000706|Brazil|PE|Recife|2016-02-18'[&region="Northeast"]:9.0E-5,(('MH000700|Brazil|PE|Recife|2016-02-04'[&region="Northeast"]:0.0,'KX228391|Brazil|PE|2016-03-03'[&region="Northeast"]:0.0)[&label="NODE_0000121",region="Northeast"]:0.0,('MH000705|Brazil|PE|Recife|2016-02-25'[&region="Northeast"]:9.0E-5,('MH000703|Brazil|PE|Recife|2016-02-15'[&region="Northeast"]:9.0E-5,'MH000702|Brazil|PE|Caruaru|2016-02-15'[&region="Northeast"]:3.6E-4)[&label="NODE_0000123",region="Northeast"]:9.0E-5)[&label="NODE_0000122",region="Northeast"]:0.0)[&label="NODE_0000120",region="Northeast"]:0.0)[&label="NODE_0000119",region="Northeast"]:9.0E-5)[&label="NODE_0000118",region="Northeast"]:2.7E-4)[&label="NODE_0000117",region="Northeast"]:3.6E-4,('MN783352|Brazil|BA|Feira_de_Santana|2016-04-01'[&region="Northeast"]:5.4E-4,(('KY704955|Brazil|PB|Joao-Pessoa|2016-06-17'[&region="Northeast"]:3.6E-4,(('MT877206|Brazil|CE|2017-03-30'[&region="Northeast"]:2.8E-4,('MT877210|Brazil|CE|2017-04-14'[&region="Northeast"]:2.1E-4,'MT877207|Brazil|CE|2017-03-19'[&region="Northeast"]:5.1E-4)[&label="NODE_0000129",region="Northeast"]:0.0)[&label="NODE_0000128",region="Northeast"]:4.0E-4,('KY704954|Brazil|PB|Joao-Pessoa|2016-06-20'[&region="Northeast"]:3.6E-4,('MK244642|Brazil|RJ|Sao-Joao-de-Meriti|2018-02-18'[&region="RJ"]:1.1E-4,('170|Brazil|RJ|Duque-de-Caxias|2018-05-14'[&region="RJ"]:1.9E-4,('079|Brazil|RJ|Duque-de-Caxias|2018-03-22'[&region="RJ"]:9.0E-5,'114|Brazil|RJ|Duque-de-Caxias|2018-04-05'[&region="RJ"]:1.0E-4)[&label="NODE_0000133",region="RJ"]:1.8E-4)[&label="NODE_0000132",region="RJ"]:2.1E-4)[&label="NODE_0000131",region="RJ"]:4.2E-4)[&label="NODE_0000130",region="Northeast"]:9.0E-5)[&label="NODE_0000127",region="Northeast"]:0.0)[&label="NODE_0000126",region="Northeast"]:0.0,(('MK121901|Brazil|RR|Boa_Vista|2017-03-17'[&region="North"]:0.0,('MK121896|Brazil|RR|Boa_Vista|2017-03-03'[&region="North"]:4.9E-4,('MK121902|Brazil|RR|Boa_Vista|2017-03-17'[&region="North"]:4.0E-4,'MK121900|Brazil|RR|Iracema|2017-03-17'[&region="North"]:3.0E-4)[&label="NODE_0000137",region="North"]:0.0)[&label="NODE_0000136",region="North"]:1.0E-4)[&label="NODE_0000135",region="North"]:1.0E-4,(('MK121907|Brazil|RR|Boa_Vista|2017-02-27'[&region="North"]:0.0,'MK121906|Brazil|RR|Boa_Vista|2017-02-27'[&region="North"]:9.0E-5)[&label="NODE_0000139",region="North"]:3.6E-4,(('MK121903|Brazil|RR|Boa_Vista|2017-03-15'[&region="North"]:3.8E-4,'MK121899|Brazil|RR|Boa_Vista|2017-03-17'[&region="North"]:0.0)[&label="NODE_0000141",region="North"]:0.0,('MK121897|Brazil|RR|Bonfim|2017-02-20'[&region="North"]:1.7E-4,('MK121905|Brazil|RR|Boa_Vista|2017-03-02'[&region="North"]:0.0,('MK121908|Brazil|RR|Boa_Vista|2017-03-05'[&region="North"]:3.5E-4,('MK121904|Brazil|RR|Boa_Vista|2017-03-02'[&region="North"]:0.0,'MK121898|Brazil|RR|Boa_Vista|2017-02-22'[&region="North"]:0.0)[&label="NODE_0000145",region="North"]:0.0)[&label="NODE_0000144",region="North"]:9.0E-5)[&label="NODE_0000143",region="North"]:9.0E-5)[&label="NODE_0000142",region="North"]:0.0)[&label="NODE_0000140",region="North"]:0.0)[&label="NODE_0000138",region="North"]:1.8E-4)[&label="NODE_0000134",region="North"]:4.6E-4)[&label="NODE_0000125",region="Northeast"]:1.8E-4)[&label="NODE_0000124",region="Northeast"]:9.0E-5)[&label="NODE_0000116",region="Northeast"]:9.0E-5)[&label="NODE_0000102",region="Northeast"]:9.0E-5)[&label="NODE_0000074",region="Northeast"]:2.7E-4)[&label="NODE_0000073",region="Northeast"]:1.8E-4)[&label="NODE_0000072",region="RJ"]:0.0)[&label="NODE_0000062",region="RJ"]:0.0)[&label="NODE_0000061",region="RJ"]:1.0E-5)[&label="NODE_0000060",region="RJ"]:9.0E-5)[&label="NODE_0000054",region="RJ"]:2.0E-4)[&label="NODE_0000053",region="RJ"]:4.1E-4)[&label="NODE_0000049",region="RJ"]:0.0)[&label="NODE_0000037",region="RJ"]:1.8E-4)[&label="NODE_0000009",region="RJ"]:9.0E-5)[&label="NODE_0000003",region="RJ"]:1.9E-4)[&label="NODE_0000002",region="RJ"]:9.0E-5)[&label="NODE_0000000"];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="region";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=8;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="region";
+	set legend.fontSize=12.0;
+	set legend.isShown=true;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
